@@ -17,10 +17,7 @@
         "text_color": "#ffffff",
         "background_color": "#f29f00",
         "margin-top": 12,
-        "margin-bottom": 12,
-        "show_mobile_spacing": false,
-        "margin-top-mobile": 20,
-        "margin-bottom-mobile": 20
+        "margin-bottom": 12
       }
     },
     "main": {
@@ -30,21 +27,39 @@
           "type": "title",
           "settings": {
             "brand": "",
-            "enable_vendor_link": false,
             "size_text": 120,
             "size_text_mobile": 180
           }
         },
-        "cwilltrustoo_reviews_star_rating_widget_cTqDbR": {
-          "type": "shopify://apps/cwilltrustoo-reviews/blocks/star-rating-widget/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+        "feature_tags_ktxUht": {
+          "type": "feature_tags",
           "settings": {
-            "star_size": 20,
-            "font_size": 16,
-            "text_color": "#2B2B2B",
-            "block_aligment": "left",
-            "rating_decimal_places": "1",
-            "margin_top": 10,
-            "margin_bottom": 10
+            "metafield": "shopify.detailed-ingredients",
+            "limit": 4,
+            "text_color": "rgba(0,0,0,0)",
+            "border_color": "rgba(0,0,0,0)"
+          }
+        },
+        "share_buttons_QJQBWK": {
+          "type": "share_buttons",
+          "disabled": true,
+          "settings": {
+            "heading": "Share",
+            "social_facebook_link": true,
+            "social_twitter_link": true,
+            "social_pinterest_link": true,
+            "social_whatsapp_link": true,
+            "mail_link": false
+          }
+        },
+        "separator_reBrRK": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {
+            "show-separator-line": false,
+            "color-background": "#000000",
+            "margin-top": 8,
+            "margin-bottom": 8
           }
         },
         "price": {
@@ -56,12 +71,44 @@
             "size_text_mobile": 140
           }
         },
+        "text_LQ6bM9": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "content": "<p>Topical skincare is key, but lasting results start within. WELLNESS Collagen provides 2000 mg of Collagen Peptides plus Vitamins C and E to promote clear skin and boost natural collagen. Elevate your skincare from the inside out.</p>",
+            "page": ""
+          }
+        },
+        "c1ba8695-94d2-40ad-ac06-93ec3b8cf38e": {
+          "type": "separator",
+          "settings": {
+            "show-separator-line": false,
+            "color-background": "#ffffff",
+            "margin-top": 8,
+            "margin-bottom": 0
+          }
+        },
+        "product_variations_7LBAAU": {
+          "type": "product_variations",
+          "disabled": true,
+          "settings": {
+            "option_name": "Color",
+            "picker_type": "swatch",
+            "swatch_size": 36,
+            "radius": "default",
+            "border_radius": 0,
+            "option_value_metafield": "custom.tab",
+            "products": [
+              "eros-no-2-20d-tight-beige",
+              "eros-no-2-20d-tight-black"
+            ]
+          }
+        },
         "variant_picker_7mHC3V": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "button",
-            "hide_unavailable_options": false,
-            "unavailable_style": "line_through",
             "color_swatch_names": "",
             "variant_picture_swatch_names": "",
             "thumb_size": 60,
@@ -69,16 +116,25 @@
             "border_radius": 15,
             "dropdown_swatch_names": "",
             "margin-top": 0,
-            "margin-bottom": 8,
+            "margin-bottom": 8
+          }
+        },
+        "information_popup_pw9mqt": {
+          "type": "information_popup",
+          "disabled": true,
+          "settings": {
             "size_icon": "ruler",
-            "size_link": "Size Guide",
-            "variant_name": "Size",
-            "size_content": "size-guide-no1的副本",
-            "metafield": "",
-            "enable-striped-rows": true,
-            "enable_skin_popup": false,
-            "skin_variant_name": "Color",
-            "skin_button_label": "Match your skin"
+            "size_link": "Size Chart",
+            "size_content": "eross-story"
+          }
+        },
+        "separator_xgqTJM": {
+          "type": "separator",
+          "settings": {
+            "show-separator-line": false,
+            "color-background": "#000000",
+            "margin-top": 8,
+            "margin-bottom": 4
           }
         },
         "buy_buttons": {
@@ -87,12 +143,8 @@
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true,
             "show_qty_selector": true,
-            "full_width_add_to_cart": false,
-            "custom_add_to_cart_label": "",
             "text_color": "#ffffff",
-            "background_color": "#151515",
-            "text_color_hover": "",
-            "background_color_hover": ""
+            "background_color": "#151515"
           }
         },
         "collapsible_tab_iiPALP": {
@@ -102,176 +154,131 @@
             "content": "<ul><li>87% Polyamide, 13% Elastane</li><li>Matte finish for a sleek, understated look</li><li>Lightweight and breathable fabric</li><li>Soft sheen for a sophisticated look</li></ul>",
             "metafield_variables": "",
             "page": "",
-            "open_by_default": false,
-            "icon": "leather",
-            "icon_advanced_settings": false,
-            "icon_height_desktop": 28,
-            "icon_height": 27,
-            "icon_margin_desktop": 0,
-            "icon_margin": 0
+            "icon": "leather"
           }
         }
       },
       "block_order": [
         "title",
-        "cwilltrustoo_reviews_star_rating_widget_cTqDbR",
+        "feature_tags_ktxUht",
+        "share_buttons_QJQBWK",
+        "separator_reBrRK",
         "price",
+        "text_LQ6bM9",
+        "c1ba8695-94d2-40ad-ac06-93ec3b8cf38e",
+        "product_variations_7LBAAU",
         "variant_picker_7mHC3V",
+        "information_popup_pw9mqt",
+        "separator_xgqTJM",
         "buy_buttons",
         "collapsible_tab_iiPALP"
       ],
       "settings": {
         "enable_sticky_buy_button": true,
-        "sticky_button_visibility": "mobile",
-        "sticky_button_type": "sticky",
-        "sticky_button_select": "secondary",
-        "sticky_bg_opacity": 100,
-        "sticky_bg_blur": 0,
-        "sticky_shadow": false,
-        "sticky_button_show_image": "yes",
-        "sticky_button_product_info": "title_and_price",
         "full-width-enabled": false,
         "desktop-media-size": "normal",
         "desktop-layout": "carousel-vertical",
         "desktop-image-ratio": "portrait",
         "enable_video_looping": true,
-        "video_controls": false,
-        "video_custom_play_controls": false,
-        "video_custom_mute_controls": false,
         "enable-preselected-variant": true,
         "enable-image-zoom": true,
         "mobile-image": "small",
-        "show-thumbnails-mobile": false,
         "text_color": "#2b2b2b",
         "background_color": "#ffffff",
-        "pdp_nav_icon_bg_color": "#ffffff",
-        "pdp_nav_icon_bg_opacity": 80,
-        "pdp_nav_icon_color": "",
         "margin-top": 8,
-        "margin-bottom": 8,
-        "show_mobile_spacing": false,
-        "margin-top-mobile": 20,
-        "margin-bottom-mobile": 20
+        "margin-bottom": 8
       }
     },
-    "features_banner_UBtxh4": {
+    "features_banner_4wW39M": {
       "type": "features-banner",
       "blocks": {
-        "image_ixWXbq": {
+        "image_a8eVAG": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/free-shipping.png",
+            "desktop_image": "shopify://shop_images/Group_123315_3x_7dc9eafa-7be7-4166-bc4c-32007ef45e86.png",
             "select_icon": "bag",
-            "heading": "Free Delivery on A$59",
+            "heading": "Free Shipping over $59",
             "text": "",
             "link": ""
           }
         },
-        "image_xTyre3": {
+        "image_KVyadM": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/30-days_warranty.png",
-            "select_icon": "user",
-            "heading": "30-Day Free Returns",
+            "desktop_image": "shopify://shop_images/Group_123315.png",
+            "select_icon": "bag",
+            "heading": "24-Hour Comfort Guarantee",
             "text": "",
             "link": ""
           }
         },
-        "image_XhJ6EK": {
+        "image_QeBbwx": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/snag-techlogy.png",
-            "select_icon": "search",
-            "heading": "Anti-Snag Warranty",
+            "desktop_image": "shopify://shop_images/Group_123315_1.png",
+            "select_icon": "bag",
+            "heading": "Anti-Snag Technology",
             "text": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "image_ixWXbq",
-        "image_xTyre3",
-        "image_XhJ6EK"
+        "image_a8eVAG",
+        "image_KVyadM",
+        "image_QeBbwx"
       ],
+      "name": "t:sections.features-banner.settings.presets.name",
       "settings": {
-        "advanced_heading": false,
         "heading": "",
-        "heading_richtext": "<h2>Features banner</h2>",
         "size_heading_mobile": 80,
         "size_heading": 80,
-        "icon_width_mobile": 52,
-        "icon_width_desktop": 52,
+        "icon_width_mobile": 36,
+        "icon_width_desktop": 48,
         "icon_layout": "center",
         "columns_desktop": "3",
         "icon_layout_mobile": "grid",
-        "color_body_icon": "#ffffff",
+        "color_body_icon": "rgba(0,0,0,0)",
         "color_background_icon": "rgba(0,0,0,0)",
         "color_body_text": "#ffffff",
-        "background_color": "#332f2d",
+        "background_color": "#2b2b2b",
         "margin-top": 20,
-        "margin-bottom": 20,
-        "show_mobile_spacing": true,
-        "margin-top-mobile": 10,
-        "margin-bottom-mobile": 10
+        "margin-bottom": 20
       }
     },
-    "xt_product_pickup_b7ihr3": {
-      "type": "xt-product-pickup",
-      "blocks": {
-        "product_YPbW4Q": {
-          "type": "product",
-          "settings": {
-            "product": "10d-tight-black"
-          }
-        },
-        "product_VC7TKj": {
-          "type": "product",
-          "settings": {
-            "product": "10d-tight-nude"
-          }
-        },
-        "product_78tfQJ": {
-          "type": "product",
-          "settings": {
-            "product": "30d-dot-tights"
-          }
-        },
-        "product_nMkNeq": {
-          "type": "product",
-          "settings": {
-            "product": "30d-ring-tights"
-          }
-        }
-      },
-      "block_order": [
-        "product_YPbW4Q",
-        "product_VC7TKj",
-        "product_78tfQJ",
-        "product_nMkNeq"
-      ],
-      "name": "XT 商品选购区",
+    "featured_collection_VYtgeF": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "title": "You May Also Like",
-        "subtitle": "",
+        "disable_on_mobile": false,
+        "hide_empty_section": false,
+        "collection": "eros-no-1-pantyhose",
+        "product_list": [],
+        "products_to_show": 3,
+        "enable_stack_products": false,
+        "show_view_all": true,
+        "button_select": "primary",
+        "number_of_column_desktop": 2,
+        "spacing_desktop": "16",
+        "make_products_full_width": false,
+        "number_of_column_mobile": 2,
+        "spacing_mobile": "16",
+        "text_alignment": "left",
         "image_ratio": "adapt",
-        "show_product_rating": false,
+        "show_video": false,
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_product_rating": true,
         "enable_quick_add_button": true,
-        "quick_add_mode": "below_product"
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
       }
     },
     "3aeb6d9a447ae5270dc8": {
       "type": "apps",
-      "blocks": {
-        "cwilltrustoo_reviews_review_widget_GKw4RU": {
-          "type": "shopify://apps/cwilltrustoo-reviews/blocks/review-widget/c8f15077-6475-4e86-ad06-b66038d5ba2c",
-          "settings": {
-            "product": ""
-          }
-        }
-      },
-      "block_order": [
-        "cwilltrustoo_reviews_review_widget_GKw4RU"
-      ],
       "settings": {
         "include_margins": true
       }
@@ -280,8 +287,8 @@
   "order": [
     "breadcrumbs",
     "main",
-    "features_banner_UBtxh4",
-    "xt_product_pickup_b7ihr3",
+    "features_banner_4wW39M",
+    "featured_collection_VYtgeF",
     "3aeb6d9a447ae5270dc8"
   ]
 }

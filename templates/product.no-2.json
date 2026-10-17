@@ -71,12 +71,6 @@
             "size_text_mobile": 140
           }
         },
-        "dd5cf19e-afbd-4294-a8c3-4a0a19669079": {
-          "type": "shopify://apps/yotpo-product-reviews/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
-          "settings": {
-            "product": "{{product}}"
-          }
-        },
         "text_LQ6bM9": {
           "type": "text",
           "disabled": true,
@@ -105,8 +99,8 @@
             "border_radius": 0,
             "option_value_metafield": "custom.tab",
             "products": [
-              "20d-tight-beige",
-              "20d-tight-black"
+              "eros-no-2-20d-tight-beige",
+              "eros-no-2-20d-tight-black"
             ]
           }
         },
@@ -187,7 +181,6 @@
         "share_buttons_QJQBWK",
         "separator_reBrRK",
         "price",
-        "dd5cf19e-afbd-4294-a8c3-4a0a19669079",
         "text_LQ6bM9",
         "c1ba8695-94d2-40ad-ac06-93ec3b8cf38e",
         "product_variations_7LBAAU",
