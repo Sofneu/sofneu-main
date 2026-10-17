@@ -1,0 +1,6 @@
+# 纯配置：冲突时保留 us 自己的
+config/settings_data.json merge=ours
+sections/header-group.json merge=ours
+sections/footer-group.json merge=ours
+# 模板：冲突（= US 定制且 main 也改了）时保留 US 定制
+templates/*.json merge=ours
