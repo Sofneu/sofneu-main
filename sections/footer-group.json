@@ -1,0 +1,73 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer Group",
+  "sections": {
+    "footer": {
+      "type": "page-footer",
+      "blocks": {
+        "menu_FVzkic": {
+          "type": "menu",
+          "settings": {
+            "heading_links": "Customer Care",
+            "links": "footer"
+          }
+        },
+        "menu_9f4hyN": {
+          "type": "menu",
+          "settings": {
+            "heading_links": "Discover",
+            "links": "discover"
+          }
+        },
+        "klaviyo_email_marketing_sms_form_embed_block_nkRTGh": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-WJZJRz\"></div>"
+          }
+        },
+        "text_fzdQJJ": {
+          "type": "text",
+          "settings": {
+            "heading_text": "Contact Us",
+            "text": "<p><strong>Email: service@sofneu.com.au</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "menu_FVzkic",
+        "menu_9f4hyN",
+        "klaviyo_email_marketing_sms_form_embed_block_nkRTGh",
+        "text_fzdQJJ"
+      ],
+      "custom_css": [],
+      "settings": {
+        "show-scroll-effect": false,
+        "show-social-media-icons": true,
+        "show_country_selector": true,
+        "show_country_selector_label": true,
+        "show_country_selector_flag": true,
+        "show_language_selector": false,
+        "enable_follow_on_shop": true,
+        "show-payments-icons": true,
+        "payment_icons_monochrome": false,
+        "show-copyright": true,
+        "text": "© 2026 Sofneu. All rights reserved.",
+        "big-logo-width": 50,
+        "margin-top": 0,
+        "margin-bottom": 0
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

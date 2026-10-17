@@ -1,0 +1,120 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header Group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_DKVb4L": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Delivery on A$59+",
+            "link": ""
+          }
+        },
+        "announcement_gwtBkw": {
+          "type": "announcement",
+          "settings": {
+            "text": "Buy 3, Save A$15 · Buy 4, Save A$30",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_DKVb4L",
+        "announcement_gwtBkw"
+      ],
+      "custom_css": [],
+      "settings": {
+        "marquee": true,
+        "animation_speed": "150",
+        "checkbox_close_announcement": true,
+        "color-body-text": "#2b2b2b",
+        "background_color": "#edeae0",
+        "size_text_desktop": 100,
+        "size_text_mobile": 100
+      }
+    },
+    "header": {
+      "type": "page-header",
+      "settings": {
+        "layout": "option_3",
+        "sticky_header": true,
+        "sticky_header_always": false,
+        "header_bg_opacity": 95,
+        "header_bg_blur": 12,
+        "header_always_blurred": false,
+        "show_line_separator": false,
+        "show_shadow": false,
+        "logo": "shopify://shop_images/icon_trans.png",
+        "large_screen_logo_width": 100,
+        "mobile_screen_logo_width": 90,
+        "menu": "sonfeu-mega-menu",
+        "mobile_footer_menu": "",
+        "customer_account_menu": "customer-account-main-menu",
+        "teaser_menu": "sonfeu-mega-menu",
+        "teaser_menu_limit": 5,
+        "transparent_logo": "shopify://shop_images/icon_trans.png",
+        "transparent_header_color": "{{ settings.colors.background }}",
+        "show_country_selector": true,
+        "show_country_selector_label": false,
+        "show_country_selector_flag": true,
+        "show_language_selector": false,
+        "drawer_title": "Discover Sofneu",
+        "enable_submenu_link_in_drawer": false,
+        "show_search": true,
+        "show_search_without_button": false,
+        "typing_search": "Search Sofneu…",
+        "suggestions_title": "Popular Right Now",
+        "search_suggest_layout": "results",
+        "suggestions_menu": "",
+        "suggest_products": [
+          "tencel-modal-short-sleeve-pajama-set",
+          "tencel-modal-long-sleeve-pajama-set",
+          "no2-20d-control-top-sheer-tights",
+          "adhesive-silicone-nipple-covers",
+          "cleavage-silicone-sticky-bra"
+        ],
+        "suggest_products_title": "Popular Searches",
+        "suggest_collections": [],
+        "suggest_collections_title": "",
+        "suggest_pages_menu": "",
+        "suggest_pages_menu_title": "",
+        "suggest_search_terms": "",
+        "suggest_search_terms_title": "",
+        "show_suggest_on_no_results": true
+      }
+    },
+    "17907404823dcb13a2": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_FJ86Fc": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": ""
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_FJ86Fc"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header",
+    "17907404823dcb13a2"
+  ]
+}
