@@ -15,6 +15,29 @@ Sofneu Shopify 多国家站点主题。**分支即站点**，无构建步骤，�
 - **配置隔离**：`config/settings_data.json`、header/footer-group、`templates/*.json` 各国分支独立，由线上主题编辑器修改并自动 commit 回各自分支
 - 合并方向永远 `main` → `main-<国家>`；clone 后先执行 `git config merge.ours.driver true`
 
+## 环境要求与本地开发
+
+| 依赖 | 安装 / 版本 |
+|---|---|
+| Git | 任意较新版本，[git-scm.com](https://git-scm.com) |
+| Node.js | ≥ 20 LTS（Shopify CLI 的运行前提），[nodejs.org](https://nodejs.org) |
+| Shopify CLI | `npm install -g @shopify/cli@latest`，验证：`shopify version` |
+
+首次克隆后必须执行一次（否则 `.gitattributes` 的 `merge=ours` 不生效，国家配置会在合并时被覆盖）：
+
+```bash
+git config merge.ours.driver true
+```
+
+启动本地预览（在对应分支上运行对应命令：`main` → AU，`main-us` → US；首次运行会要求浏览器登录该店铺的员工账号）：
+
+```bash
+npm run dev:au   # shopify theme dev -s a53a82-be.myshopify.com
+npm run dev:us   # shopify theme dev -s fpay3g-yr.myshopify.com
+```
+
+`theme dev` 使用店铺里的临时开发主题（沙箱），不会改动线上已连接的主题；严禁追加 `--theme` 指向线上集成主题（会与 GitHub 集成双向打架）。
+
 ## 文档
 
 - [docs/multi-country-branching.zh.md](docs/multi-country-branching.zh.md) — 完整方案：分支模型、路径划分、合并策略、日常流程、新增国家 SOP、CI 设计、回滚

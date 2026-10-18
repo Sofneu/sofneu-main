@@ -33,6 +33,7 @@ config/settings_data.json  sections/header-group.json  sections/footer-group.jso
    ```bash
    git switch main && git pull
    # ...修改代码...
+   # ⚠️ 到此暂停：等人工 review 后的明确指令，再继续下面的 commit / push（见规则 7）
    git commit && git push
    git switch main-us && git pull && git merge main && git push   # 每个国家分支重复这组
    ```
@@ -46,9 +47,13 @@ config/settings_data.json  sections/header-group.json  sections/footer-group.jso
 6. **新增国家** = 新增 `main-<国家>` 分支，严格按
    [docs/multi-country-branching.zh.md](docs/multi-country-branching.zh.md) 第 4 节 SOP 执行
    （从 `main` 拉分支 → 只覆盖该国配置路径 → 校验代码路径与 `main` 零差异 → 连接店铺）。
+7. **提交纪律**：完成任何修改后**停在本地工作区，不要自行 `commit` / `push`，也不要自行
+   合入国家分支**。先汇报改动内容，等待人工 review 后的明确指令，再执行第 1 条的提交与
+   合入流程。
 
 ## 禁止事项
 
+- ❌ 未经人工 review 及明确指令就 commit / push（改动先留在工作区，见操作规则 7）
 - ❌ 在 `main-<国家>` 分支上直接修改共享代码路径（那是 `main` 的独占领地）
 - ❌ force push 或改写 `main` / `main-<国家>` 的历史（Shopify 集成按 commit 追踪，会断同步；回滚一律 `git revert`）
 - ❌ 修改 `.gitattributes` 中的 `merge=ours` 规则（除非整个分支模型变更）
