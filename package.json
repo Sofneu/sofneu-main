@@ -1,0 +1,9 @@
+{
+  "name": "sofneu-theme",
+  "private": true,
+  "description": "Sofneu 多国家 Shopify 主题（分支即站点，详见 README 与 docs/）",
+  "scripts": {
+    "dev:au": "shopify theme dev -s a53a82-be.myshopify.com",
+    "dev:us": "shopify theme dev -s fpay3g-yr.myshopify.com"
+  }
+}
