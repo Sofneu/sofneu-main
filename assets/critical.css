@@ -859,7 +859,14 @@ js-link[data-mobile=true] {
   z-index: 49;
 }
 .page-overlay-cart-on.quick-buy-page-overlay .wt__quick-buy--page-overlay {
-  z-index: 51;
+  z-index: 10001;
+}
+/* quick-buy 须整体压在抬层后的购物车抽屉（z-index 10000）之上，维持遮罩<面板<关闭条的原相对顺序 */
+.page-overlay-cart-on.quick-buy-page-overlay .wt__quick-buy__container {
+  z-index: 10002;
+}
+.page-overlay-cart-on.quick-buy-page-overlay .wt__quick-buy nav {
+  z-index: 10003;
 }
 .wt__quick-buy--page-overlay--open {
   opacity: 1;
