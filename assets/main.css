@@ -6872,6 +6872,11 @@ body .wt-filter__close.wt-filter__close {
   transform: scale(1);
   backdrop-filter: blur(4px);
 }
+/* 抽屉打开时越过第三方插件注入的顶层元素（z-index 9999），关闭即复原 */
+body.page-overlay-cart-on .page-overlay-cart,
+body.page-overlay-cart-on .wt-cart__drawer {
+  z-index: 10000;
+}
 
 .cart-page .card__subtitle {
   width: calc(100% - 24px);
