@@ -18,6 +18,7 @@
         "heading_richtext": "<h2>Video hero</h2>",
         "full-width-enabled": true,
         "container_max_width": 0,
+        "video_hosted": "shopify://files/videos/solumeyarn.webm",
         "autoplay": true,
         "video_controls": false,
         "video_custom_play_controls": true,
@@ -315,8 +316,6 @@
             "text": "<p>The best tights I have ever worn. So comfortable and feel nice on. Highly recommend！</p>",
             "product_name": "No.1 Sheer tights",
             "image": "shopify://shop_images/sylvie-with-tights-1.webp",
-            "second_image": "shopify://shop_images/sylvie-with-tights_d72ac285-8c85-4374-968f-dc83cf904d0e.webp",
-            "avatar": "shopify://shop_images/sylvie-with-tights_icon_f84adf2f-c6b3-4a93-9cbd-405918e6f6d8.webp",
             "author": "Sylvie",
             "show_rating": true,
             "rating": 5
@@ -331,7 +330,6 @@
             "product_name": "No.1 Sheer tights",
             "image": "shopify://shop_images/elena-with-tights.webp",
             "second_image": "shopify://shop_images/elena-with-tights-1.webp",
-            "avatar": "shopify://shop_images/elena-with-tights_icon_75bb939b-d942-4f31-98d2-008d177bea7d.webp",
             "author": "Elena",
             "show_rating": true,
             "rating": 5
@@ -346,7 +344,6 @@
             "product_name": "No.2 Sheer tights",
             "image": "shopify://shop_images/sandi-with-tights-1.webp",
             "second_image": "shopify://shop_images/sandi-with-tights.webp",
-            "avatar": "shopify://shop_images/sandi-with-tights_icon_29990966-52ea-414d-b814-bc5fe52a8b1d.webp",
             "author": "Sandi",
             "show_rating": true,
             "rating": 5
@@ -361,7 +358,6 @@
             "product_name": "No.1 Sheer tights",
             "image": "shopify://shop_images/onge-with-tights.webp",
             "second_image": "shopify://shop_images/onge-with-tights-1.webp",
-            "avatar": "shopify://shop_images/onge-with-tights_icon_3a17dc3c-d2fe-406e-9391-f01de05768a8.webp",
             "author": "Onge",
             "show_rating": true,
             "rating": 5
@@ -376,7 +372,6 @@
             "product_name": "No.1 Sheer tights",
             "image": "shopify://shop_images/mal-with-tights-1.webp",
             "second_image": "shopify://shop_images/mal-with-tights.webp",
-            "avatar": "shopify://shop_images/mal-with-tights_icon_b0a54b27-804e-4085-b815-619a89e43690.webp",
             "author": "Mallisa",
             "show_rating": true,
             "rating": 5
@@ -391,7 +386,6 @@
             "product_name": "No.1 Sheer tights",
             "image": "shopify://shop_images/andrea-with-tights.webp",
             "second_image": "shopify://shop_images/andrea-with-tights-1.webp",
-            "avatar": "shopify://shop_images/andrea-with-tights_icon_bb55a745-a50b-4ce0-b720-086cf34c94d1.webp",
             "author": "Andrea",
             "show_rating": true,
             "rating": 5
@@ -414,7 +408,6 @@
         "review_label": "Product Reviews",
         "review_score": "4.9",
         "show_badge": true,
-        "badge_icon": "shopify://shop_images/google.png",
         "badge_text": "Google Top Quality Store",
         "show_quote_mark": true,
         "show_button": true,
