@@ -231,7 +231,7 @@
             "letter_spacing": 1,
             "size_text_desktop": 100,
             "size_text_mobile": 100,
-            "heading": "SOFLUME™ SHEER. SOFTNESS MADE TO LAST.",
+            "heading": "<strong>SOFLUME™ SHEER. SOFTNESS MADE TO LAST.</strong>",
             "heading_disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 120,
@@ -263,7 +263,7 @@
             "letter_spacing": 1,
             "size_text_desktop": 100,
             "size_text_mobile": 100,
-            "heading": "ONE OUTFIT MANY SOLUTIONS",
+            "heading": "<strong>ONE OUTFIT MANY SOLUTIONS</strong>",
             "heading_disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 120,
@@ -279,6 +279,7 @@
             "color-overlay-opacity": 0,
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
+            "mobile_image": "shopify://shop_images/HP-5.jpg",
             "mobile_text_vertical_position": "center",
             "mobile_text_horizontal_position": "center"
           }
@@ -305,6 +306,56 @@
         "show_mobile_spacing": true,
         "margin-top-mobile": 10,
         "margin-bottom-mobile": 20
+      }
+    },
+    "blocks_PmQjMG": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_5dcd6eb_XBc3ht": {
+          "type": "ai_gen_block_5dcd6eb",
+          "settings": {
+            "title": "",
+            "title_size_mobile": 18,
+            "title_size_desktop": 26,
+            "title_color": "#2b2b2b",
+            "title_spacing": 30,
+            "max_width": 1300,
+            "padding_mobile": 20,
+            "padding_desktop": 30,
+            "background_color": "#f9f7f3",
+            "icon_size_mobile": 30,
+            "icon_size_desktop": 60,
+            "icon_gap_mobile": 20,
+            "icon_gap_desktop": 40,
+            "icon_text_spacing": 12,
+            "text_size_mobile": 12,
+            "text_size_desktop": 14,
+            "text_color": "#2b2b2b",
+            "benefit_1_enabled": true,
+            "benefit_1_icon": "shopify://shop_images/East-return.svg",
+            "benefit_1_icon_alt": "30-Days Easy Returns",
+            "benefit_1_text": "30-Days Easy Returns",
+            "benefit_1_link": "",
+            "benefit_2_enabled": true,
+            "benefit_2_icon": "shopify://shop_images/fast-shipping.svg",
+            "benefit_2_icon_alt": "Fast Shipping From U.S.",
+            "benefit_2_text": "Fast Shipping From U.S.",
+            "benefit_2_link": "",
+            "benefit_3_enabled": true,
+            "benefit_3_icon": "shopify://shop_images/quick_support.svg",
+            "benefit_3_icon_alt": "Quick Customer Support",
+            "benefit_3_text": "Quick Customer Support",
+            "benefit_3_link": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_5dcd6eb_XBc3ht"
+      ],
+      "name": "Main benefits icons",
+      "settings": {
+        "section-margin": 0
       }
     },
     "sofneu_carousel_jNbMDz": {
@@ -461,56 +512,6 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "blocks_PmQjMG": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_5dcd6eb_XBc3ht": {
-          "type": "ai_gen_block_5dcd6eb",
-          "settings": {
-            "title": "",
-            "title_size_mobile": 18,
-            "title_size_desktop": 26,
-            "title_color": "#2b2b2b",
-            "title_spacing": 30,
-            "max_width": 1300,
-            "padding_mobile": 20,
-            "padding_desktop": 40,
-            "background_color": "#f9f7f3",
-            "icon_size_mobile": 30,
-            "icon_size_desktop": 60,
-            "icon_gap_mobile": 20,
-            "icon_gap_desktop": 40,
-            "icon_text_spacing": 12,
-            "text_size_mobile": 12,
-            "text_size_desktop": 14,
-            "text_color": "#2b2b2b",
-            "benefit_1_enabled": true,
-            "benefit_1_icon": "shopify://shop_images/East-return.svg",
-            "benefit_1_icon_alt": "30-Days Easy Returns",
-            "benefit_1_text": "30-Days Easy Returns",
-            "benefit_1_link": "",
-            "benefit_2_enabled": true,
-            "benefit_2_icon": "shopify://shop_images/fast-shipping.svg",
-            "benefit_2_icon_alt": "Fast Shipping From Sydney",
-            "benefit_2_text": "Fast Shipping From Sydney",
-            "benefit_2_link": "",
-            "benefit_3_enabled": true,
-            "benefit_3_icon": "shopify://shop_images/quick_support.svg",
-            "benefit_3_icon_alt": "Quick Customer Support",
-            "benefit_3_text": "Quick Customer Support",
-            "benefit_3_link": ""
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_5dcd6eb_XBc3ht"
-      ],
-      "name": "Main benefits icons",
-      "settings": {
-        "section-margin": 0
-      }
     }
   },
   "order": [
@@ -519,8 +520,8 @@
     "rich_text_RKpqdR",
     "text_overlay_R3JwjP",
     "grid_view_U9zziC",
+    "blocks_PmQjMG",
     "sofneu_carousel_jNbMDz",
-    "176206091863fc9a4b",
-    "blocks_PmQjMG"
+    "176206091863fc9a4b"
   ]
 }
