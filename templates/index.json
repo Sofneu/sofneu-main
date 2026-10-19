@@ -506,7 +506,7 @@
     "176206091863fc9a4b": {
       "type": "apps",
       "blocks": {
-        "gsc_instagram_feed_instafeed_fHnUh7": {
+        "gsc_instagram_feed_instafeed_e9bjtw": {
           "type": "shopify://apps/gsc-instagram-feed/blocks/instafeed/96970b1b-b770-454f-b16b-51f47e1aa4ed",
           "settings": {
             "widget_id": "GSC-sbpKzKfojEhjyfJ"
@@ -514,9 +514,8 @@
         }
       },
       "block_order": [
-        "gsc_instagram_feed_instafeed_fHnUh7"
+        "gsc_instagram_feed_instafeed_e9bjtw"
       ],
-      "custom_css": [],
       "settings": {
         "include_margins": true
       }
