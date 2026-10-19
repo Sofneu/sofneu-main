@@ -14,15 +14,23 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_qGTUT7": {
+          "type": "announcement",
+          "settings": {
+            "text": "Buy 3, Save $15 · Buy 4, Save $30",
+            "link": ""
+          }
+        },
         "announcement_DKVb4L": {
           "type": "announcement",
           "settings": {
-            "text": "Free Delivery on A$59",
+            "text": "Free Delivery on $59",
             "link": ""
           }
         }
       },
       "block_order": [
+        "announcement_qGTUT7",
         "announcement_DKVb4L"
       ],
       "custom_css": [],
@@ -152,7 +160,6 @@
         "delay": 20,
         "show_border": false,
         "show_shadow": true,
-        "desktop_image": "shopify://shop_images/m-no1-product-nude-show3.jpg",
         "desktop_vertical_position": "center",
         "desktop_horizontal_position": "center",
         "color-body-text": "rgba(0,0,0,0)",
