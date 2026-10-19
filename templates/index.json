@@ -162,7 +162,7 @@
           "settings": {
             "show_block": true,
             "label": "ABOUT SOFNEU",
-            "link": "",
+            "link": "shopify://pages/about-sofneu",
             "style": "text",
             "desktop_text_color": "#2b2b2b",
             "desktop_border_color": "#2b2b2b",
