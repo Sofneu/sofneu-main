@@ -86,7 +86,7 @@
     "cart_features_enable_discount_code": true,
     "cart_show_additional_service": false,
     "cart_additional_service_product": "20d-line-tights",
-    "enable_cross_sells": true,
+    "enable_cross_sells": false,
     "cross_sells_collapsed": false,
     "show_vendor": false,
     "heading_cross_sells": "Complete your look",
