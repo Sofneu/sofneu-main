@@ -396,10 +396,11 @@
           "settings": {
             "show_item": true,
             "title": "Love these tights A+ Resilient",
-            "text": "<p>They feel incredibly light on the body, almost like a second skin, while still holding everything nicely. </p>",
+            "text": "<h2>They feel incredibly light on the body, almost like a second skin, while still holding everything nicely.&nbsp;</h2>",
             "product_name": "No.2 Sheer tights",
             "image": "shopify://shop_images/sandi-with-tights-1.webp",
             "second_image": "shopify://shop_images/sandi-with-tights.webp",
+            "avatar": "shopify://shop_images/sandi-with-tights_icon_1a5c0278-51f6-4ecd-8d67-04833d3f3f07.webp",
             "author": "Sandi",
             "show_rating": true,
             "rating": 5
@@ -410,10 +411,11 @@
           "settings": {
             "show_item": true,
             "title": "Beautiful tights",
-            "text": "<p>Best tights ever. Comfy and sheer enough to look not like thick tights</p>",
+            "text": "<h2>Best tights ever. Comfy and sheer enough to look not like thick tights</h2>",
             "product_name": "No.1 Sheer tights",
             "image": "shopify://shop_images/onge-with-tights.webp",
             "second_image": "shopify://shop_images/onge-with-tights-1.webp",
+            "avatar": "shopify://shop_images/onge-with-tights_icon_e055f8e4-7049-40bf-b98e-7ec9e4163106.webp",
             "author": "Onge",
             "show_rating": true,
             "rating": 5
@@ -424,10 +426,11 @@
           "settings": {
             "show_item": true,
             "title": "Winter staple for corporate women",
-            "text": "<p>Winter staple for corporate women</p>",
+            "text": "<h2>Winter staple for corporate women</h2>",
             "product_name": "No.1 Sheer tights",
             "image": "shopify://shop_images/mal-with-tights-1.webp",
             "second_image": "shopify://shop_images/mal-with-tights.webp",
+            "avatar": "shopify://shop_images/mal-with-tights_icon_3db52ce3-288a-45b0-bbf3-56504f524729.webp",
             "author": "Mallisa",
             "show_rating": true,
             "rating": 5
@@ -438,10 +441,11 @@
           "settings": {
             "show_item": true,
             "title": "They’re great!! They’re super light",
-            "text": "<p>yet don’t break! I love that it comes with gloves to put the tights on, and the sheer is incredible!! I’m so happy with them!</p>",
+            "text": "<h2>yet don’t break! I love that it comes with gloves to put the tights on, and the sheer is incredible!! I’m so happy with them!</h2>",
             "product_name": "No.1 Sheer tights",
             "image": "shopify://shop_images/andrea-with-tights.webp",
             "second_image": "shopify://shop_images/andrea-with-tights-1.webp",
+            "avatar": "shopify://shop_images/andrea-with-tights_icon_2d95a75a-ec63-4d3c-95ba-0ec03b25efcd.webp",
             "author": "Andrea",
             "show_rating": true,
             "rating": 5
