@@ -366,9 +366,11 @@
           "settings": {
             "show_item": true,
             "title": "The best tights I have",
-            "text": "<p>The best tights I have ever worn. So comfortable and feel nice on. Highly recommend！</p>",
+            "text": "<h2>The best tights I have ever worn. So comfortable and feel nice on. Highly recommend！</h2>",
             "product_name": "No.1 Sheer tights",
             "image": "shopify://shop_images/sylvie-with-tights-1.webp",
+            "second_image": "shopify://shop_images/sylvie-with-tights_43428d54-fa28-4243-abcf-94295ccff265.webp",
+            "avatar": "shopify://shop_images/sylvie-with-tights_icon_6fd778e6-52f4-4e08-ace3-b3eb1ab131ba.webp",
             "author": "Sylvie",
             "show_rating": true,
             "rating": 5
@@ -379,10 +381,11 @@
           "settings": {
             "show_item": true,
             "title": "Amazing product and customer service!",
-            "text": "<p>Thank you for great communication</p>",
+            "text": "<h2>Thank you for great communication</h2>",
             "product_name": "No.1 Sheer tights",
             "image": "shopify://shop_images/elena-with-tights.webp",
             "second_image": "shopify://shop_images/elena-with-tights-1.webp",
+            "avatar": "shopify://shop_images/elena-with-tights_icon_3c808e50-907d-488e-a2b5-9f8d8f2a44cd.webp",
             "author": "Elena",
             "show_rating": true,
             "rating": 5
