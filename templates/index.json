@@ -468,6 +468,7 @@
         "review_label": "Product Reviews",
         "review_score": "4.9",
         "show_badge": true,
+        "badge_icon": "shopify://shop_images/google.png",
         "badge_text": "Google Top Quality Store",
         "show_quote_mark": true,
         "show_button": true,
