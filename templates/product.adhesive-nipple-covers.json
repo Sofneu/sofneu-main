@@ -561,6 +561,50 @@
         "margin-top-mobile": 10,
         "margin-bottom-mobile": 0
       }
+    },
+    "xt_product_pickup_wN396i": {
+      "type": "xt-product-pickup",
+      "blocks": {
+        "product_bA48iL": {
+          "type": "product",
+          "settings": {
+            "product": "no2-20d-control-top-sheer-tights"
+          }
+        },
+        "product_47jNLh": {
+          "type": "product",
+          "settings": {
+            "product": "cleavage-silicone-sticky-bra"
+          }
+        },
+        "product_4zBAN6": {
+          "type": "product",
+          "settings": {
+            "product": "ultra-light-breathable-fabric-sticky-bra"
+          }
+        },
+        "product_KcLDmD": {
+          "type": "product",
+          "settings": {
+            "product": "push-up-bra-inserts"
+          }
+        }
+      },
+      "block_order": [
+        "product_bA48iL",
+        "product_47jNLh",
+        "product_4zBAN6",
+        "product_KcLDmD"
+      ],
+      "name": "XT 商品选购区",
+      "settings": {
+        "title": "Complete Your Look",
+        "subtitle": "",
+        "image_ratio": "adapt",
+        "show_product_rating": false,
+        "enable_quick_add_button": true,
+        "quick_add_mode": "below_product"
+      }
     }
   },
   "order": [
@@ -570,6 +614,7 @@
     "product_accordion_tabs_VWMA9q",
     "grid_view_VVPnGm",
     "grid_view_wCynBd",
-    "grid_view_nKwkMT"
+    "grid_view_nKwkMT",
+    "xt_product_pickup_wN396i"
   ]
 }
