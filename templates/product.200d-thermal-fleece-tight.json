@@ -813,25 +813,25 @@
         "product_DJi7ym": {
           "type": "product",
           "settings": {
-            "product": ""
+            "product": "80d-velvet-control-top-opaque-tights"
           }
         },
         "product_Fh9mcB": {
           "type": "product",
           "settings": {
-            "product": ""
+            "product": "tencel-modal-long-sleeve-pajama-set"
           }
         },
         "product_Ntnzp6": {
           "type": "product",
           "settings": {
-            "product": ""
+            "product": "cleavage-silicone-sticky-bra"
           }
         },
         "product_nyTm4d": {
           "type": "product",
           "settings": {
-            "product": ""
+            "product": "push-up-bra-inserts"
           }
         }
       },
@@ -844,7 +844,7 @@
       "name": "XT 商品选购区",
       "settings": {
         "title": "You May Also Like",
-        "subtitle": "点击商品快速选购",
+        "subtitle": "",
         "image_ratio": "portrait",
         "show_product_rating": false,
         "enable_quick_add_button": true,
