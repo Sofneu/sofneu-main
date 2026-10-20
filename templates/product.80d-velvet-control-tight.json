@@ -623,8 +623,8 @@
         "margin-top": 20,
         "margin-bottom": 20,
         "show_mobile_spacing": true,
-        "margin-top-mobile": 10,
-        "margin-bottom-mobile": 10
+        "margin-top-mobile": 0,
+        "margin-bottom-mobile": 0
       }
     },
     "grid_view_rcbpWK": {
@@ -641,7 +641,7 @@
             "letter_spacing": 1,
             "size_text_desktop": 100,
             "size_text_mobile": 100,
-            "heading": "<strong>Double 6 Nylon  and LYCRA Elastane</strong>",
+            "heading": "<strong>Double 6 Nylon &nbsp;and LYCRA Elastane</strong>",
             "heading_disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100,
@@ -657,6 +657,7 @@
             "color-overlay-opacity": 0,
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
+            "mobile_image": "shopify://shop_images/fabric_01_fine_knit.webp",
             "mobile_text_vertical_position": "top",
             "mobile_text_horizontal_position": "left"
           }
