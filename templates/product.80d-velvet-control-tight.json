@@ -455,6 +455,7 @@
       ],
       "name": "Text Overlay",
       "settings": {
+        "mobile_image": "shopify://shop_images/80d_yoga.webp",
         "image_size_mode": "auto",
         "mobile_image_height": 420,
         "desktop_image_height": 800,
@@ -501,20 +502,34 @@
           "type": "heading",
           "settings": {
             "show_block": true,
-            "heading": "<p><strong>Flexible Stretch That Moves With You</strong></p>",
+            "heading": "<p><strong>Stretches. Recovers. Stays Put</strong></p>",
             "color": "#2b2b2b",
             "desktop_color": "#2b2b2b",
             "mobile_size": 16,
             "desktop_size": 36,
             "animation": "none"
           }
+        },
+        "text_zzebDg": {
+          "type": "text",
+          "settings": {
+            "show_block": true,
+            "text": "<p>Flexible stretch that adapts without losing its shape</p>",
+            "color": "#2b2b2b",
+            "desktop_color": "#2b2b2b",
+            "mobile_size": 14,
+            "desktop_size": 16,
+            "animation": "none"
+          }
         }
       },
       "block_order": [
-        "heading_nBtyTT"
+        "heading_nBtyTT",
+        "text_zzebDg"
       ],
       "name": "Text Overlay",
       "settings": {
+        "mobile_image": "shopify://shop_images/80d_stretch.webp",
         "image_size_mode": "auto",
         "mobile_image_height": 420,
         "desktop_image_height": 800,
@@ -584,45 +599,14 @@
             "color-overlay-opacity": 0,
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
-            "mobile_text_vertical_position": "top",
-            "mobile_text_horizontal_position": "left"
-          }
-        },
-        "image_KYpUm7": {
-          "type": "image",
-          "settings": {
-            "subheading": "",
-            "subheading_disable_on_mobile": false,
-            "subheading_advanced_settings": false,
-            "subheading_text_style": "subtitle",
-            "text_uppercase": false,
-            "letter_spacing": 1,
-            "size_text_desktop": 100,
-            "size_text_mobile": 100,
-            "heading": "<strong>Smooth Comfort, Seamless Feel</strong>",
-            "heading_disable_on_mobile": false,
-            "size_heading": 100,
-            "size_heading_mobile": 100,
-            "text": "",
-            "text_disable_on_mobile": false,
-            "button_select": "primary",
-            "button_label": "",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "button_link_in_new_window": false,
-            "color-body-text": "",
-            "color-overlay": "",
-            "color-overlay-opacity": 0,
-            "desktop_text_vertical_position": "center",
-            "desktop_text_horizontal_position": "center",
+            "mobile_image": "shopify://shop_images/80d_move.webp",
             "mobile_text_vertical_position": "top",
             "mobile_text_horizontal_position": "left"
           }
         }
       },
       "block_order": [
-        "image_L9YTKi",
-        "image_KYpUm7"
+        "image_L9YTKi"
       ],
       "name": "t:sections.grid-view.settings.presets.name",
       "settings": {
