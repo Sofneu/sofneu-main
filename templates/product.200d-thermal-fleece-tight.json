@@ -311,6 +311,7 @@
         "image_7bWDzt": {
           "type": "image",
           "settings": {
+            "desktop_image": "shopify://shop_images/free-shipping_1f4f8a23-bf48-406c-bcc8-b6e76204e20d.png",
             "select_icon": "bag",
             "heading": "Free Delivery on $59",
             "text": "",
@@ -320,6 +321,7 @@
         "image_4mwEP3": {
           "type": "image",
           "settings": {
+            "desktop_image": "shopify://shop_images/30-days_warranty_f2c1cd27-f6c6-4085-8701-9f83da5a4a0b.png",
             "select_icon": "user",
             "heading": "30-Day Free Returns",
             "text": "",
@@ -329,6 +331,7 @@
         "image_dhWXgi": {
           "type": "image",
           "settings": {
+            "desktop_image": "shopify://shop_images/snag-techlogy_2c580cf7-e88d-476c-99b7-a4478400521b.png",
             "select_icon": "search",
             "heading": "Anti-Snag Warranty",
             "text": "",
