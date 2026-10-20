@@ -614,6 +614,7 @@
             "color-overlay-opacity": 0,
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
+            "mobile_image": "shopify://shop_images/b-pd-1-25.webp",
             "mobile_text_vertical_position": "top",
             "mobile_text_horizontal_position": "left"
           }
@@ -625,64 +626,64 @@
       "name": "t:sections.grid-view.settings.presets.name",
       "settings": {
         "advanced_heading": false,
-        "title": "Invisible Comfort",
+        "title": "Lift & Shape",
         "heading_richtext": "<h2>Grid view</h2>",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "full-width-enabled": false,
         "image_ratio": "adapt",
         "spacing_desktop": "24",
         "spacing_mobile": "16",
         "color-body-text": "",
         "background_color": "",
-        "margin-top": 40,
-        "margin-bottom": 40,
+        "margin-top": 20,
+        "margin-bottom": 20,
         "show_mobile_spacing": true,
         "margin-top-mobile": 10,
-        "margin-bottom-mobile": 0
+        "margin-bottom-mobile": 10
       }
     },
-    "pair_comparison_XqiQLD": {
-      "type": "pair-comparison",
-      "name": "Pair Comparison",
+    "xt_product_pickup_t86MnG": {
+      "type": "xt-product-pickup",
+      "blocks": {
+        "product_jU6X3r": {
+          "type": "product",
+          "settings": {
+            "product": "tencel-modal-short-sleeve-pajama-set"
+          }
+        },
+        "product_qp9ew9": {
+          "type": "product",
+          "settings": {
+            "product": "adhesive-silicone-nipple-covers"
+          }
+        },
+        "product_XEEXHF": {
+          "type": "product",
+          "settings": {
+            "product": "cleavage-silicone-sticky-bra"
+          }
+        },
+        "product_BAzDrM": {
+          "type": "product",
+          "settings": {
+            "product": "push-up-bra-inserts"
+          }
+        }
+      },
+      "block_order": [
+        "product_jU6X3r",
+        "product_qp9ew9",
+        "product_XEEXHF",
+        "product_BAzDrM"
+      ],
+      "name": "XT 商品选购区",
       "settings": {
-        "image_ratio": "1 / 1",
-        "image_fit": "cover",
-        "image_radius": 12,
-        "brand_1": "Without",
-        "title_1": "",
-        "description_1": "",
-        "brand_2": "With",
-        "title_2": "",
-        "description_2": "",
-        "width_style": "full",
-        "mobile_max_width": 420,
-        "desktop_max_width": 1240,
-        "gap_mobile": 12,
-        "gap_desktop": 24,
-        "text_padding_mobile": 10,
-        "text_padding_desktop": 18,
-        "title_description_gap": 4,
-        "brand_color": "#693227",
-        "brand_size_mobile": 15,
-        "brand_size_desktop": 22,
-        "brand_letter_spacing": -2,
-        "brand_text_transform": "none",
-        "title_color": "#2b2b2b",
-        "title_size_mobile": 16,
-        "title_size_desktop": 26,
-        "title_weight": "700",
-        "title_letter_spacing": -2,
-        "description_color": "#6f6f6f",
-        "description_size_mobile": 9,
-        "description_size_desktop": 14,
-        "description_letter_spacing": -2,
-        "section_background": "#ffffff",
-        "side_padding_mobile": 20,
-        "side_padding_desktop": 40,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 20,
-        "padding_top_desktop": 20,
-        "padding_bottom_desktop": 40
+        "title": "Complete Your Look",
+        "subtitle": "",
+        "image_ratio": "adapt",
+        "show_product_rating": false,
+        "enable_quick_add_button": true,
+        "quick_add_mode": "below_product"
       }
     }
   },
@@ -695,6 +696,6 @@
     "grid_view_wCynBd",
     "grid_view_nKwkMT",
     "grid_view_cCPAKE",
-    "pair_comparison_XqiQLD"
+    "xt_product_pickup_t86MnG"
   ]
 }
