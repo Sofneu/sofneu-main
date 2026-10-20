@@ -329,7 +329,7 @@
             "color-overlay-opacity": 0,
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
-            "mobile_image": "shopify://shop_images/B-PD-1-1.jpg",
+            "mobile_image": "shopify://shop_images/b-pd-1-1.webp",
             "mobile_text_vertical_position": "center",
             "mobile_text_horizontal_position": "center"
           }
@@ -420,6 +420,7 @@
             "color-overlay-opacity": 0,
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
+            "mobile_image": "shopify://shop_images/b-pd-1-30.webp",
             "mobile_text_vertical_position": "top",
             "mobile_text_horizontal_position": "left"
           }
@@ -435,7 +436,7 @@
             "letter_spacing": 1,
             "size_text_desktop": 100,
             "size_text_mobile": 100,
-            "heading": "Washable & Reusable",
+            "heading": "<strong>Washable & Reusable</strong>",
             "heading_disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100,
@@ -451,6 +452,7 @@
             "color-overlay-opacity": 0,
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
+            "mobile_image": "shopify://shop_images/b-pd-1-4.webp",
             "mobile_text_vertical_position": "top",
             "mobile_text_horizontal_position": "left"
           }
@@ -476,7 +478,7 @@
         "margin-bottom": 40,
         "show_mobile_spacing": true,
         "margin-top-mobile": 20,
-        "margin-bottom-mobile": 10
+        "margin-bottom-mobile": 0
       }
     },
     "grid_view_h8yryQ": {
@@ -493,7 +495,7 @@
             "letter_spacing": 1,
             "size_text_desktop": 100,
             "size_text_mobile": 100,
-            "heading": "Skin-Tone Matching",
+            "heading": "<strong>Skin-Tone Matching</strong>",
             "heading_disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100,
@@ -509,45 +511,14 @@
             "color-overlay-opacity": 0,
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
-            "mobile_text_vertical_position": "top",
-            "mobile_text_horizontal_position": "left"
-          }
-        },
-        "image_VzP6Fc": {
-          "type": "image",
-          "settings": {
-            "subheading": "",
-            "subheading_disable_on_mobile": false,
-            "subheading_advanced_settings": false,
-            "subheading_text_style": "subtitle",
-            "text_uppercase": false,
-            "letter_spacing": 1,
-            "size_text_desktop": 100,
-            "size_text_mobile": 100,
-            "heading": "Ultra-Thin Seamless Edge",
-            "heading_disable_on_mobile": false,
-            "size_heading": 100,
-            "size_heading_mobile": 100,
-            "text": "Featherlight edges stay invisible under clothing.",
-            "text_disable_on_mobile": false,
-            "button_select": "primary",
-            "button_label": "",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "button_link_in_new_window": false,
-            "color-body-text": "",
-            "color-overlay": "",
-            "color-overlay-opacity": 0,
-            "desktop_text_vertical_position": "center",
-            "desktop_text_horizontal_position": "center",
+            "mobile_image": "shopify://shop_images/b-pd-1-5.webp",
             "mobile_text_vertical_position": "top",
             "mobile_text_horizontal_position": "left"
           }
         }
       },
       "block_order": [
-        "image_DmQQEq",
-        "image_VzP6Fc"
+        "image_DmQQEq"
       ],
       "name": "t:sections.grid-view.settings.presets.name",
       "settings": {
@@ -564,8 +535,8 @@
         "margin-top": 40,
         "margin-bottom": 40,
         "show_mobile_spacing": true,
-        "margin-top-mobile": 20,
-        "margin-bottom-mobile": 10
+        "margin-top-mobile": 10,
+        "margin-bottom-mobile": 0
       }
     },
     "grid_view_nKwkMT": {
@@ -609,7 +580,7 @@
       "name": "t:sections.grid-view.settings.presets.name",
       "settings": {
         "advanced_heading": false,
-        "title": "Support Without the Feel",
+        "title": "Lift & Shape",
         "heading_richtext": "<h2>Grid view</h2>",
         "swipe_on_mobile": true,
         "full-width-enabled": false,
