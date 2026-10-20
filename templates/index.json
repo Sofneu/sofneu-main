@@ -304,8 +304,8 @@
         "margin-top": 40,
         "margin-bottom": 40,
         "show_mobile_spacing": true,
-        "margin-top-mobile": 10,
-        "margin-bottom-mobile": 20
+        "margin-top-mobile": 0,
+        "margin-bottom-mobile": 0
       }
     },
     "blocks_PmQjMG": {
