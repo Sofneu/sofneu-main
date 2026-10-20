@@ -806,6 +806,50 @@
         "padding_top_desktop": 20,
         "padding_bottom_desktop": 20
       }
+    },
+    "xt_product_pickup_DeBith": {
+      "type": "xt-product-pickup",
+      "blocks": {
+        "product_DJi7ym": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_Fh9mcB": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_Ntnzp6": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_nyTm4d": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_DJi7ym",
+        "product_Fh9mcB",
+        "product_Ntnzp6",
+        "product_nyTm4d"
+      ],
+      "name": "XT 商品选购区",
+      "settings": {
+        "title": "You May Also Like",
+        "subtitle": "点击商品快速选购",
+        "image_ratio": "portrait",
+        "show_product_rating": false,
+        "enable_quick_add_button": true,
+        "quick_add_mode": "below_product"
+      }
     }
   },
   "order": [
@@ -820,6 +864,7 @@
     "grid_view_wCynBd",
     "rich_text_XpJW9J",
     "text_overlay_qcmFHm",
-    "pair_comparison_htBBdW"
+    "pair_comparison_htBBdW",
+    "xt_product_pickup_DeBith"
   ]
 }
