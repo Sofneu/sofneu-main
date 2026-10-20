@@ -314,37 +314,6 @@
     "grid_view_VHGXjy": {
       "type": "grid-view",
       "blocks": {
-        "image_UbmDLK": {
-          "type": "image",
-          "settings": {
-            "subheading": "",
-            "subheading_disable_on_mobile": false,
-            "subheading_advanced_settings": false,
-            "subheading_text_style": "subtitle",
-            "text_uppercase": false,
-            "letter_spacing": 1,
-            "size_text_desktop": 100,
-            "size_text_mobile": 100,
-            "heading": "Column",
-            "heading_disable_on_mobile": false,
-            "size_heading": 100,
-            "size_heading_mobile": 100,
-            "text": "Give customers details about the image or content on the template.",
-            "text_disable_on_mobile": false,
-            "button_select": "primary",
-            "button_label": "Button label",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "button_link_in_new_window": false,
-            "color-body-text": "",
-            "color-overlay": "",
-            "color-overlay-opacity": 0,
-            "desktop_text_vertical_position": "center",
-            "desktop_text_horizontal_position": "center",
-            "mobile_text_vertical_position": "center",
-            "mobile_text_horizontal_position": "center"
-          }
-        },
         "image_RmzdDd": {
           "type": "image",
           "settings": {
@@ -356,14 +325,14 @@
             "letter_spacing": 1,
             "size_text_desktop": 100,
             "size_text_mobile": 100,
-            "heading": "Column",
+            "heading": "",
             "heading_disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100,
-            "text": "Give customers details about the image or content on the template.",
+            "text": "",
             "text_disable_on_mobile": false,
             "button_select": "primary",
-            "button_label": "Button label",
+            "button_label": "",
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
@@ -372,19 +341,19 @@
             "color-overlay-opacity": 0,
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
+            "mobile_image": "shopify://shop_images/b-pd-1-19.webp",
             "mobile_text_vertical_position": "center",
             "mobile_text_horizontal_position": "center"
           }
         }
       },
       "block_order": [
-        "image_UbmDLK",
         "image_RmzdDd"
       ],
       "name": "t:sections.grid-view.settings.presets.name",
       "settings": {
         "advanced_heading": false,
-        "title": "Grid view",
+        "title": "Breathable by Design",
         "heading_richtext": "<h2>Grid view</h2>",
         "swipe_on_mobile": false,
         "full-width-enabled": false,
@@ -395,9 +364,9 @@
         "background_color": "",
         "margin-top": 20,
         "margin-bottom": 20,
-        "show_mobile_spacing": false,
-        "margin-top-mobile": 20,
-        "margin-bottom-mobile": 20
+        "show_mobile_spacing": true,
+        "margin-top-mobile": 10,
+        "margin-bottom-mobile": 10
       }
     },
     "grid_view_wCynBd": {
@@ -414,7 +383,7 @@
             "letter_spacing": 1,
             "size_text_desktop": 100,
             "size_text_mobile": 100,
-            "heading": "Skin-Friendly Adhesive",
+            "heading": "<strong>Skin-Friendly Adhesive</strong>",
             "heading_disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100,
@@ -430,6 +399,7 @@
             "color-overlay-opacity": 0,
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
+            "mobile_image": "shopify://shop_images/b-pd-1-30.webp",
             "mobile_text_vertical_position": "top",
             "mobile_text_horizontal_position": "left"
           }
@@ -445,7 +415,7 @@
             "letter_spacing": 1,
             "size_text_desktop": 100,
             "size_text_mobile": 100,
-            "heading": "Washable & Reusable",
+            "heading": "<strong>Washable & Reusable</strong>",
             "heading_disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100,
@@ -461,6 +431,7 @@
             "color-overlay-opacity": 0,
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
+            "mobile_image": "shopify://shop_images/b-pd-1-4.webp",
             "mobile_text_vertical_position": "top",
             "mobile_text_horizontal_position": "left"
           }
@@ -519,6 +490,7 @@
             "color-overlay-opacity": 0,
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
+            "mobile_image": "shopify://shop_images/b-pd-1-32.webp",
             "mobile_text_vertical_position": "top",
             "mobile_text_horizontal_position": "left"
           }
@@ -534,7 +506,7 @@
             "letter_spacing": 1,
             "size_text_desktop": 100,
             "size_text_mobile": 100,
-            "heading": "Ultra-Thin Edge",
+            "heading": "<strong>Ultra-Thin Edge</strong>",
             "heading_disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100,
@@ -550,6 +522,7 @@
             "color-overlay-opacity": 0,
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
+            "mobile_image": "shopify://shop_images/b-pd-1-33.webp",
             "mobile_text_vertical_position": "top",
             "mobile_text_horizontal_position": "left"
           }
@@ -575,7 +548,7 @@
         "margin-bottom": 40,
         "show_mobile_spacing": true,
         "margin-top-mobile": 10,
-        "margin-bottom-mobile": 0
+        "margin-bottom-mobile": 10
       }
     },
     "grid_view_cCPAKE": {
@@ -608,6 +581,7 @@
             "color-overlay-opacity": 0,
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
+            "mobile_image": "shopify://shop_images/b-pd-1-25.webp",
             "mobile_text_vertical_position": "top",
             "mobile_text_horizontal_position": "left"
           }
@@ -619,7 +593,7 @@
       "name": "t:sections.grid-view.settings.presets.name",
       "settings": {
         "advanced_heading": false,
-        "title": "Invisible Comfort",
+        "title": "Lift & Shape",
         "heading_richtext": "<h2>Grid view</h2>",
         "swipe_on_mobile": true,
         "full-width-enabled": false,
@@ -632,51 +606,51 @@
         "margin-bottom": 40,
         "show_mobile_spacing": true,
         "margin-top-mobile": 10,
-        "margin-bottom-mobile": 0
+        "margin-bottom-mobile": 10
       }
     },
-    "pair_comparison_XqiQLD": {
-      "type": "pair-comparison",
-      "name": "Pair Comparison",
+    "xt_product_pickup_UH3GrB": {
+      "type": "xt-product-pickup",
+      "blocks": {
+        "product_EmJL7L": {
+          "type": "product",
+          "settings": {
+            "product": "tencel-modal-short-sleeve-pajama-set"
+          }
+        },
+        "product_mTWFrR": {
+          "type": "product",
+          "settings": {
+            "product": "adhesive-silicone-nipple-covers"
+          }
+        },
+        "product_DMJCab": {
+          "type": "product",
+          "settings": {
+            "product": "cleavage-silicone-sticky-bra"
+          }
+        },
+        "product_PTEzca": {
+          "type": "product",
+          "settings": {
+            "product": "push-up-bra-inserts"
+          }
+        }
+      },
+      "block_order": [
+        "product_EmJL7L",
+        "product_mTWFrR",
+        "product_DMJCab",
+        "product_PTEzca"
+      ],
+      "name": "XT 商品选购区",
       "settings": {
-        "image_ratio": "1 / 1",
-        "image_fit": "cover",
-        "image_radius": 12,
-        "brand_1": "Without",
-        "title_1": "",
-        "description_1": "",
-        "brand_2": "With",
-        "title_2": "",
-        "description_2": "",
-        "width_style": "full",
-        "mobile_max_width": 420,
-        "desktop_max_width": 1240,
-        "gap_mobile": 12,
-        "gap_desktop": 24,
-        "text_padding_mobile": 10,
-        "text_padding_desktop": 18,
-        "title_description_gap": 4,
-        "brand_color": "#693227",
-        "brand_size_mobile": 15,
-        "brand_size_desktop": 22,
-        "brand_letter_spacing": -2,
-        "brand_text_transform": "none",
-        "title_color": "#2b2b2b",
-        "title_size_mobile": 16,
-        "title_size_desktop": 26,
-        "title_weight": "700",
-        "title_letter_spacing": -2,
-        "description_color": "#6f6f6f",
-        "description_size_mobile": 9,
-        "description_size_desktop": 14,
-        "description_letter_spacing": -2,
-        "section_background": "#ffffff",
-        "side_padding_mobile": 20,
-        "side_padding_desktop": 40,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 20,
-        "padding_top_desktop": 20,
-        "padding_bottom_desktop": 40
+        "title": "Complete Your Look",
+        "subtitle": "",
+        "image_ratio": "adapt",
+        "show_product_rating": false,
+        "enable_quick_add_button": true,
+        "quick_add_mode": "below_product"
       }
     }
   },
@@ -689,6 +663,6 @@
     "grid_view_wCynBd",
     "grid_view_nKwkMT",
     "grid_view_cCPAKE",
-    "pair_comparison_XqiQLD"
+    "xt_product_pickup_UH3GrB"
   ]
 }
