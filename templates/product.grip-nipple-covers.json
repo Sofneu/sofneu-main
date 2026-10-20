@@ -485,7 +485,7 @@
             "letter_spacing": 1,
             "size_text_desktop": 100,
             "size_text_mobile": 100,
-            "heading": "Skin-Tone Shades",
+            "heading": "<strong>Skin-Tone Shades</strong>",
             "heading_disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100,
@@ -501,6 +501,7 @@
             "color-overlay-opacity": 0,
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
+            "mobile_image": "shopify://shop_images/b-pd-1-48.webp",
             "mobile_text_vertical_position": "top",
             "mobile_text_horizontal_position": "left"
           }
@@ -516,7 +517,7 @@
             "letter_spacing": 1,
             "size_text_desktop": 100,
             "size_text_mobile": 100,
-            "heading": "Ultra-Thin Edges",
+            "heading": "<strong>Ultra-Thin Edges</strong>",
             "heading_disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100,
@@ -532,6 +533,7 @@
             "color-overlay-opacity": 0,
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
+            "mobile_image": "shopify://shop_images/b-pd-1-49.webp",
             "mobile_text_vertical_position": "top",
             "mobile_text_horizontal_position": "left"
           }
@@ -556,7 +558,7 @@
         "margin-top": 40,
         "margin-bottom": 40,
         "show_mobile_spacing": true,
-        "margin-top-mobile": 10,
+        "margin-top-mobile": 0,
         "margin-bottom-mobile": 0
       }
     }
