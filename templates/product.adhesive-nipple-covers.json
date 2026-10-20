@@ -289,6 +289,97 @@
         "allow_multiple_open": false
       }
     },
+    "grid_view_VVPnGm": {
+      "type": "grid-view",
+      "blocks": {
+        "image_fFkWQ8": {
+          "type": "image",
+          "settings": {
+            "subheading": "",
+            "subheading_disable_on_mobile": false,
+            "subheading_advanced_settings": false,
+            "subheading_text_style": "subtitle",
+            "text_uppercase": false,
+            "letter_spacing": 1,
+            "size_text_desktop": 100,
+            "size_text_mobile": 100,
+            "heading": "<strong>Adhesive-Free Center</strong>",
+            "heading_disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100,
+            "text": "",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "color-body-text": "",
+            "color-overlay": "",
+            "color-overlay-opacity": 0,
+            "desktop_text_vertical_position": "top",
+            "desktop_text_horizontal_position": "center",
+            "mobile_image": "shopify://shop_images/adhesive-caramel-2.webp",
+            "mobile_text_vertical_position": "top",
+            "mobile_text_horizontal_position": "left"
+          }
+        },
+        "image_h987pc": {
+          "type": "image",
+          "settings": {
+            "subheading": "",
+            "subheading_disable_on_mobile": false,
+            "subheading_advanced_settings": false,
+            "subheading_text_style": "subtitle",
+            "text_uppercase": false,
+            "letter_spacing": 1,
+            "size_text_desktop": 100,
+            "size_text_mobile": 100,
+            "heading": "<strong>2-Pair Value Set</strong>",
+            "heading_disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100,
+            "text": "",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "color-body-text": "",
+            "color-overlay": "",
+            "color-overlay-opacity": 0,
+            "desktop_text_vertical_position": "top",
+            "desktop_text_horizontal_position": "center",
+            "mobile_image": "shopify://shop_images/grippy-caramel-1_6089647b-67db-4a7a-af9d-c5f1ae1771b4.webp",
+            "mobile_text_vertical_position": "top",
+            "mobile_text_horizontal_position": "left"
+          }
+        }
+      },
+      "block_order": [
+        "image_fFkWQ8",
+        "image_h987pc"
+      ],
+      "name": "t:sections.grid-view.settings.presets.name",
+      "settings": {
+        "advanced_heading": false,
+        "title": "Gentle Protection, Better Value",
+        "heading_richtext": "<h2>Grid view</h2>",
+        "swipe_on_mobile": false,
+        "full-width-enabled": false,
+        "image_ratio": "adapt",
+        "spacing_desktop": "24",
+        "spacing_mobile": "16",
+        "color-body-text": "",
+        "background_color": "",
+        "margin-top": 20,
+        "margin-bottom": 20,
+        "show_mobile_spacing": false,
+        "margin-top-mobile": 20,
+        "margin-bottom-mobile": 20
+      }
+    },
     "rich_text_wpnHRD": {
       "type": "rich-text",
       "blocks": {
@@ -629,6 +720,7 @@
     "main",
     "blocks_X9QmkE",
     "product_accordion_tabs_VWMA9q",
+    "grid_view_VVPnGm",
     "rich_text_wpnHRD",
     "text_overlay_9AbVzy",
     "text_overlay_pPWpUC",
