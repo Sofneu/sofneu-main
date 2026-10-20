@@ -138,7 +138,7 @@
     "enable_color_swatch": true,
     "enable_color_swatch_in_filters": false,
     "enable_round_color_swatches": true,
-    "swatches_config": "Midnight Black:#252424\nCocoa Brown:#9B735E\nNatural Nude:#E5CFA9\nLight Nude:#EDEAE0\nIvory White:#EFEFE8\nSlate Blue:#252B36\nSheer Black:#252424#E5CFA9",
+    "swatches_config": "Midnight Black:#252424\nCocoa Brown:#9B735E\nNatural Nude:#E5CFA9\nLight Nude:#EDEAE0\nIvory White:#EFEFE8\nSlate Blue:#252B36\nSheer Black:#252424#E5CFA9\nHoney:#E8C5AE\nCaramel:#B57A5A\nCocoa:#6B4438\nBlack Gold:black-gold-swatch.webp\nBlack Silver:black-silver-swatch.webp\nGrey Silver:grey-silver-swatch.webp\nNude Gold:nude-gold-swatch.webp",
     "enable_product_variations": false,
     "badges-uppercase": "none",
     "custom-badge-1-text": "#151515",
