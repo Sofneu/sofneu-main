@@ -96,51 +96,6 @@
         "lcp_optimize": false
       }
     },
-    "rich_text_gEWDbr": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_b7wcTa": {
-          "type": "heading",
-          "settings": {
-            "advanced_heading": false,
-            "heading": "Where We Ship",
-            "heading_richtext": "<h2>Your headline here</h2>",
-            "disable_on_mobile": false,
-            "size_heading": 100,
-            "size_heading_mobile": 100,
-            "heading_richtext_color": "",
-            "heading_richtext_gradient": ""
-          }
-        },
-        "text_kYhD8p": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Sofneu Australia currently ships to: <strong>Australia and New Zealand</strong></p>",
-            "text_style": "body",
-            "disable_on_mobile": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_b7wcTa",
-        "text_kYhD8p"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "section_width": "regular",
-        "desktop_text_horizontal_position": "center",
-        "full-width-enabled": false,
-        "color-body-text": "rgba(0,0,0,0)",
-        "background_color": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "margin-top": 20,
-        "margin-bottom": 20,
-        "show_mobile_spacing": false,
-        "margin-top-mobile": 20,
-        "margin-bottom-mobile": 20,
-        "compact_size": false
-      }
-    },
     "rich_text_hHmejP": {
       "type": "rich-text",
       "blocks": {
@@ -148,7 +103,7 @@
           "type": "heading",
           "settings": {
             "advanced_heading": false,
-            "heading": "Australia Delivery Information",
+            "heading": "Delivery Information",
             "heading_richtext": "<h2>Your headline here</h2>",
             "disable_on_mobile": false,
             "size_heading": 100,
@@ -181,60 +136,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<style>\n.delivery-table {\n  width: 90%;                   /* 相对屏幕宽度 */\n  max-width: 1200px;            /* 最大宽度，避免超宽 */\n  margin: 20px auto;            /* 上下间距 + 自动居中 */\n  border-collapse: collapse;\n  font-family: Arial, sans-serif;\n  font-size: 16px;\n  background: #fff;\n  border-radius: 8px;\n  overflow: hidden;\n  box-shadow: 0 2px 8px rgba(0,0,0,0.05);\n}\n\n.delivery-table thead {\n  background-color: #2B2B2B;\n  color: #fff;\n}\n\n.delivery-table th,\n.delivery-table td {\n  padding: 12px 15px;\n  text-align: left;\n  border: 1px solid #ddd;\n}\n\n/* hover 效果 */\n.delivery-table tbody tr:hover {\n  background-color: #f9f9f9;\n}\n\n/* 移动端：卡片样式 */\n@media screen and (max-width: 768px) {\n  .delivery-table thead {\n    display: none;\n  }\n  .delivery-table, \n  .delivery-table tbody, \n  .delivery-table tr, \n  .delivery-table td {\n    display: block;\n    width: 100%;\n  }\n  .delivery-table tr {\n    margin-bottom: 15px;\n    border: 1px solid #ddd;\n    border-radius: 8px;\n    padding: 10px;\n    background: #fff;\n    box-shadow: 0 1px 5px rgba(0,0,0,0.05);\n  }\n  .delivery-table td {\n    text-align: right;\n    padding: 8px 10px;\n    position: relative;\n  }\n  .delivery-table td::before {\n    content: attr(data-label);\n    position: absolute;\n    left: 10px;\n    font-weight: bold;\n    text-align: left;\n  }\n}\n</style>\n\n<table class=\"delivery-table\">\n  <thead>\n    <tr>\n      <th>Service</th>\n      <th>Delivered</th>\n      <th>Cost</th>\n      <th>Free if you spend</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td data-label=\"Service\">Standard delivery (AU Post)</td>\n      <td data-label=\"Delivered\">2–5 Working days</td>\n      <td data-label=\"Cost\">A$ 9.99</td>\n      <td data-label=\"Free if you spend\">A$ 59.99</td>\n    </tr>\n    <tr>\n      <td data-label=\"Service\">Express delivery (AU Express)</td>\n      <td data-label=\"Delivered\">1–4 Working days</td>\n      <td data-label=\"Cost\">A$ 19.99</td>\n      <td data-label=\"Free if you spend\">N/A</td>\n    </tr>\n  </tbody>\n</table>"
-      }
-    },
-    "rich_text_R39zXU": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_dXnjWC": {
-          "type": "heading",
-          "settings": {
-            "advanced_heading": false,
-            "heading": "NewZealand Delivery Information",
-            "heading_richtext": "<h2>Your headline here</h2>",
-            "disable_on_mobile": false,
-            "size_heading": 100,
-            "size_heading_mobile": 100,
-            "heading_richtext_color": "",
-            "heading_richtext_gradient": ""
-          }
-        },
-        "text_N6J7my": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Please find below the estimated shipping times from the table. </p>",
-            "text_style": "body",
-            "disable_on_mobile": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_dXnjWC",
-        "text_N6J7my"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "section_width": "regular",
-        "desktop_text_horizontal_position": "center",
-        "full-width-enabled": false,
-        "color-body-text": "#2b2b2b",
-        "background_color": "#ffffff",
-        "background_gradient": "",
-        "margin-top": 0,
-        "margin-bottom": 0,
-        "show_mobile_spacing": false,
-        "margin-top-mobile": 20,
-        "margin-bottom-mobile": 20,
-        "compact_size": false
-      }
-    },
-    "custom_liquid_Wa778E": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<style>\n.delivery-table {\n  width: 100%;\n  max-width: 900px;       /* 最大宽度，防止全屏铺满 */\n  margin: 20px auto;      /* 自动居中 */\n  border-collapse: collapse;\n  font-family: Arial, sans-serif;\n  font-size: 16px;\n  background: #fff;\n  border-radius: 8px;\n  overflow: hidden;\n  box-shadow: 0 2px 8px rgba(0,0,0,0.05);\n}\n\n/* 表格整体居中 */\n.delivery-wrapper {\n  display: flex;\n  justify-content: center;  /* 水平居中 */\n  width: 100%;\n}\n\n.delivery-table thead {\n  background-color: #2B2B2B;\n  color: #fff;\n}\n\n.delivery-table th,\n.delivery-table td {\n  padding: 12px 15px;\n  text-align: left;\n  border: 1px solid #ddd;\n}\n\n/* hover 效果 */\n.delivery-table tbody tr:hover {\n  background-color: #f9f9f9;\n}\n\n/* 移动端：卡片样式 */\n@media screen and (max-width: 768px) {\n  .delivery-table thead {\n    display: none;\n  }\n  .delivery-table, \n  .delivery-table tbody, \n  .delivery-table tr, \n  .delivery-table td {\n    display: block;\n    width: 100%;\n  }\n  .delivery-table tr {\n    margin-bottom: 15px;\n    border: 1px solid #ddd;\n    border-radius: 8px;\n    padding: 10px;\n    background: #fff;\n    box-shadow: 0 1px 5px rgba(0,0,0,0.05);\n  }\n  .delivery-table td {\n    text-align: right;\n    padding: 8px 10px;\n    position: relative;\n  }\n  .delivery-table td::before {\n    content: attr(data-label);\n    position: absolute;\n    left: 10px;\n    font-weight: bold;\n    text-align: left;\n  }\n}\n</style>\n\n<div class=\"delivery-wrapper\">\n  <table class=\"delivery-table\">\n    <thead>\n      <tr>\n        <th>Service</th>\n        <th>Delivered</th>\n        <th>Cost</th>\n        <th>Free if you spend</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td data-label=\"Service\">Standard delivery (AU Post)</td>\n        <td data-label=\"Delivered\">4–5 Working days</td>\n        <td data-label=\"Cost\">A$ 12.99</td>\n        <td data-label=\"Free if you spend\">A$ 59.99</td>\n      </tr>\n  \n    </tbody>\n  </table>\n</div>"
+        "custom_liquid": "<div class=\"delivery-options\">\n  <div class=\"delivery-options__header\">DELIVERY OPTIONS*</div>\n  <table class=\"delivery-options__table\">\n    <thead>\n      <tr>\n        <th></th>\n        <th>ORDERS &lt; $59</th>\n        <th>ORDERS &ge; $59</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td>\n          <strong>Standard</strong><br>\n          3–6 Bus. Days\n        </td>\n        <td>$6.99</td>\n        <td class=\"free\">FREE</td>\n      </tr>\n      <tr>\n        <td>\n          <strong>Express</strong><br>\n          2–3 Bus. Days\n        </td>\n        <td>$12.99</td>\n        <td>$12.99</td>\n      </tr>\n      <tr>\n        <td>\n          <strong>Priority</strong><br>\n          1–2 Bus. Days\n        </td>\n        <td>$18.99</td>\n        <td>$18.99</td>\n      </tr>\n    </tbody>\n  </table>\n  <div class=\"delivery-options__note\">\n    <p>*Please expect a processing time of 1–2 business days for orders.</p>\n  </div>\n</div>\n\n<style>\n.delivery-options {\n  padding: 0 12px;\n  margin: 16px 0;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;\n  color: #222;\n}\n\n/* 黑色标题栏 */\n.delivery-options__header {\n  background: #1a1a1a;\n  color: #fff;\n  text-align: center;\n  font-size: 14px;\n  letter-spacing: 0.5px;\n  padding: 8px 10px;\n  border-radius: 4px 4px 0 0;\n}\n\n/* 表格 */\n.delivery-options__table {\n  width: 100%;\n  border-collapse: collapse;\n  table-layout: fixed;\n  font-size: 14px;\n}\n\n.delivery-options__table th,\n.delivery-options__table td {\n  border: 1px solid #ddd;\n  padding: 12px 6px;\n  text-align: center;\n  vertical-align: middle;\n  word-break: break-word;\n}\n\n/* 表头浅灰底 */\n.delivery-options__table thead th {\n  background: #f0f0f0;\n  font-weight: 600;\n  font-size: 13px;\n}\n\n/* FREE 粉色 */\n.delivery-options__table .free {\n  color: #e91e63;\n  font-weight: 700;\n}\n\n/* 表格下方脚注小字 */\n.delivery-options__note {\n  margin-top: 8px;\n  font-size: 12px;\n  color: #666;\n  line-height: 1.4;\n}\n\n.delivery-options__note p {\n  margin: 0;\n}\n\n/* 小屏微调 */\n@media (max-width: 360px) {\n  .delivery-options {\n    padding: 0 10px;\n  }\n  .delivery-options__table {\n    font-size: 13px;\n  }\n  .delivery-options__table th,\n  .delivery-options__table td {\n    padding: 10px 4px;\n  }\n  .delivery-options__note {\n    font-size: 11px;\n  }\n}\n</style>"
       }
     },
     "rich_text_KUGfkd": {
@@ -501,11 +403,8 @@
     "main",
     "rich_text_wnKE9f",
     "image_banner_LKJ8LF",
-    "rich_text_gEWDbr",
     "rich_text_hHmejP",
     "custom_liquid_3CE9GM",
-    "rich_text_R39zXU",
-    "custom_liquid_Wa778E",
     "rich_text_KUGfkd",
     "collapsible_menu_tMPhmg",
     "rich_text_FADUW7"
