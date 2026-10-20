@@ -311,8 +311,9 @@
         "image_JXh9mq": {
           "type": "image",
           "settings": {
+            "desktop_image": "shopify://shop_images/free-shipping_1f4f8a23-bf48-406c-bcc8-b6e76204e20d.png",
             "select_icon": "bag",
-            "heading": "Free Delivery on A$59",
+            "heading": "Free Delivery on $59",
             "text": "",
             "link": ""
           }
@@ -320,6 +321,7 @@
         "image_yiKJcY": {
           "type": "image",
           "settings": {
+            "desktop_image": "shopify://shop_images/30-days_warranty_f2c1cd27-f6c6-4085-8701-9f83da5a4a0b.png",
             "select_icon": "user",
             "heading": "30-Day Free Returns",
             "text": "",
@@ -329,6 +331,7 @@
         "image_hENbhA": {
           "type": "image",
           "settings": {
+            "desktop_image": "shopify://shop_images/snag-techlogy_2c580cf7-e88d-476c-99b7-a4478400521b.png",
             "select_icon": "search",
             "heading": "Anti-Snag Warranty",
             "text": "",
@@ -398,38 +401,6 @@
             "mobile_text_horizontal_position": "left"
           }
         },
-        "image_ExH7aa": {
-          "type": "image",
-          "settings": {
-            "subheading": "",
-            "subheading_disable_on_mobile": false,
-            "subheading_advanced_settings": false,
-            "subheading_text_style": "subtitle",
-            "text_uppercase": false,
-            "letter_spacing": 1,
-            "size_text_desktop": 100,
-            "size_text_mobile": 100,
-            "heading": "",
-            "heading_disable_on_mobile": false,
-            "size_heading": 100,
-            "size_heading_mobile": 100,
-            "text": "",
-            "text_disable_on_mobile": false,
-            "button_select": "primary",
-            "button_label": "",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "button_link_in_new_window": false,
-            "color-body-text": "",
-            "color-overlay": "",
-            "color-overlay-opacity": 0,
-            "desktop_text_vertical_position": "center",
-            "desktop_text_horizontal_position": "center",
-            "mobile_image": "shopify://shop_images/photo_1.webp",
-            "mobile_text_vertical_position": "top",
-            "mobile_text_horizontal_position": "left"
-          }
-        },
         "image_YMitB4": {
           "type": "image",
           "settings": {
@@ -461,12 +432,44 @@
             "mobile_text_vertical_position": "top",
             "mobile_text_horizontal_position": "left"
           }
+        },
+        "image_ExH7aa": {
+          "type": "image",
+          "settings": {
+            "subheading": "",
+            "subheading_disable_on_mobile": false,
+            "subheading_advanced_settings": false,
+            "subheading_text_style": "subtitle",
+            "text_uppercase": false,
+            "letter_spacing": 1,
+            "size_text_desktop": 100,
+            "size_text_mobile": 100,
+            "heading": "",
+            "heading_disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100,
+            "text": "",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "color-body-text": "",
+            "color-overlay": "",
+            "color-overlay-opacity": 0,
+            "desktop_text_vertical_position": "center",
+            "desktop_text_horizontal_position": "center",
+            "mobile_image": "shopify://shop_images/photo_1.webp",
+            "mobile_text_vertical_position": "top",
+            "mobile_text_horizontal_position": "left"
+          }
         }
       },
       "block_order": [
         "image_MzzbNp",
-        "image_ExH7aa",
-        "image_YMitB4"
+        "image_YMitB4",
+        "image_ExH7aa"
       ],
       "name": "t:sections.grid-view.settings.presets.name",
       "settings": {
@@ -608,6 +611,7 @@
             "color-overlay-opacity": 0,
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
+            "mobile_image": "shopify://shop_images/shine_2_89c80bab-4957-40ce-a0db-ac2b71a1c306.webp",
             "mobile_text_vertical_position": "top",
             "mobile_text_horizontal_position": "left"
           }
@@ -639,6 +643,7 @@
             "color-overlay-opacity": 0,
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
+            "mobile_image": "shopify://shop_images/shine_1_289962ba-37a7-4f71-afcf-5cf5167b80b8.webp",
             "mobile_text_vertical_position": "top",
             "mobile_text_horizontal_position": "left"
           }
@@ -666,6 +671,36 @@
         "margin-top-mobile": 10,
         "margin-bottom-mobile": 10
       }
+    },
+    "xt_product_pickup_wRrigp": {
+      "type": "xt-product-pickup",
+      "blocks": {
+        "product_8nfL7U": {
+          "type": "product",
+          "settings": {
+            "product": "no1-10d-control-top-sheer-tights"
+          }
+        },
+        "product_kk6hC6": {
+          "type": "product",
+          "settings": {
+            "product": "no2-20d-control-top-sheer-tights"
+          }
+        }
+      },
+      "block_order": [
+        "product_8nfL7U",
+        "product_kk6hC6"
+      ],
+      "name": "XT 商品选购区",
+      "settings": {
+        "title": "You May Also Like",
+        "subtitle": "",
+        "image_ratio": "portrait",
+        "show_product_rating": false,
+        "enable_quick_add_button": true,
+        "quick_add_mode": "below_product"
+      }
     }
   },
   "order": [
@@ -676,6 +711,7 @@
     "features_banner_rr8A4F",
     "grid_view_LXJM3g",
     "grid_view_ifkAgV",
-    "grid_view_wCynBd"
+    "grid_view_wCynBd",
+    "xt_product_pickup_wRrigp"
   ]
 }
