@@ -641,7 +641,7 @@
             "letter_spacing": 1,
             "size_text_desktop": 100,
             "size_text_mobile": 100,
-            "heading": "<strong>Double 6 Nylon &nbsp;and LYCRA Elastane</strong>",
+            "heading": "<strong>PA66 Nylon + LYCRA®</strong>",
             "heading_disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100,
@@ -657,7 +657,7 @@
             "color-overlay-opacity": 0,
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
-            "mobile_image": "shopify://shop_images/fabric_01_fine_knit.webp",
+            "video_hosted_mobile": "shopify://files/videos/fabric_macro_clean_shopify_1035x600.webm",
             "mobile_text_vertical_position": "top",
             "mobile_text_horizontal_position": "left"
           }
@@ -681,7 +681,7 @@
         "margin-top": 20,
         "margin-bottom": 20,
         "show_mobile_spacing": true,
-        "margin-top-mobile": 10,
+        "margin-top-mobile": 0,
         "margin-bottom-mobile": 10
       }
     },
@@ -754,6 +754,7 @@
       ],
       "name": "Text Overlay",
       "settings": {
+        "mobile_image": "shopify://shop_images/sofneu_velvet_ce368c91-2be9-4046-8166-894f5d347685.webp",
         "image_size_mode": "auto",
         "mobile_image_height": 420,
         "desktop_image_height": 800,
@@ -800,7 +801,7 @@
           "type": "heading",
           "settings": {
             "advanced_heading": false,
-            "heading": "Smooth Matte Velvet Texture",
+            "heading": "A Finer Kind of Velvet",
             "heading_richtext": "<h2>Your headline here</h2>",
             "disable_on_mobile": false,
             "size_heading": 100,
@@ -833,6 +834,8 @@
       "type": "pair-comparison",
       "name": "Pair Comparison",
       "settings": {
+        "image_1": "shopify://shop_images/fabric_01_fine_knit.webp",
+        "image_2": "shopify://shop_images/fabric_02_standard_knit.webp",
         "image_ratio": "1 / 1",
         "image_fit": "cover",
         "image_radius": 12,
