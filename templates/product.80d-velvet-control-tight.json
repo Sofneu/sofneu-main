@@ -875,6 +875,50 @@
         "padding_top_desktop": 20,
         "padding_bottom_desktop": 20
       }
+    },
+    "xt_product_pickup_6qdeNj": {
+      "type": "xt-product-pickup",
+      "blocks": {
+        "product_A6jtH7": {
+          "type": "product",
+          "settings": {
+            "product": "50d-shimmer-tights"
+          }
+        },
+        "product_JiGbzD": {
+          "type": "product",
+          "settings": {
+            "product": "200d-fleece-lined-thermal-tights"
+          }
+        },
+        "product_jFgCUY": {
+          "type": "product",
+          "settings": {
+            "product": "tencel-modal-long-sleeve-pajama-set"
+          }
+        },
+        "product_Bz8qjf": {
+          "type": "product",
+          "settings": {
+            "product": "cleavage-silicone-sticky-bra"
+          }
+        }
+      },
+      "block_order": [
+        "product_A6jtH7",
+        "product_JiGbzD",
+        "product_jFgCUY",
+        "product_Bz8qjf"
+      ],
+      "name": "XT 商品选购区",
+      "settings": {
+        "title": "精选商品",
+        "subtitle": "点击商品快速选购",
+        "image_ratio": "portrait",
+        "show_product_rating": false,
+        "enable_quick_add_button": true,
+        "quick_add_mode": "below_product"
+      }
     }
   },
   "order": [
@@ -890,6 +934,7 @@
     "grid_view_rcbpWK",
     "text_overlay_qcmFHm",
     "rich_text_XpJW9J",
-    "pair_comparison_htBBdW"
+    "pair_comparison_htBBdW",
+    "xt_product_pickup_6qdeNj"
   ]
 }
