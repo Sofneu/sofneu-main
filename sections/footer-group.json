@@ -32,13 +32,13 @@
           "type": "text",
           "settings": {
             "heading_text": "Contact Us",
-            "text": "<p><strong>Email: service@sofneu.com.au</strong></p>"
+            "text": "<p><strong>Email: service@sofneu.com</strong></p>"
           }
         },
         "newsletter_GheLtV": {
           "type": "newsletter",
           "settings": {
-            "heading_newsletter": "Join the Eros Girls ✨",
+            "heading_newsletter": "Join the Sofneu Girls ✨",
             "text_newsletter": "<p>Get 10% Off when you subscribe.<br/></p>",
             "button_type": "primary",
             "button_label": "",
