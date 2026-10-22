@@ -180,6 +180,56 @@
             "answer": "<p>The correct size should extend beyond the nipple and areola and lie smoothly against the breast. If the edge is visible, try a larger diameter, reposition the cover, and smooth it outward from the centre. Very thin or tightly fitted fabrics may still reveal some outline depending on the garment and lighting.</p>",
             "default_open": false
           }
+        },
+        "faq_8MkCnw": {
+          "type": "faq",
+          "settings": {
+            "show_item": true,
+            "category": "tab_3",
+            "question": "Should I choose Bra Inserts based on my current bra size or the size I want to look?",
+            "answer": "<p>Choose the insert using your current, best-fitting bra size and the Sofneu size chart. The chart determines which insert fits inside your existing cup. The size you would like to appear is not the starting size for selecting the insert.</p>",
+            "default_open": false
+          }
+        },
+        "faq_GChxjw": {
+          "type": "faq",
+          "settings": {
+            "show_item": true,
+            "category": "tab_3",
+            "question": "Does my band size matter when choosing Bra Inserts?",
+            "answer": "<p>Yes. Cup letters do not represent the same volume across every band size, so both your band and cup size should be used. For example, a C cup on one band size may require a different Sofneu insert from a C cup on another band size.</p>",
+            "default_open": false
+          }
+        },
+        "faq_Lehw6c": {
+          "type": "faq",
+          "settings": {
+            "show_item": true,
+            "category": "tab_3",
+            "question": "What should I do if the chart places me between two insert sizes?",
+            "answer": "<p>Choose the smaller insert for subtle shaping and less added volume. Choose the larger insert for more coverage and a fuller effect, provided your bra cup has enough room. The insert should sit smoothly without pushing breast tissue over the cup edge.</p>",
+            "default_open": false
+          }
+        },
+        "faq_Fwa6Q9": {
+          "type": "faq",
+          "settings": {
+            "show_item": true,
+            "category": "tab_3",
+            "question": "Can I use one Bra Insert to balance uneven breasts?",
+            "answer": "<p>Yes. Fit your bra to the larger breast, then place an insert on the smaller side to improve balance. Start with the Sofneu insert size recommended for your bra size; the final result may depend on the amount of asymmetry and the available space inside the cup. This reflects a recurring question in bra-fitting communities about sizing for the smaller side.</p>",
+            "default_open": false
+          }
+        },
+        "faq_rg6zCq": {
+          "type": "faq",
+          "settings": {
+            "show_item": true,
+            "category": "tab_3",
+            "question": "Do I need to wear a larger bra cup when using inserts?",
+            "answer": "<p>Not always. Begin with a well-fitting bra that has enough cup depth to accommodate the insert. If the insert causes spilling, compresses the breast, or pushes the cup away from the body, try a thinner insert or a bra with a larger cup while keeping the band size consistent. Users frequently ask whether they should keep the band and increase the cup when adding inserts; available space inside the bra is the deciding factor.</p>",
+            "default_open": false
+          }
         }
       },
       "block_order": [
@@ -192,7 +242,12 @@
         "faq_hYp3nd",
         "faq_DdxzLp",
         "faq_69HqEq",
-        "faq_qTxkcz"
+        "faq_qTxkcz",
+        "faq_8MkCnw",
+        "faq_GChxjw",
+        "faq_Lehw6c",
+        "faq_Fwa6Q9",
+        "faq_rg6zCq"
       ],
       "name": "FAQ Tabs",
       "settings": {
