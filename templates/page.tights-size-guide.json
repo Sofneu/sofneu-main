@@ -32,10 +32,32 @@
       "settings": {
         "custom_liquid": "{% comment %}\n  Sofneu Size Guide heading\n  Paste the entire file into a Shopify Custom liquid block.\n{% endcomment %}\n\n<style>\n  .sofneu-size-guide-heading,\n  .sofneu-size-guide-heading * {\n    box-sizing: border-box;\n  }\n\n  .sofneu-size-guide-heading {\n    --sgh-ink: #2f2b28;\n    --sgh-accent: #a45f49;\n    position: relative;\n    display: grid;\n    grid-template-columns: 52px minmax(0, 1fr) 52px;\n    align-items: center;\n    width: 100%;\n    max-width: 1100px;\n    min-height: 140px;\n    margin: 0 auto;\n    padding: 18px 20px;\n    overflow: hidden;\n    background: #fff;\n  }\n\n  .sofneu-size-guide-heading .sgh-title-wrap {\n    position: relative;\n    display: grid;\n    min-width: 0;\n    min-height: 92px;\n    place-items: center;\n  }\n\n  .sofneu-size-guide-heading .sgh-watermark {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    width: min(370px, 75%);\n    max-height: 96px;\n    object-fit: contain;\n    opacity: .055;\n    transform: translate(-50%, -50%);\n    pointer-events: none;\n    user-select: none;\n  }\n\n  .sofneu-size-guide-heading h1 {\n    position: relative;\n    z-index: 1;\n    margin: 0;\n    color: var(--sgh-ink);\n    font-family: inherit;\n    font-size: clamp(28px, 3vw, 34px);\n    font-weight: 600;\n    letter-spacing: -.02em;\n    line-height: 1.15;\n    text-align: center;\n  }\n\n  .sofneu-size-guide-heading .sgh-quote {\n    color: var(--sgh-accent);\n    font-family: Georgia, 'Times New Roman', serif;\n    font-size: 66px;\n    font-weight: 700;\n    line-height: .8;\n  }\n\n  .sofneu-size-guide-heading .sgh-quote:first-child {\n    align-self: start;\n    padding-top: 24px;\n    text-align: left;\n  }\n\n  .sofneu-size-guide-heading .sgh-quote:last-child {\n    align-self: end;\n    padding-bottom: 17px;\n    text-align: right;\n  }\n\n  @media (max-width: 749px) {\n    .sofneu-size-guide-heading {\n      grid-template-columns: 35px minmax(0, 1fr) 35px;\n      min-height: 104px;\n      padding: 10px 14px;\n    }\n\n    .sofneu-size-guide-heading .sgh-title-wrap {\n      min-height: 78px;\n    }\n\n    .sofneu-size-guide-heading .sgh-watermark {\n      width: min(245px, 88%);\n      max-height: 72px;\n      opacity: .055;\n    }\n\n    .sofneu-size-guide-heading h1 {\n      font-size: 23px;\n    }\n\n    .sofneu-size-guide-heading .sgh-quote {\n      font-size: 47px;\n    }\n\n    .sofneu-size-guide-heading .sgh-quote:first-child {\n      padding-top: 18px;\n    }\n\n    .sofneu-size-guide-heading .sgh-quote:last-child {\n      padding-bottom: 13px;\n    }\n  }\n</style>\n\n<section class=\"sofneu-size-guide-heading\" aria-labelledby=\"sofneu-size-guide-title\">\n  <span class=\"sgh-quote\" aria-hidden=\"true\">“</span>\n\n  <div class=\"sgh-title-wrap\">\n    <img\n      class=\"sgh-watermark\"\n      src=\"https://cdn.shopify.com/s/files/1/0639/7716/0843/files/icon_trans.png?v=1787647953\"\n      alt=\"\"\n      width=\"600\"\n      height=\"220\"\n      loading=\"eager\"\n      aria-hidden=\"true\"\n    >\n    <h1 id=\"sofneu-size-guide-title\">Size Guide</h1>\n  </div>\n\n  <span class=\"sgh-quote\" aria-hidden=\"true\">”</span>\n</section>"
       }
+    },
+    "separator_8LTyFp": {
+      "type": "separator",
+      "name": "t:sections.separator.presets.name",
+      "settings": {
+        "advanced_heading": false,
+        "heading": "Tights Full Size Guide",
+        "heading_richtext": "<h2>Separator</h2>",
+        "size_heading": 100,
+        "size_heading_mobile": 100,
+        "show-separator-line": false,
+        "full-width-line": false,
+        "color-background": "#000000",
+        "color-body-text": "",
+        "color-section-background": "",
+        "margin-top": 20,
+        "margin-bottom": 20,
+        "show_mobile_spacing": true,
+        "margin-top-mobile": 10,
+        "margin-bottom-mobile": 10
+      }
     }
   },
   "order": [
     "main",
-    "custom_liquid_AyEkVd"
+    "custom_liquid_AyEkVd",
+    "separator_8LTyFp"
   ]
 }
