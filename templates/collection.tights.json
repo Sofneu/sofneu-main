@@ -203,44 +203,49 @@
           "type": "card",
           "settings": {
             "show_card": true,
+            "image": "shopify://shop_images/20d-top.webp",
             "name": "Sheer (20D)",
             "temperature": "20–30°C",
             "feeling": "Light sheer",
             "link": "",
-            "jump_target": ""
+            "jump_target": "20D"
           }
         },
         "card_rrdtV3": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "show_card": true,
+            "image": "shopify://shop_images/80d-top.webp",
             "name": "Semi-Opaque (40D)",
             "temperature": "15–25°C",
             "feeling": "Light opaque",
             "link": "",
-            "jump_target": ""
+            "jump_target": "80D"
           }
         },
         "card_yWMPqH": {
           "type": "card",
           "settings": {
             "show_card": true,
+            "image": "shopify://shop_images/80d-top.webp",
             "name": "Opaque (80D)",
             "temperature": "-5–15°C",
             "feeling": "Opaque",
             "link": "",
-            "jump_target": ""
+            "jump_target": "80D"
           }
         },
         "card_BVzyjj": {
           "type": "card",
           "settings": {
             "show_card": true,
+            "image": "shopify://shop_images/200d-top.webp",
             "name": "Fleece (200D)",
             "temperature": "-10–5°C",
             "feeling": "Opaque Extra warm",
             "link": "",
-            "jump_target": ""
+            "jump_target": "200D"
           }
         },
         "card_piE7Km": {
