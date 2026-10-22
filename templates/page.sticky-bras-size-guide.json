@@ -135,9 +135,9 @@
           "type": "faq",
           "settings": {
             "show_item": true,
-            "category": "tab_1",
-            "question": "What is Soflume™ technology?",
-            "answer": "<p>Choose based on temperature and desired look.</p><p>Ultra sheer styles are best for hot weather and a barely-there look, while higher denier tights provide more coverage and warmth for cooler days.</p>",
+            "category": "tab_2",
+            "question": "Should I choose Nipple Covers by cup size or diameter?",
+            "answer": "<p>Use your usual bra cup size as a starting point, then choose the diameter according to how much coverage you prefer. Cup size provides guidance, while the 8 cm, 10 cm and 13 cm options describe the actual coverage area.</p>",
             "default_open": false
           }
         },
