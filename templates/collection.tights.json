@@ -252,11 +252,12 @@
           "type": "card",
           "settings": {
             "show_card": true,
+            "image": "shopify://shop_images/pattern-top.webp",
             "name": "Patterned",
             "temperature": "10–25°C",
             "feeling": "Chic essentials",
             "link": "",
-            "jump_target": ""
+            "jump_target": "pattern"
           }
         }
       },
