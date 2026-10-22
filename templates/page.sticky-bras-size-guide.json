@@ -32,7 +32,7 @@
           "type": "heading",
           "settings": {
             "advanced_heading": false,
-            "heading": "A Simple Guide to Comfort and Fit",
+            "heading": "Find Your Perfect Bra Solution",
             "heading_richtext": "<h2>Your headline here</h2>",
             "disable_on_mobile": false,
             "size_heading": 100,
@@ -44,7 +44,7 @@
         "text_T7Cgbc": {
           "type": "text",
           "settings": {
-            "text": "<p><em>Discover how small details — fabric, thickness, and design — shape how your tights look, feel, and move.</em></p>",
+            "text": "<p>Chose the product you want to size, then use your usual bra size or preferred coverage to find the best fit.</p>",
             "text_style": "body",
             "disable_on_mobile": false
           }
