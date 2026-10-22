@@ -543,7 +543,7 @@
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "left",
             "mobile_image": "shopify://shop_images/Notch_Collar.webp",
-            "mobile_text_vertical_position": "center",
+            "mobile_text_vertical_position": "top",
             "mobile_text_horizontal_position": "center"
           }
         },
