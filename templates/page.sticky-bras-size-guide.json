@@ -86,8 +86,8 @@
           "settings": {
             "show_item": true,
             "category": "tab_1",
-            "question": "How do I choose the right tights?",
-            "answer": "<p>Choose based on temperature and desired look.</p><p>Ultra sheer styles are best for hot weather and a barely-there look, while higher denier tights provide more coverage and warmth for cooler days.</p>",
+            "question": "Should I choose the same size as my regular bra?",
+            "answer": "<p>Start with the band and cup size of your best-fitting everyday bra, then use the Sofneu size chart to find the corresponding Sticky Bra size. Do not select by cup letter alone, as the volume of a cup changes with the band size.</p>",
             "default_open": true
           }
         },
@@ -96,8 +96,8 @@
           "settings": {
             "show_item": true,
             "category": "tab_1",
-            "question": "What’s the difference between sheer, semi-opaque, and opaque tights?",
-            "answer": "<p>Choose based on temperature and desired look.</p><p>Ultra sheer styles are best for hot weather and a barely-there look, while higher denier tights provide more coverage and warmth for cooler days.</p>",
+            "question": "Why are some Sticky Bra sizes shown as A–B, C–D or DD+?",
+            "answer": "<p>Sticky Bras do not have a traditional underband, so several regular bra sizes may fit the same adhesive cup. The combined labels represent groups of bra sizes with similar coverage needs rather than exact traditional bra cup sizes.</p>",
             "default_open": false
           }
         },
@@ -106,8 +106,8 @@
           "settings": {
             "show_item": true,
             "category": "tab_1",
-            "question": "Which tights are best for everyday wear?",
-            "answer": "<p>Choose based on temperature and desired look.</p><p>Ultra sheer styles are best for hot weather and a barely-there look, while higher denier tights provide more coverage and warmth for cooler days.</p>",
+            "question": "What should I do if I am between two Sticky Bra sizes?",
+            "answer": "<p>Choose the smaller option for a closer, more minimal fit. Choose the larger option if you prefer more coverage or if your breast tissue reaches beyond the sides or top of the cup. Your breast shape and preferred placement can also affect which size feels best.</p>",
             "default_open": false
           }
         },
@@ -116,8 +116,8 @@
           "settings": {
             "show_item": true,
             "category": "tab_1",
-            "question": "Can I wear tights in hot weather?",
-            "answer": "<p>Choose based on temperature and desired look.</p><p>Ultra sheer styles are best for hot weather and a barely-there look, while higher denier tights provide more coverage and warmth for cooler days.</p>",
+            "question": "How can I tell if my Sticky Bra is too small or too large?",
+            "answer": "<p>It may be too small if breast tissue spills over the top or sides, the centre cannot sit correctly, or the cups do not provide enough coverage. It may be too large if the edges extend too far around the breast, wrinkle, or cannot lie smoothly against the skin. When only one breast differs in size, fit the larger side first and adjust the placement on the smaller side.</p>",
             "default_open": false
           }
         },
