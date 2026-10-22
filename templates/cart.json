@@ -50,6 +50,7 @@
         "image_Gd8Xht": {
           "type": "image",
           "settings": {
+            "desktop_image": "shopify://shop_images/freeshipping.png",
             "select_icon": "bag",
             "heading": "Free Express Shipping Over $59",
             "text": "",
@@ -59,6 +60,7 @@
         "image_JAjHMQ": {
           "type": "image",
           "settings": {
+            "desktop_image": "shopify://shop_images/30_Day_Guarantee_f13ef6f2-7a65-4937-973a-0c4d13e3ca2b.svg",
             "select_icon": "user",
             "heading": "30-Day Money-Back Guarantee",
             "text": "",
@@ -68,6 +70,7 @@
         "image_yRLHHp": {
           "type": "image",
           "settings": {
+            "desktop_image": "shopify://shop_images/securecheckout.png",
             "select_icon": "search",
             "heading": "Safe & Secure Checkout",
             "text": "",
@@ -108,25 +111,25 @@
         "product_r4W8HG": {
           "type": "product",
           "settings": {
-            "product": ""
+            "product": "tencel-modal-short-sleeve-pajama-set"
           }
         },
         "product_Y6eKTy": {
           "type": "product",
           "settings": {
-            "product": ""
+            "product": "tencel-modal-long-sleeve-pajama-set"
           }
         },
         "product_y494Lg": {
           "type": "product",
           "settings": {
-            "product": ""
+            "product": "adhesive-silicone-nipple-covers"
           }
         },
         "product_3XRgqE": {
           "type": "product",
           "settings": {
-            "product": ""
+            "product": "cleavage-silicone-sticky-bra"
           }
         }
       },
@@ -138,9 +141,9 @@
       ],
       "name": "XT 商品选购区",
       "settings": {
-        "title": "精选商品",
-        "subtitle": "点击商品快速选购",
-        "image_ratio": "portrait",
+        "title": "Complete Your Look",
+        "subtitle": "",
+        "image_ratio": "adapt",
         "show_product_rating": false,
         "enable_quick_add_button": true,
         "quick_add_mode": "below_product"
