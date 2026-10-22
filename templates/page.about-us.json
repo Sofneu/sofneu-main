@@ -421,6 +421,7 @@
             "product_name": "No.1 Sheer tights",
             "image": "shopify://shop_images/elena-with-tights.webp",
             "second_image": "shopify://shop_images/elena-with-tights-1.webp",
+            "avatar": "shopify://shop_images/elena-with-tights_icon_3c808e50-907d-488e-a2b5-9f8d8f2a44cd.webp",
             "author": "Elena",
             "show_rating": true,
             "rating": 5
@@ -431,10 +432,11 @@
           "settings": {
             "show_item": true,
             "title": "Love these tights A+ Resilient",
-            "text": "<p>They feel incredibly light on the body, almost like a second skin, while still holding everything nicely. </p>",
+            "text": "<p>They feel incredibly light on the body, almost like a second skin, while still holding everything nicely.&nbsp;</p>",
             "product_name": "No.2 Sheer tights",
             "image": "shopify://shop_images/sandi-with-tights-1.webp",
             "second_image": "shopify://shop_images/sandi-with-tights.webp",
+            "avatar": "shopify://shop_images/sandi-with-tights_icon_1a5c0278-51f6-4ecd-8d67-04833d3f3f07.webp",
             "author": "Sandi",
             "show_rating": true,
             "rating": 5
@@ -449,6 +451,7 @@
             "product_name": "No.1 Sheer tights",
             "image": "shopify://shop_images/mal-with-tights-1.webp",
             "second_image": "shopify://shop_images/mal-with-tights.webp",
+            "avatar": "shopify://shop_images/mal-with-tights_icon_3db52ce3-288a-45b0-bbf3-56504f524729.webp",
             "author": "Mallisa",
             "show_rating": true,
             "rating": 5
@@ -463,6 +466,7 @@
             "product_name": "No.1 Sheer tights",
             "image": "shopify://shop_images/andrea-with-tights.webp",
             "second_image": "shopify://shop_images/andrea-with-tights-1.webp",
+            "avatar": "shopify://shop_images/andrea-with-tights_icon_2d95a75a-ec63-4d3c-95ba-0ec03b25efcd.webp",
             "author": "Andrea",
             "show_rating": true,
             "rating": 5
