@@ -525,7 +525,7 @@
         "padding_top_mobile": 12,
         "padding_bottom_mobile": 12,
         "padding_top_desktop": 20,
-        "padding_bottom_desktop": 64
+        "padding_bottom_desktop": 20
       }
     },
     "xt_product_pickup_4drBqf": {
@@ -534,7 +534,7 @@
         "product_QRzgfb": {
           "type": "product",
           "settings": {
-            "product": ""
+            "product": "80d-velvet-control-top-opaque-tights"
           }
         }
       },
@@ -543,8 +543,8 @@
       ],
       "name": "XT 商品选购区",
       "settings": {
-        "title": "精选商品",
-        "subtitle": "点击商品快速选购",
+        "title": "",
+        "subtitle": "",
         "image_ratio": "portrait",
         "show_product_rating": false,
         "enable_quick_add_button": true,
@@ -555,7 +555,8 @@
       "type": "feature-text-image",
       "name": "Feature Text Image",
       "settings": {
-        "anchor_id": "",
+        "anchor_id": "200D",
+        "image": "shopify://shop_images/200d-detail.webp",
         "thickness": "Opaque (200D)",
         "weather": "Freezing Days / Outdoor Winter",
         "content_title": "Sheer glow finish with a natural, skin-like look, even in freezing temperatures.",
@@ -577,10 +578,10 @@
         "desktop_max_width": 800,
         "desktop_image_size": 480,
         "desktop_gap": 72,
-        "padding_top_mobile": 20,
-        "padding_bottom_mobile": 20,
-        "padding_top_desktop": 64,
-        "padding_bottom_desktop": 64
+        "padding_top_mobile": 12,
+        "padding_bottom_mobile": 12,
+        "padding_top_desktop": 20,
+        "padding_bottom_desktop": 20
       }
     },
     "xt_product_pickup_fhAam4": {
