@@ -368,7 +368,7 @@
         "video_controls": false,
         "video_custom_play_controls": false,
         "video_custom_mute_controls": false,
-        "number_of_column_desktop": 4,
+        "number_of_column_desktop": 3,
         "spacing_desktop": "16",
         "number_of_column_mobile": "1",
         "spacing_mobile": "16",
