@@ -403,6 +403,7 @@
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
+            "desktop_image": "shopify://shop_images/Low_Waist.jpg",
             "out-background-color": "",
             "out-text-color": ""
           }
@@ -420,6 +421,7 @@
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
+            "desktop_image": "shopify://shop_images/High_Waist.jpg",
             "out-background-color": "",
             "out-text-color": ""
           }
@@ -437,6 +439,7 @@
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
+            "desktop_image": "shopify://shop_images/Control_Top.jpg",
             "out-background-color": "",
             "out-text-color": ""
           }
