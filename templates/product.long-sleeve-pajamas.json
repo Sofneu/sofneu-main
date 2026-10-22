@@ -657,7 +657,7 @@
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
             "mobile_image": "shopify://shop_images/pearl.webp",
-            "mobile_text_vertical_position": "center",
+            "mobile_text_vertical_position": "bottom",
             "mobile_text_horizontal_position": "center"
           }
         },
@@ -689,7 +689,7 @@
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
             "mobile_image": "shopify://shop_images/binding.webp",
-            "mobile_text_vertical_position": "center",
+            "mobile_text_vertical_position": "bottom",
             "mobile_text_horizontal_position": "center"
           }
         },
@@ -721,7 +721,7 @@
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
             "mobile_image": "shopify://shop_images/stitching.webp",
-            "mobile_text_vertical_position": "center",
+            "mobile_text_vertical_position": "bottom",
             "mobile_text_horizontal_position": "center"
           }
         }
