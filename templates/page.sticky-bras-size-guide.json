@@ -111,6 +111,16 @@
             "default_open": false
           }
         },
+        "faq_eLaAza": {
+          "type": "faq",
+          "settings": {
+            "show_item": true,
+            "category": "tab_1",
+            "question": "Why do the cup labels change when I switch between AU/NZ and US sizing?",
+            "answer": "<p>AU/NZ and US bra systems use different band numbers and cup naming conventions. For example, a US combined label such as DD/E may correspond to a different label in AU/NZ sizing. Switching the region changes the familiar bra-size labels used to locate your Sofneu size—it does not change the physical product.</p>",
+            "default_open": false
+          }
+        },
         "faq_id7H8E": {
           "type": "faq",
           "settings": {
@@ -118,16 +128,6 @@
             "category": "tab_1",
             "question": "How can I tell if my Sticky Bra is too small or too large?",
             "answer": "<p>It may be too small if breast tissue spills over the top or sides, the centre cannot sit correctly, or the cups do not provide enough coverage. It may be too large if the edges extend too far around the breast, wrinkle, or cannot lie smoothly against the skin. When only one breast differs in size, fit the larger side first and adjust the placement on the smaller side.</p>",
-            "default_open": false
-          }
-        },
-        "faq_eLaAza": {
-          "type": "faq",
-          "settings": {
-            "show_item": true,
-            "category": "tab_1",
-            "question": "Which tights help create a smoother, more flattering look?",
-            "answer": "<p>Choose based on temperature and desired look.</p><p>Ultra sheer styles are best for hot weather and a barely-there look, while higher denier tights provide more coverage and warmth for cooler days.</p>",
             "default_open": false
           }
         },
@@ -186,8 +186,8 @@
         "faq_bipmX8",
         "faq_MjH9Tr",
         "faq_NrHejt",
-        "faq_id7H8E",
         "faq_eLaAza",
+        "faq_id7H8E",
         "faq_PNkKVj",
         "faq_U9gJBH",
         "faq_6fVty4",
