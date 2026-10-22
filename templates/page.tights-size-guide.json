@@ -110,11 +110,201 @@
         "color-background": "#000000",
         "color-body-text": "",
         "color-section-background": "",
-        "margin-top": 20,
+        "margin-top": 12,
         "margin-bottom": 12,
         "show_mobile_spacing": false,
         "margin-top-mobile": 20,
         "margin-bottom-mobile": 20
+      }
+    },
+    "faq_tabs_pXfXTt": {
+      "type": "faq-tabs",
+      "blocks": {
+        "faq_gmdfnV": {
+          "type": "faq",
+          "settings": {
+            "show_item": true,
+            "category": "tab_1",
+            "question": "Why do Sofneu tights come in combined sizes?",
+            "answer": "<p>Sofneu tights are highly stretchable and designed to comfortably adapt to a range of body shapes. Combined sizing offers more flexibility, makes choosing a size easier and reduces the risk of selecting the wrong size.</p><p>If your measurements fall across two sizes, use your hip and waist measurements as the primary reference.</p>",
+            "default_open": true
+          }
+        },
+        "faq_9QGWYq": {
+          "type": "faq",
+          "settings": {
+            "show_item": true,
+            "category": "tab_1",
+            "question": "What’s the difference between sheer, semi-opaque, and opaque tights?",
+            "answer": "<p>Choose based on temperature and desired look.</p><p>Ultra sheer styles are best for hot weather and a barely-there look, while higher denier tights provide more coverage and warmth for cooler days.</p>",
+            "default_open": false
+          }
+        },
+        "faq_VUtqVa": {
+          "type": "faq",
+          "settings": {
+            "show_item": true,
+            "category": "tab_1",
+            "question": "Which tights are best for everyday wear?",
+            "answer": "<p>Choose based on temperature and desired look.</p><p>Ultra sheer styles are best for hot weather and a barely-there look, while higher denier tights provide more coverage and warmth for cooler days.</p>",
+            "default_open": false
+          }
+        },
+        "faq_Hn6e9Q": {
+          "type": "faq",
+          "settings": {
+            "show_item": true,
+            "category": "tab_1",
+            "question": "Can I wear tights in hot weather?",
+            "answer": "<p>Choose based on temperature and desired look.</p><p>Ultra sheer styles are best for hot weather and a barely-there look, while higher denier tights provide more coverage and warmth for cooler days.</p>",
+            "default_open": false
+          }
+        },
+        "faq_Uftwfc": {
+          "type": "faq",
+          "settings": {
+            "show_item": true,
+            "category": "tab_1",
+            "question": "Which tights help create a smoother, more flattering look?",
+            "answer": "<p>Choose based on temperature and desired look.</p><p>Ultra sheer styles are best for hot weather and a barely-there look, while higher denier tights provide more coverage and warmth for cooler days.</p>",
+            "default_open": false
+          }
+        },
+        "faq_mtLwfU": {
+          "type": "faq",
+          "settings": {
+            "show_item": true,
+            "category": "tab_1",
+            "question": "What is Soflume™ technology?",
+            "answer": "<p>Choose based on temperature and desired look.</p><p>Ultra sheer styles are best for hot weather and a barely-there look, while higher denier tights provide more coverage and warmth for cooler days.</p>",
+            "default_open": false
+          }
+        },
+        "faq_FwrDaf": {
+          "type": "faq",
+          "settings": {
+            "show_item": true,
+            "category": "tab_1",
+            "question": "What makes Sofneu tights different?",
+            "answer": "<p>Choose based on temperature and desired look.</p><p>Ultra sheer styles are best for hot weather and a barely-there look, while higher denier tights provide more coverage and warmth for cooler days.</p>",
+            "default_open": false
+          }
+        },
+        "faq_cxr9t8": {
+          "type": "faq",
+          "settings": {
+            "show_item": true,
+            "category": "tab_1",
+            "question": "Are these tights comfortable for all-day wear?",
+            "answer": "<p>Choose based on temperature and desired look.</p><p>Ultra sheer styles are best for hot weather and a barely-there look, while higher denier tights provide more coverage and warmth for cooler days.</p>",
+            "default_open": false
+          }
+        },
+        "faq_TiCbED": {
+          "type": "faq",
+          "settings": {
+            "show_item": true,
+            "category": "tab_1",
+            "question": "Will they snag easily?",
+            "answer": "<p>Choose based on temperature and desired look.</p><p>Ultra sheer styles are best for hot weather and a barely-there look, while higher denier tights provide more coverage and warmth for cooler days.</p>",
+            "default_open": false
+          }
+        },
+        "faq_4p9dLG": {
+          "type": "faq",
+          "settings": {
+            "show_item": true,
+            "category": "tab_1",
+            "question": "Which tights are best for cold weather?",
+            "answer": "<p>Choose based on temperature and desired look.</p><p>Ultra sheer styles are best for hot weather and a barely-there look, while higher denier tights provide more coverage and warmth for cooler days.</p>",
+            "default_open": false
+          }
+        }
+      },
+      "block_order": [
+        "faq_gmdfnV",
+        "faq_9QGWYq",
+        "faq_VUtqVa",
+        "faq_Hn6e9Q",
+        "faq_Uftwfc",
+        "faq_mtLwfU",
+        "faq_FwrDaf",
+        "faq_cxr9t8",
+        "faq_TiCbED",
+        "faq_4p9dLG"
+      ],
+      "name": "FAQ Tabs",
+      "settings": {
+        "heading": "GENERAL FAQS",
+        "heading_size_mobile": 16,
+        "heading_size_desktop": 18,
+        "heading_letter_spacing": -2,
+        "heading_weight": "400",
+        "heading_color": "#2b2b2b",
+        "heading_alignment": "center",
+        "heading_spacing": 30,
+        "show_tabs": false,
+        "default_tab": "tab_1",
+        "tab_1_label": "General",
+        "tab_2_label": "Product",
+        "tab_3_label": "Shipping",
+        "tab_4_label": "Returns",
+        "tab_size_mobile": 14,
+        "tab_size_desktop": 14,
+        "tab_letter_spacing": -2,
+        "tabs_spacing": 16,
+        "tab_gap": 8,
+        "tab_height": 34,
+        "tab_padding_x": 14,
+        "tab_radius": 12,
+        "tab_background": "#f8f8f8",
+        "tab_color": "#2b2b2b",
+        "tab_border_color": "#f8f8f8",
+        "tab_border_thickness": 1,
+        "active_tab_background": "#b7644e",
+        "active_tab_color": "#ffffff",
+        "active_tab_border_color": "#b7644e",
+        "section_background": "#ffffff",
+        "max_width": 350,
+        "side_padding_mobile": 0,
+        "side_padding_desktop": 0,
+        "padding_top_mobile": 24,
+        "padding_bottom_mobile": 24,
+        "padding_top_desktop": 40,
+        "padding_bottom_desktop": 40,
+        "item_gap": 15,
+        "item_radius": 12,
+        "closed_item_height": 42,
+        "closed_background": "#f8f8f8",
+        "closed_border_color": "#f8f8f8",
+        "closed_border_thickness": 1,
+        "open_background": "#faeee5",
+        "open_border_color": "#e8beb0",
+        "item_padding_x": 10,
+        "item_padding_y": 10,
+        "title_icon_gap": 12,
+        "question_icon_gap": 6,
+        "show_question_icon": true,
+        "question_icon_text": "?",
+        "question_icon_size": 16,
+        "question_icon_text_size": 11,
+        "question_icon_background": "#d8b6ad",
+        "question_icon_color": "#6e4136",
+        "question_size_mobile": 14,
+        "question_size_desktop": 14,
+        "question_letter_spacing": -2,
+        "question_weight": "400",
+        "question_color": "#2b2b2b",
+        "chevron_color": "#2b2b2b",
+        "chevron_size": 12,
+        "answer_size_mobile": 12,
+        "answer_size_desktop": 12,
+        "answer_letter_spacing": -2,
+        "answer_line_height": 140,
+        "answer_color": "#6f6f6f",
+        "answer_padding_x": 10,
+        "answer_padding_bottom": 10,
+        "allow_multiple_open": false
       }
     }
   },
@@ -126,6 +316,7 @@
     "custom_liquid_VfUUnD",
     "separator_nYaCeJ",
     "custom_liquid_4pGyU4",
-    "separator_3kEAqB"
+    "separator_3kEAqB",
+    "faq_tabs_pXfXTt"
   ]
 }
