@@ -19,7 +19,10 @@
         "color-bg-overlay": "rgba(0,0,0,0)",
         "color-overlay-opacity": 100,
         "margin-top": 40,
-        "margin-bottom": 0
+        "margin-bottom": 0,
+        "show_mobile_spacing": false,
+        "margin-top-mobile": 20,
+        "margin-bottom-mobile": 20
       }
     },
     "rich_text_bBgp9t": {
@@ -28,16 +31,21 @@
         "heading_xyFLNQ": {
           "type": "heading",
           "settings": {
+            "advanced_heading": false,
             "heading": "A Simple Guide to Comfort and Fit",
+            "heading_richtext": "<h2>Your headline here</h2>",
             "disable_on_mobile": false,
             "size_heading": 100,
-            "size_heading_mobile": 100
+            "size_heading_mobile": 100,
+            "heading_richtext_color": "",
+            "heading_richtext_gradient": ""
           }
         },
         "text_T7Cgbc": {
           "type": "text",
           "settings": {
             "text": "<p><em>Discover how small details — fabric, thickness, and design — shape how your tights look, feel, and move.</em></p>",
+            "text_style": "body",
             "disable_on_mobile": false
           }
         }
@@ -51,10 +59,16 @@
       "settings": {
         "section_width": "regular",
         "desktop_text_horizontal_position": "center",
-        "color-body-text": "rgba(0,0,0,0)",
+        "full-width-enabled": false,
+        "color-body-text": "#2B2B2B",
         "background_color": "rgba(0,0,0,0)",
+        "background_gradient": "",
         "margin-top": 20,
-        "margin-bottom": 20
+        "margin-bottom": 20,
+        "show_mobile_spacing": true,
+        "margin-top-mobile": 10,
+        "margin-bottom-mobile": 10,
+        "compact_size": false
       }
     },
     "image_with_text_WX4eNJ": {
@@ -85,7 +99,9 @@
       "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "advanced_heading": false,
         "title": "Why Understanding Pantyhose Matters",
+        "heading_richtext": "<h2>Image with text</h2>",
         "layout": "image_first",
         "desktop-percentage-image-width": 50,
         "full-width-enabled": false,
@@ -103,7 +119,10 @@
         "desktop_text_horizontal_position": "center",
         "mobile_text_horizontal_position": "center",
         "margin-top": 20,
-        "margin-bottom": 20
+        "margin-bottom": 20,
+        "show_mobile_spacing": false,
+        "margin-top-mobile": 20,
+        "margin-bottom-mobile": 20
       }
     },
     "image_with_text_pF8ziP": {
@@ -134,7 +153,9 @@
       "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "advanced_heading": false,
         "title": "Understanding Denier",
+        "heading_richtext": "<h2>Image with text</h2>",
         "layout": "text_first",
         "desktop-percentage-image-width": 50,
         "full-width-enabled": false,
@@ -152,7 +173,10 @@
         "desktop_text_horizontal_position": "center",
         "mobile_text_horizontal_position": "center",
         "margin-top": 20,
-        "margin-bottom": 20
+        "margin-bottom": 20,
+        "show_mobile_spacing": false,
+        "margin-top-mobile": 20,
+        "margin-bottom-mobile": 20
       }
     },
     "custom_liquid_gHN6AA": {
@@ -169,16 +193,21 @@
         "heading_gCkj8r": {
           "type": "heading",
           "settings": {
+            "advanced_heading": false,
             "heading": "Understanding Fabric",
+            "heading_richtext": "<h2>Your headline here</h2>",
             "disable_on_mobile": false,
             "size_heading": 100,
-            "size_heading_mobile": 100
+            "size_heading_mobile": 100,
+            "heading_richtext_color": "",
+            "heading_richtext_gradient": ""
           }
         },
         "text_RXHj3B": {
           "type": "text",
           "settings": {
             "text": "<p><em>The fabric decides how your tights feel, breathe, and last.</em></p>",
+            "text_style": "body",
             "disable_on_mobile": false
           }
         }
@@ -193,10 +222,16 @@
       "settings": {
         "section_width": "regular",
         "desktop_text_horizontal_position": "center",
+        "full-width-enabled": false,
         "color-body-text": "rgba(0,0,0,0)",
         "background_color": "rgba(0,0,0,0)",
+        "background_gradient": "",
         "margin-top": 0,
-        "margin-bottom": 0
+        "margin-bottom": 0,
+        "show_mobile_spacing": false,
+        "margin-top-mobile": 20,
+        "margin-bottom-mobile": 20,
+        "compact_size": false
       }
     },
     "custom_liquid_NPKGE6": {
@@ -220,17 +255,22 @@
       "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
+        "advanced_heading": false,
         "heading": "Gauge: The Knitting Resolution",
+        "heading_richtext": "<h2>Image banner</h2>",
         "full-width-enabled": false,
+        "container_max_width": 0,
         "slide_height": "adapt_to_first_image",
         "desktop_fixed_height": 420,
         "mobile_fixed_height": 460,
         "desktop_image": "shopify://shop_images/Needle.jpg",
         "desktop_text_vertical_position": "center",
         "desktop_text_horizontal_position": "center",
-        "mobile_image": "shopify://shop_images/m-no1-product-nude-material3.jpg",
         "mobile_text_vertical_position": "center",
         "mobile_text_horizontal_position": "center",
+        "out_hero_mobile": false,
+        "out-background-color": "",
+        "out-text-color": "",
         "color-heading": "rgba(0,0,0,0)",
         "section-color-overlay": "rgba(0,0,0,0)",
         "section-color-overlay-opacity": 100,
@@ -238,7 +278,11 @@
         "text-container-color": "rgba(0,0,0,0)",
         "color-overlay-opacity": 100,
         "margin-top": 0,
-        "margin-bottom": 0
+        "margin-bottom": 0,
+        "show_mobile_spacing": false,
+        "margin-top-mobile": 20,
+        "margin-bottom-mobile": 20,
+        "lcp_optimize": false
       }
     },
     "multicolumn_xCze7q": {
@@ -251,12 +295,15 @@
             "heading_disable_on_mobile": false,
             "text": "",
             "text_disable_on_mobile": false,
+            "text_style": "body",
             "button_select": "primary",
             "button_label": "",
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/Seamless_Gusset.jpg"
+            "desktop_image": "shopify://shop_images/Seamless_Gusset.jpg",
+            "out-background-color": "",
+            "out-text-color": ""
           }
         },
         "column_VYUgUY": {
@@ -266,12 +313,15 @@
             "heading_disable_on_mobile": false,
             "text": "",
             "text_disable_on_mobile": false,
+            "text_style": "body",
             "button_select": "primary",
             "button_label": "",
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/Standard_Gusset.jpg"
+            "desktop_image": "shopify://shop_images/Standard_Gusset.jpg",
+            "out-background-color": "",
+            "out-text-color": ""
           }
         },
         "column_7r4TXc": {
@@ -281,12 +331,15 @@
             "heading_disable_on_mobile": false,
             "text": "",
             "text_disable_on_mobile": false,
+            "text_style": "body",
             "button_select": "primary",
             "button_label": "",
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/Cotton_Gusset.jpg"
+            "desktop_image": "shopify://shop_images/Cotton_Gusset.jpg",
+            "out-background-color": "",
+            "out-text-color": ""
           }
         },
         "column_ERJ46Y": {
@@ -296,12 +349,15 @@
             "heading_disable_on_mobile": false,
             "text": "",
             "text_disable_on_mobile": false,
+            "text_style": "body",
             "button_select": "primary",
             "button_label": "",
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/Wide_Gusset.jpg"
+            "desktop_image": "shopify://shop_images/Wide_Gusset.jpg",
+            "out-background-color": "",
+            "out-text-color": ""
           }
         }
       },
@@ -314,8 +370,18 @@
       "disabled": true,
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
+        "advanced_heading": false,
         "heading": "Choose your Crotch",
+        "heading_richtext": "<h2>Multicolumn</h2>",
+        "enable_stack_products": false,
         "full-width-enabled": false,
+        "video_controls": false,
+        "video_custom_play_controls": false,
+        "video_custom_mute_controls": false,
+        "number_of_column_desktop": 4,
+        "spacing_desktop": "16",
+        "number_of_column_mobile": "1",
+        "spacing_mobile": "16",
         "image_ratio": "adapt",
         "column_alignment": "left",
         "size_heading": 100,
@@ -323,7 +389,10 @@
         "color-body-text": "rgba(0,0,0,0)",
         "background_color": "rgba(0,0,0,0)",
         "margin-top": 20,
-        "margin-bottom": 20
+        "margin-bottom": 20,
+        "show_mobile_spacing": false,
+        "margin-top-mobile": 20,
+        "margin-bottom-mobile": 20
       }
     },
     "multicolumn_dp6wnd": {
@@ -336,12 +405,15 @@
             "heading_disable_on_mobile": false,
             "text": "",
             "text_disable_on_mobile": false,
+            "text_style": "body",
             "button_select": "primary",
             "button_label": "",
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/Low_Waist.jpg"
+            "desktop_image": "shopify://shop_images/Low_Waist.jpg",
+            "out-background-color": "",
+            "out-text-color": ""
           }
         },
         "column_wEHkTx": {
@@ -351,12 +423,15 @@
             "heading_disable_on_mobile": false,
             "text": "",
             "text_disable_on_mobile": false,
+            "text_style": "body",
             "button_select": "primary",
             "button_label": "",
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/High_Waist.jpg"
+            "desktop_image": "shopify://shop_images/High_Waist.jpg",
+            "out-background-color": "",
+            "out-text-color": ""
           }
         },
         "column_PhwDMr": {
@@ -366,12 +441,15 @@
             "heading_disable_on_mobile": false,
             "text": "",
             "text_disable_on_mobile": false,
+            "text_style": "body",
             "button_select": "primary",
             "button_label": "",
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/Control_Top.jpg"
+            "desktop_image": "shopify://shop_images/Control_Top.jpg",
+            "out-background-color": "",
+            "out-text-color": ""
           }
         }
       },
@@ -383,8 +461,18 @@
       "disabled": true,
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
+        "advanced_heading": false,
         "heading": "Choose your Waistband",
+        "heading_richtext": "<h2>Multicolumn</h2>",
+        "enable_stack_products": false,
         "full-width-enabled": false,
+        "video_controls": false,
+        "video_custom_play_controls": false,
+        "video_custom_mute_controls": false,
+        "number_of_column_desktop": 4,
+        "spacing_desktop": "16",
+        "number_of_column_mobile": "1",
+        "spacing_mobile": "16",
         "image_ratio": "adapt",
         "column_alignment": "left",
         "size_heading": 100,
@@ -392,7 +480,10 @@
         "color-body-text": "rgba(0,0,0,0)",
         "background_color": "rgba(0,0,0,0)",
         "margin-top": 20,
-        "margin-bottom": 20
+        "margin-bottom": 20,
+        "show_mobile_spacing": false,
+        "margin-top-mobile": 20,
+        "margin-bottom-mobile": 20
       }
     }
   },
