@@ -294,6 +294,7 @@
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
+            "desktop_image": "shopify://shop_images/Seamless_Gusset.jpg",
             "out-background-color": "",
             "out-text-color": ""
           }
@@ -311,6 +312,7 @@
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
+            "desktop_image": "shopify://shop_images/Standard_Gusset.jpg",
             "out-background-color": "",
             "out-text-color": ""
           }
@@ -328,6 +330,7 @@
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
+            "desktop_image": "shopify://shop_images/Cotton_Gusset.jpg",
             "out-background-color": "",
             "out-text-color": ""
           }
@@ -345,6 +348,7 @@
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
+            "desktop_image": "shopify://shop_images/Wide_Gusset.jpg",
             "out-background-color": "",
             "out-text-color": ""
           }
