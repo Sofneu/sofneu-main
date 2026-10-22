@@ -44,39 +44,59 @@
         "margin-bottom-mobile": 10
       }
     },
-    "featured-collection": {
-      "type": "featured-collection",
-      "disabled": true,
+    "features_banner_xQXV6x": {
+      "type": "features-banner",
+      "blocks": {
+        "image_Gd8Xht": {
+          "type": "image",
+          "settings": {
+            "select_icon": "bag",
+            "heading": "Free Express Shipping Over $59",
+            "text": "",
+            "link": ""
+          }
+        },
+        "image_JAjHMQ": {
+          "type": "image",
+          "settings": {
+            "select_icon": "user",
+            "heading": "30-Day Money-Back Guarantee",
+            "text": "",
+            "link": ""
+          }
+        },
+        "image_yRLHHp": {
+          "type": "image",
+          "settings": {
+            "select_icon": "search",
+            "heading": "Safe & Secure Checkout",
+            "text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Gd8Xht",
+        "image_JAjHMQ",
+        "image_yRLHHp"
+      ],
       "settings": {
         "advanced_heading": false,
-        "title": "Others also bought",
-        "heading_richtext": "<h2>Featured collection</h2>",
-        "disable_on_mobile": false,
-        "hide_empty_section": false,
-        "collection": "",
-        "product_list": [],
-        "products_to_show": 9,
-        "enable_stack_products": false,
-        "show_view_all": true,
-        "button_select": "primary",
-        "number_of_column_desktop": 3,
-        "spacing_desktop": "16",
-        "make_products_full_width": false,
-        "number_of_column_mobile": 2.1,
-        "spacing_mobile": "16",
-        "text_alignment": "left",
-        "image_ratio": "square",
-        "show_video": false,
-        "show_secondary_image": false,
-        "show_vendor": true,
-        "enable_vendor_link": false,
-        "show_product_rating": true,
-        "enable_quick_add_button": false,
-        "quick_add_mode": "hover_desktop",
-        "color-body-text": "rgba(0,0,0,0)",
+        "heading": "",
+        "heading_richtext": "<h2>Features banner</h2>",
+        "size_heading_mobile": 80,
+        "size_heading": 80,
+        "icon_width_mobile": 52,
+        "icon_width_desktop": 52,
+        "icon_layout": "center",
+        "columns_desktop": "3",
+        "icon_layout_mobile": "grid",
+        "color_body_icon": "#ffffff",
+        "color_background_icon": "rgba(0,0,0,0)",
+        "color_body_text": "#2b2b2b",
         "background_color": "rgba(0,0,0,0)",
         "margin-top": 0,
-        "margin-bottom": 20,
+        "margin-bottom": 24,
         "show_mobile_spacing": false,
         "margin-top-mobile": 20,
         "margin-bottom-mobile": 20
@@ -125,74 +145,12 @@
         "enable_quick_add_button": true,
         "quick_add_mode": "below_product"
       }
-    },
-    "features_banner_xQXV6x": {
-      "type": "features-banner",
-      "blocks": {
-        "image_Gd8Xht": {
-          "type": "image",
-          "settings": {
-            "desktop_image": "shopify://shop_images/Group_123315_3x_7dc9eafa-7be7-4166-bc4c-32007ef45e86.png",
-            "select_icon": "bag",
-            "heading": "Free Express Shipping Over $59",
-            "text": "",
-            "link": ""
-          }
-        },
-        "image_JAjHMQ": {
-          "type": "image",
-          "settings": {
-            "desktop_image": "shopify://shop_images/Group_123315.png",
-            "select_icon": "user",
-            "heading": "30-Day Money-Back Guarantee",
-            "text": "",
-            "link": ""
-          }
-        },
-        "image_yRLHHp": {
-          "type": "image",
-          "settings": {
-            "desktop_image": "shopify://shop_images/Group_123315_1.png",
-            "select_icon": "search",
-            "heading": "Safe & Secure Checkout",
-            "text": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_Gd8Xht",
-        "image_JAjHMQ",
-        "image_yRLHHp"
-      ],
-      "settings": {
-        "advanced_heading": false,
-        "heading": "",
-        "heading_richtext": "<h2>Features banner</h2>",
-        "size_heading_mobile": 80,
-        "size_heading": 80,
-        "icon_width_mobile": 52,
-        "icon_width_desktop": 52,
-        "icon_layout": "center",
-        "columns_desktop": "3",
-        "icon_layout_mobile": "grid",
-        "color_body_icon": "#ffffff",
-        "color_background_icon": "rgba(0,0,0,0)",
-        "color_body_text": "#2b2b2b",
-        "background_color": "rgba(0,0,0,0)",
-        "margin-top": 0,
-        "margin-bottom": 24,
-        "show_mobile_spacing": false,
-        "margin-top-mobile": 20,
-        "margin-bottom-mobile": 20
-      }
     }
   },
   "order": [
     "cart-items",
     "cart-footer",
-    "featured-collection",
-    "xt_product_pickup_GBwJ8b",
-    "features_banner_xQXV6x"
+    "features_banner_xQXV6x",
+    "xt_product_pickup_GBwJ8b"
   ]
 }
