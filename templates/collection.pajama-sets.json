@@ -215,6 +215,36 @@
         "padding_top_desktop": 20,
         "padding_bottom_desktop": 20
       }
+    },
+    "xt_product_pickup_kzDpRM": {
+      "type": "xt-product-pickup",
+      "blocks": {
+        "product_3hkXBQ": {
+          "type": "product",
+          "settings": {
+            "product": "tencel-modal-long-sleeve-pajama-set"
+          }
+        },
+        "product_NwjTtm": {
+          "type": "product",
+          "settings": {
+            "product": "tencel-modal-short-sleeve-pajama-set"
+          }
+        }
+      },
+      "block_order": [
+        "product_3hkXBQ",
+        "product_NwjTtm"
+      ],
+      "name": "XT 商品选购区",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "image_ratio": "portrait",
+        "show_product_rating": false,
+        "enable_quick_add_button": true,
+        "quick_add_mode": "below_product"
+      }
     }
   },
   "order": [
@@ -224,6 +254,7 @@
     "separator_frYThK",
     "product-grid",
     "image_banner_PUFVG9",
-    "feature_text_image_XTTAJn"
+    "feature_text_image_XTTAJn",
+    "xt_product_pickup_kzDpRM"
   ]
 }
