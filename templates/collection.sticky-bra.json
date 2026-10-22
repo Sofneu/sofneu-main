@@ -151,7 +151,7 @@
         "margin-bottom": 20,
         "show_mobile_spacing": true,
         "margin-top-mobile": 0,
-        "margin-bottom-mobile": 20,
+        "margin-bottom-mobile": 10,
         "lcp_optimize": true
       }
     },
@@ -162,22 +162,24 @@
           "type": "card",
           "settings": {
             "show_card": true,
+            "image": "shopify://shop_images/c-b-2.webp",
             "name": "Sticky Bra",
             "temperature": "Lift & Invisible",
             "feeling": "I want lift",
             "link": "",
-            "jump_target": ""
+            "jump_target": "stickybra"
           }
         },
         "card_Qx8t9L": {
           "type": "card",
           "settings": {
             "show_card": true,
+            "image": "shopify://shop_images/c-b-3.webp",
             "name": "Nipple Cover",
             "temperature": "Invisible & Natural",
             "feeling": "I Want Coverage",
             "link": "",
-            "jump_target": ""
+            "jump_target": "Nipplecover"
           }
         },
         "card_rrdtV3": {
@@ -199,7 +201,7 @@
       ],
       "name": "Category Guide Carousel",
       "settings": {
-        "title": "Shop by Function",
+        "title": "Shop by Shapes",
         "section_background": "#ffffff",
         "card_background": "#f8f8f8",
         "title_color": "#2b2b2b",
