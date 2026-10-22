@@ -158,14 +158,14 @@
         "heading_richtext": "<h2>Image banner</h2>",
         "full-width-enabled": true,
         "container_max_width": 0,
-        "slide_height": "adapt_to_first_image",
-        "desktop_fixed_height": 320,
-        "mobile_fixed_height": 460,
-        "desktop_image": "shopify://shop_images/collection_tight_banner_pc.png",
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 500,
+        "mobile_fixed_height": 440,
+        "desktop_image": "shopify://shop_images/homepage-tights-m_c19c6e09-7049-4ba8-8e5a-d9f6f57d0d2c.jpg",
         "desktop_text_vertical_position": "center",
         "desktop_text_horizontal_position": "center",
-        "mobile_image": "shopify://shop_images/collection_tight_banner_m.png",
-        "mobile_text_vertical_position": "center",
+        "mobile_image": "shopify://shop_images/ChatGPT_2026_10_1_18_47_43.webp",
+        "mobile_text_vertical_position": "top",
         "mobile_text_horizontal_position": "center",
         "out_hero_mobile": false,
         "out-background-color": "",
@@ -173,14 +173,14 @@
         "color-heading": "",
         "section-color-overlay": "",
         "section-color-overlay-opacity": 0,
-        "color-body-text": "{{ settings.colors.background }}",
+        "color-body-text": "{{ settings.colors.primary }}",
         "text-container-color": "",
         "color-overlay-opacity": 100,
         "margin-top": 0,
         "margin-bottom": 20,
         "show_mobile_spacing": true,
         "margin-top-mobile": 0,
-        "margin-bottom-mobile": 20,
+        "margin-bottom-mobile": 10,
         "lcp_optimize": true
       }
     },
@@ -194,7 +194,8 @@
             "name": "Ultra Sheer (10D)",
             "temperature": "25–35°C",
             "feeling": "Almost invisible",
-            "link": ""
+            "link": "",
+            "jump_target": ""
           }
         },
         "card_Qx8t9L": {
@@ -204,7 +205,8 @@
             "name": "Sheer (20D)",
             "temperature": "20–30°C",
             "feeling": "Light sheer",
-            "link": ""
+            "link": "",
+            "jump_target": ""
           }
         },
         "card_rrdtV3": {
@@ -214,7 +216,8 @@
             "name": "Semi-Opaque (40D)",
             "temperature": "15–25°C",
             "feeling": "Light opaque",
-            "link": ""
+            "link": "",
+            "jump_target": ""
           }
         },
         "card_yWMPqH": {
@@ -224,7 +227,8 @@
             "name": "Opaque (80D)",
             "temperature": "-5–15°C",
             "feeling": "Opaque",
-            "link": ""
+            "link": "",
+            "jump_target": ""
           }
         },
         "card_BVzyjj": {
@@ -234,7 +238,8 @@
             "name": "Fleece (200D)",
             "temperature": "-10–5°C",
             "feeling": "Opaque Extra warm",
-            "link": ""
+            "link": "",
+            "jump_target": ""
           }
         },
         "card_piE7Km": {
@@ -244,7 +249,8 @@
             "name": "Patterned",
             "temperature": "10–25°C",
             "feeling": "Chic essentials",
-            "link": ""
+            "link": "",
+            "jump_target": ""
           }
         }
       },
@@ -317,6 +323,7 @@
       "type": "feature-text-image",
       "name": "Feature Text Image",
       "settings": {
+        "anchor_id": "",
         "thickness": "Ultra Sheer (10D)",
         "weather": "Summer / Hot Days",
         "content_title": "No. series powered by Soflume™",
@@ -371,6 +378,7 @@
       "type": "feature-text-image",
       "name": "Feature Text Image",
       "settings": {
+        "anchor_id": "",
         "thickness": "Sheer (20D)",
         "weather": "Work / Everyday",
         "content_title": "No. series powered by Soflume™",
@@ -432,6 +440,7 @@
       "type": "feature-text-image",
       "name": "Feature Text Image",
       "settings": {
+        "anchor_id": "",
         "thickness": "Semi-Opaque (40D)",
         "weather": "Everyday / Casual",
         "content_title": "Finished with a soft, velvet-like and smoother look",
@@ -486,6 +495,7 @@
       "type": "feature-text-image",
       "name": "Feature Text Image",
       "settings": {
+        "anchor_id": "",
         "thickness": "Opaque (80D)",
         "weather": "Chilly Days / Fall Looks",
         "content_title": "Crafted with a dense, velvet-like finish look",
@@ -540,6 +550,7 @@
       "type": "feature-text-image",
       "name": "Feature Text Image",
       "settings": {
+        "anchor_id": "",
         "thickness": "Opaque (200D)",
         "weather": "Freezing Days / Outdoor Winter",
         "content_title": "Sheer glow finish with a natural, skin-like look, even in freezing temperatures.",
@@ -594,6 +605,7 @@
       "type": "feature-text-image",
       "name": "Feature Text Image",
       "settings": {
+        "anchor_id": "",
         "thickness": "Patterned",
         "weather": "Spring / Autumn",
         "content_title": "Designed for Style to complement different looks",
