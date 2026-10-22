@@ -100,9 +100,9 @@
       "cleavage-silicone-sticky-bra"
     ],
     "enable_free_shipping_bar": true,
-    "free_shipping_bar_amount": "59|AUD",
-    "free_shipping_bar_text": "Only ||amount|| away from free shipping!",
-    "free_shipping_bar_text_success": "Free shipping unlocked!",
+    "free_shipping_bar_amount": "59|USD",
+    "free_shipping_bar_text": "Only ||amount|| away from free shipping",
+    "free_shipping_bar_text_success": "Free shipping unlocked",
     "enable_discount_progress_bar": true,
     "discount_bar_calculation_basis": "quantity",
     "discount_bar_text_color": "#2B2B2B",
