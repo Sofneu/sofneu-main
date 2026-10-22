@@ -40,12 +40,15 @@
           "disabled": true,
           "settings": {
             "option_name": "Option",
-            "picker_type": "product_image",
+            "picker_type": "button",
             "swatch_size": 40,
             "radius": "default",
             "border_radius": 0,
-            "option_value_metafield": "",
-            "products": []
+            "option_value_metafield": "{{ product.metafields.custom.tab.value.label.value }}",
+            "products": [
+              "tencel-modal-short-sleeve-pajama-set",
+              "tencel-modal-long-sleeve-pajama-set"
+            ]
           }
         },
         "price": {
@@ -293,7 +296,6 @@
         "image_FLLTrB": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/Group_123315_3x_7dc9eafa-7be7-4166-bc4c-32007ef45e86.png",
             "select_icon": "bag",
             "heading": "Free Delivery on A$59",
             "text": "",
@@ -303,7 +305,6 @@
         "image_wtQEcA": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/Group_123315.png",
             "select_icon": "user",
             "heading": "30-Day Free Returns",
             "text": "",
@@ -313,7 +314,6 @@
         "image_PFrzcg": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/Group_123315_1.png",
             "select_icon": "search",
             "heading": "Easy Size Exchange",
             "text": "",
