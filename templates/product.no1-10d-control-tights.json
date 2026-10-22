@@ -311,8 +311,9 @@
         "image_YeFWBj": {
           "type": "image",
           "settings": {
+            "desktop_image": "shopify://shop_images/free-shipping_1f4f8a23-bf48-406c-bcc8-b6e76204e20d.png",
             "select_icon": "bag",
-            "heading": "Free Delivery on A$59",
+            "heading": "Free Delivery on$59",
             "text": "",
             "link": ""
           }
@@ -320,6 +321,7 @@
         "image_HFGnn6": {
           "type": "image",
           "settings": {
+            "desktop_image": "shopify://shop_images/30-days_warranty_f2c1cd27-f6c6-4085-8701-9f83da5a4a0b.png",
             "select_icon": "user",
             "heading": "30-Day Free Returns",
             "text": "",
@@ -329,6 +331,7 @@
         "image_tfpJLx": {
           "type": "image",
           "settings": {
+            "desktop_image": "shopify://shop_images/snag-techlogy_2c580cf7-e88d-476c-99b7-a4478400521b.png",
             "select_icon": "search",
             "heading": "Anti-Snag Warranty",
             "text": "",
@@ -363,200 +366,81 @@
         "margin-bottom-mobile": 10
       }
     },
-    "rich_text_QHRG3c": {
-      "type": "rich-text",
+    "multicolumn_TaKi83": {
+      "type": "multicolumn",
       "blocks": {
-        "heading_cjy4ma": {
-          "type": "heading",
+        "column_Lg4QUQ": {
+          "type": "column",
           "settings": {
-            "advanced_heading": false,
-            "heading": "Sculpted Waist, Effortless Fit",
-            "heading_richtext": "<h2>Your headline here</h2>",
-            "disable_on_mobile": false,
-            "size_heading": 100,
-            "size_heading_mobile": 100,
-            "heading_richtext_color": "",
-            "heading_richtext_gradient": ""
+            "heading": "<strong>Smooths Without the Squeeze</strong>&nbsp;",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Gentle shaping that never feels restrictive</p>",
+            "text_disable_on_mobile": false,
+            "text_style": "body",
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "mobile_image": "shopify://shop_images/no1_waist1.png",
+            "out-background-color": "",
+            "out-text-color": ""
+          }
+        },
+        "column_iHg7ky": {
+          "type": "column",
+          "settings": {
+            "heading": "<strong>Ultra-Stretch Waistband</strong>",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Flexible stretch that moves with your body</p>",
+            "text_disable_on_mobile": false,
+            "text_style": "body",
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "mobile_image": "shopify://shop_images/no1_waist2.png",
+            "out-background-color": "",
+            "out-text-color": ""
           }
         }
       },
       "block_order": [
-        "heading_cjy4ma"
+        "column_Lg4QUQ",
+        "column_iHg7ky"
       ],
-      "name": "t:sections.rich-text.presets.name",
+      "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "section_width": "regular",
-        "desktop_text_horizontal_position": "center",
+        "advanced_heading": false,
+        "heading": "Sculpted Waist, Effortless Fit",
+        "heading_richtext": "<h2>Multicolumn</h2>",
+        "enable_stack_products": true,
         "full-width-enabled": false,
+        "video_controls": false,
+        "video_custom_play_controls": false,
+        "video_custom_mute_controls": false,
+        "number_of_column_desktop": 2,
+        "spacing_desktop": "16",
+        "number_of_column_mobile": "1",
+        "spacing_mobile": "16",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "size_heading": 100,
+        "size_heading_mobile": 100,
         "color-body-text": "",
         "background_color": "",
-        "background_gradient": "",
-        "margin-top": 0,
-        "margin-bottom": 0,
+        "margin-top": 20,
+        "margin-bottom": 12,
         "show_mobile_spacing": true,
-        "margin-top-mobile": 0,
-        "margin-bottom-mobile": 0,
-        "compact_size": false
+        "margin-top-mobile": 10,
+        "margin-bottom-mobile": 0
       }
     },
-    "text_overlay_9AbVzy": {
-      "type": "text-overlay",
-      "blocks": {
-        "heading_7k9UKc": {
-          "type": "heading",
-          "settings": {
-            "show_block": true,
-            "heading": "<p><strong>Sculpted Support, Without the Squeeze</strong></p>",
-            "color": "#2b2b2b",
-            "desktop_color": "#2b2b2b",
-            "mobile_size": 16,
-            "desktop_size": 36,
-            "animation": "none"
-          }
-        },
-        "icon_item_pYTdgD": {
-          "type": "icon_item",
-          "settings": {
-            "show_block": true,
-            "icon": "shopify://shop_images/pdp-no1-1.svg",
-            "title": "Soft Stretch - Comfortable, flexible fit",
-            "mobile_icon_size": 26,
-            "desktop_icon_size": 52,
-            "max_width": 420,
-            "title_color": "#2b2b2b",
-            "desktop_title_color": "#2b2b2b",
-            "mobile_title_size": 12,
-            "desktop_title_size": 15
-          }
-        },
-        "icon_item_jTzGta": {
-          "type": "icon_item",
-          "settings": {
-            "show_block": true,
-            "icon": "shopify://shop_images/pdp-no1-2.svg",
-            "title": "Target Control - Smooth shaping support",
-            "mobile_icon_size": 26,
-            "desktop_icon_size": 52,
-            "max_width": 420,
-            "title_color": "#2b2b2b",
-            "desktop_title_color": "#2b2b2b",
-            "mobile_title_size": 12,
-            "desktop_title_size": 15
-          }
-        }
-      },
-      "block_order": [
-        "heading_7k9UKc",
-        "icon_item_pYTdgD",
-        "icon_item_jTzGta"
-      ],
-      "name": "Text Overlay",
-      "settings": {
-        "mobile_image": "shopify://shop_images/no1waist1.webp",
-        "image_size_mode": "auto",
-        "mobile_image_height": 420,
-        "desktop_image_height": 800,
-        "image_fit": "contain",
-        "image_radius": 12,
-        "width_style": "contained",
-        "mobile_max_width": 420,
-        "desktop_max_width": 1280,
-        "desktop_layout": "image_left",
-        "desktop_image_width": "50",
-        "desktop_gap": 40,
-        "mobile_content_gap": 16,
-        "mobile_content_layout": "overlay",
-        "mobile_overlay_x": 50,
-        "mobile_overlay_y": 85,
-        "mobile_overlay_safe_padding": 16,
-        "content_alignment": "center",
-        "content_text_align": "center",
-        "content_gap": 12,
-        "mobile_content_max_width": 420,
-        "desktop_content_max_width": 800,
-        "icon_text_gap": 10,
-        "button_height": 42,
-        "button_padding_x": 20,
-        "button_radius": 0,
-        "button_text_size": 14,
-        "primary_button_background": "#2b2b2b",
-        "primary_button_color": "#ffffff",
-        "outline_button_color": "#2b2b2b",
-        "text_link_color": "#2b2b2b",
-        "section_background": "#ffffff",
-        "side_padding_mobile": 14,
-        "side_padding_desktop": 20,
-        "padding_top_mobile": 12,
-        "padding_bottom_mobile": 12,
-        "padding_top_desktop": 20,
-        "padding_bottom_desktop": 20
-      }
-    },
-    "text_overlay_pPWpUC": {
-      "type": "text-overlay",
-      "blocks": {
-        "heading_nBtyTT": {
-          "type": "heading",
-          "settings": {
-            "show_block": true,
-            "heading": "<p><strong>Flexible Stretch That Moves With You</strong></p>",
-            "color": "#2b2b2b",
-            "desktop_color": "#2b2b2b",
-            "mobile_size": 16,
-            "desktop_size": 36,
-            "animation": "none"
-          }
-        }
-      },
-      "block_order": [
-        "heading_nBtyTT"
-      ],
-      "name": "Text Overlay",
-      "settings": {
-        "mobile_image": "shopify://shop_images/no1waist2.webp",
-        "image_size_mode": "auto",
-        "mobile_image_height": 420,
-        "desktop_image_height": 800,
-        "image_fit": "contain",
-        "image_radius": 12,
-        "width_style": "contained",
-        "mobile_max_width": 420,
-        "desktop_max_width": 1280,
-        "desktop_layout": "content_left",
-        "desktop_image_width": "50",
-        "desktop_gap": 40,
-        "mobile_content_gap": 16,
-        "mobile_content_layout": "overlay",
-        "mobile_overlay_x": 50,
-        "mobile_overlay_y": 50,
-        "mobile_overlay_safe_padding": 16,
-        "content_alignment": "center",
-        "content_text_align": "center",
-        "content_gap": 12,
-        "mobile_content_max_width": 420,
-        "desktop_content_max_width": 800,
-        "icon_text_gap": 10,
-        "button_height": 42,
-        "button_padding_x": 20,
-        "button_radius": 0,
-        "button_text_size": 14,
-        "primary_button_background": "#2b2b2b",
-        "primary_button_color": "#ffffff",
-        "outline_button_color": "#2b2b2b",
-        "text_link_color": "#2b2b2b",
-        "section_background": "#ffffff",
-        "side_padding_mobile": 14,
-        "side_padding_desktop": 20,
-        "padding_top_mobile": 12,
-        "padding_bottom_mobile": 12,
-        "padding_top_desktop": 20,
-        "padding_bottom_desktop": 20
-      }
-    },
-    "grid_view_wCynBd": {
+    "grid_view_bUEf8M": {
       "type": "grid-view",
       "blocks": {
-        "image_L9YTKi": {
+        "image_VbhYXf": {
           "type": "image",
           "settings": {
             "subheading": "",
@@ -567,7 +451,7 @@
             "letter_spacing": 1,
             "size_text_desktop": 100,
             "size_text_mobile": 100,
-            "heading": "<strong>Flexible Fit, Every Step</strong>",
+            "heading": "<strong>Flexible Movement, Every Step</strong>&nbsp;",
             "heading_disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100,
@@ -583,12 +467,12 @@
             "color-overlay-opacity": 0,
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
-            "mobile_image": "shopify://shop_images/no1move1.png",
-            "mobile_text_vertical_position": "top",
+            "mobile_image": "shopify://shop_images/no1_move1.webp",
+            "mobile_text_vertical_position": "center",
             "mobile_text_horizontal_position": "left"
           }
         },
-        "image_KYpUm7": {
+        "image_EXny3x": {
           "type": "image",
           "settings": {
             "subheading": "",
@@ -615,15 +499,15 @@
             "color-overlay-opacity": 0,
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
-            "mobile_image": "shopify://shop_images/no1move2.png",
-            "mobile_text_vertical_position": "top",
+            "mobile_image": "shopify://shop_images/no1_move2.webp",
+            "mobile_text_vertical_position": "center",
             "mobile_text_horizontal_position": "left"
           }
         }
       },
       "block_order": [
-        "image_L9YTKi",
-        "image_KYpUm7"
+        "image_VbhYXf",
+        "image_EXny3x"
       ],
       "name": "t:sections.grid-view.settings.presets.name",
       "settings": {
@@ -758,6 +642,7 @@
         "heading_richtext": "<h2>Video hero</h2>",
         "full-width-enabled": false,
         "container_max_width": 0,
+        "mobile_video_hosted": "shopify://files/videos/solumeyarn.webm",
         "autoplay": true,
         "video_controls": false,
         "video_custom_play_controls": false,
@@ -826,6 +711,50 @@
         "padding_top_desktop": 20,
         "padding_bottom_desktop": 20
       }
+    },
+    "xt_product_pickup_ULp7eq": {
+      "type": "xt-product-pickup",
+      "blocks": {
+        "product_KaBa3K": {
+          "type": "product",
+          "settings": {
+            "product": "no2-20d-control-top-sheer-tights"
+          }
+        },
+        "product_VLdMNz": {
+          "type": "product",
+          "settings": {
+            "product": "50d-shimmer-tights"
+          }
+        },
+        "product_mXPy4E": {
+          "type": "product",
+          "settings": {
+            "product": "tencel-modal-short-sleeve-pajama-set"
+          }
+        },
+        "product_pJEgKb": {
+          "type": "product",
+          "settings": {
+            "product": "adhesive-silicone-nipple-covers"
+          }
+        }
+      },
+      "block_order": [
+        "product_KaBa3K",
+        "product_VLdMNz",
+        "product_mXPy4E",
+        "product_pJEgKb"
+      ],
+      "name": "XT 商品选购区",
+      "settings": {
+        "title": "You May Also Like",
+        "subtitle": "",
+        "image_ratio": "portrait",
+        "show_product_rating": false,
+        "enable_quick_add_button": true,
+        "quick_add_mode": "below_product"
+      }
     }
   },
   "order": [
@@ -834,13 +763,12 @@
     "blocks_X9QmkE",
     "product_accordion_tabs_VWMA9q",
     "features_banner_fWVVQk",
-    "rich_text_QHRG3c",
-    "text_overlay_9AbVzy",
-    "text_overlay_pPWpUC",
-    "grid_view_wCynBd",
+    "multicolumn_TaKi83",
+    "grid_view_bUEf8M",
     "grid_view_rcbpWK",
     "before_and_after_EkW3rc",
     "background_video_8W8AWe",
-    "pair_comparison_htBBdW"
+    "pair_comparison_htBBdW",
+    "xt_product_pickup_ULp7eq"
   ]
 }
