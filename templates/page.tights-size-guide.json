@@ -135,8 +135,8 @@
           "settings": {
             "show_item": true,
             "category": "tab_1",
-            "question": "What’s the difference between sheer, semi-opaque, and opaque tights?",
-            "answer": "<p>Choose based on temperature and desired look.</p><p>Ultra sheer styles are best for hot weather and a barely-there look, while higher denier tights provide more coverage and warmth for cooler days.</p>",
+            "question": "How do I choose my Sofneu tights size?",
+            "answer": "<p>Measure your natural waist, the fullest part of your hips and the fullest part of your upper thigh, then compare them with the size chart.</p><p>Waist and hip measurements are the most important. Height, weight and leg length should be used as additional references.</p>",
             "default_open": false
           }
         },
@@ -145,8 +145,8 @@
           "settings": {
             "show_item": true,
             "category": "tab_1",
-            "question": "Which tights are best for everyday wear?",
-            "answer": "<p>Choose based on temperature and desired look.</p><p>Ultra sheer styles are best for hot weather and a barely-there look, while higher denier tights provide more coverage and warmth for cooler days.</p>",
+            "question": "What should I do if I am between two sizes?",
+            "answer": "<p>If your measurements fall between two sizes, choose the larger size for more length and comfort.</p><p>If your waist and hips fit the smaller size and you prefer a closer, more supportive fit, you may choose the smaller size. If any key measurement exceeds the smaller size range, choose the larger size.</p>",
             "default_open": false
           }
         },
@@ -155,8 +155,8 @@
           "settings": {
             "show_item": true,
             "category": "tab_1",
-            "question": "Can I wear tights in hot weather?",
-            "answer": "<p>Choose based on temperature and desired look.</p><p>Ultra sheer styles are best for hot weather and a barely-there look, while higher denier tights provide more coverage and warmth for cooler days.</p>",
+            "question": "Where should high-waisted and mid-rise tights sit?",
+            "answer": "<p>High-waisted tights are designed to sit at the natural waist, usually around or slightly above the belly button.</p><p>Mid-rise tights sit lower, generally below the belly button and above the hip bones. The exact position may vary slightly depending on torso length and body shape.</p>",
             "default_open": false
           }
         },
@@ -165,8 +165,8 @@
           "settings": {
             "show_item": true,
             "category": "tab_1",
-            "question": "Which tights help create a smoother, more flattering look?",
-            "answer": "<p>Choose based on temperature and desired look.</p><p>Ultra sheer styles are best for hot weather and a barely-there look, while higher denier tights provide more coverage and warmth for cooler days.</p>",
+            "question": "Will the tights slip down or sag?",
+            "answer": "<p>Correctly sized tights should sit comfortably with the gusset positioned close to the body and should not require frequent pulling up.</p><p>Slipping or sagging may indicate that the size is too large, the tights have not been pulled up evenly, or insufficient fabric has been distributed along the legs. If the waistband feels tight while the crotch sits too low, you may need a larger size or more leg length.</p>",
             "default_open": false
           }
         },
