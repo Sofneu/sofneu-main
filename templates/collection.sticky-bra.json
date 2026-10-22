@@ -186,11 +186,12 @@
           "type": "card",
           "settings": {
             "show_card": true,
+            "image": "shopify://shop_images/c-b-4.webp",
             "name": "Insert Bra",
             "temperature": "Volume & Shape",
             "feeling": "I Want Curves",
             "link": "",
-            "jump_target": ""
+            "jump_target": "insertbra"
           }
         }
       },
@@ -260,7 +261,8 @@
       "type": "feature-text-image",
       "name": "Feature Text Image",
       "settings": {
-        "anchor_id": "",
+        "anchor_id": "Stickybra",
+        "image": "shopify://shop_images/b-pdp-1-6_33891c9a-8d07-4b47-93bb-39fa4ff6541f.webp",
         "thickness": "Sticky Bra",
         "weather": "Shape Enhancement",
         "content_title": "Designed to prevent slipping and movement",
@@ -294,26 +296,26 @@
         "product_TQeibH": {
           "type": "product",
           "settings": {
-            "product": ""
+            "product": "cleavage-silicone-sticky-bra"
           }
         },
         "product_MTTJzY": {
           "type": "product",
           "settings": {
-            "product": ""
+            "product": "ultra-light-breathable-fabric-sticky-bra"
           }
         },
-        "product_zhDrip": {
+        "product_WypDig": {
           "type": "product",
           "settings": {
-            "product": "no1-10d-control-top-sheer-tights"
+            "product": "ultra-light-fabric-sticky-bra"
           }
         }
       },
       "block_order": [
         "product_TQeibH",
         "product_MTTJzY",
-        "product_zhDrip"
+        "product_WypDig"
       ],
       "name": "XT 商品选购区",
       "settings": {
@@ -329,7 +331,8 @@
       "type": "feature-text-image",
       "name": "Feature Text Image",
       "settings": {
-        "anchor_id": "",
+        "anchor_id": "nipplecover",
+        "image": "shopify://shop_images/grippy-cocoa-2_654e8c08-dba2-46a1-8967-f4de554ea88d.webp",
         "thickness": "Nipple Cover",
         "weather": "Nipple Concealment",
         "content_title": "Designed to stay seamless and secure on skin",
@@ -351,10 +354,10 @@
         "desktop_max_width": 800,
         "desktop_image_size": 480,
         "desktop_gap": 72,
-        "padding_top_mobile": 20,
-        "padding_bottom_mobile": 20,
-        "padding_top_desktop": 64,
-        "padding_bottom_desktop": 64
+        "padding_top_mobile": 12,
+        "padding_bottom_mobile": 12,
+        "padding_top_desktop": 20,
+        "padding_bottom_desktop": 20
       }
     },
     "xt_product_pickup_GrmmqG": {
@@ -363,13 +366,13 @@
         "product_FEGJaQ": {
           "type": "product",
           "settings": {
-            "product": ""
+            "product": "adhesive-silicone-nipple-covers"
           }
         },
         "product_L3zpTV": {
           "type": "product",
           "settings": {
-            "product": ""
+            "product": "grip-nipple-covers"
           }
         }
       },
@@ -391,7 +394,8 @@
       "type": "feature-text-image",
       "name": "Feature Text Image",
       "settings": {
-        "anchor_id": "",
+        "anchor_id": "insertbra",
+        "image": "shopify://shop_images/b-pdp-1-33_9fb6d528-8138-4a46-9c8e-cf78590adf01.webp",
         "thickness": "Insert Bra",
         "weather": "Volume Enhancement",
         "content_title": "Designed to stay in place with a natural feel",
@@ -425,7 +429,7 @@
         "product_HH6U4D": {
           "type": "product",
           "settings": {
-            "product": ""
+            "product": "push-up-bra-inserts"
           }
         }
       },
