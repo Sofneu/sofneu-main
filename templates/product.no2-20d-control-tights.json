@@ -44,21 +44,6 @@
             "size_text_mobile": 140
           }
         },
-        "product_variations_7LBAAU": {
-          "type": "product_variations",
-          "settings": {
-            "option_name": "",
-            "picker_type": "button",
-            "swatch_size": 36,
-            "radius": "default",
-            "border_radius": 0,
-            "option_value_metafield": "custom.tab",
-            "products": [
-              "no2-20d-control-top-sheer-tights",
-              "no2-20d-sheer-tights"
-            ]
-          }
-        },
         "variant_picker_7mHC3V": {
           "type": "variant_picker",
           "settings": {
@@ -102,7 +87,6 @@
       "block_order": [
         "title",
         "price",
-        "product_variations_7LBAAU",
         "variant_picker_7mHC3V",
         "buy_buttons"
       ],
@@ -327,7 +311,6 @@
         "image_6Mapq8": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/Group_123315_3x_7dc9eafa-7be7-4166-bc4c-32007ef45e86.png",
             "select_icon": "bag",
             "heading": "Free Delivery on A$59",
             "text": "",
@@ -337,7 +320,6 @@
         "image_PbAdtb": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/Group_123315.png",
             "select_icon": "user",
             "heading": "30-Day Free Returns",
             "text": "",
@@ -347,7 +329,6 @@
         "image_Cttxfp": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/Group_123315_1.png",
             "select_icon": "search",
             "heading": "Anti-Snag Warranty",
             "text": "",
