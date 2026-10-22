@@ -140,46 +140,6 @@
             "answer": "<p>Use your usual bra cup size as a starting point, then choose the diameter according to how much coverage you prefer. Cup size provides guidance, while the 8 cm, 10 cm and 13 cm options describe the actual coverage area.</p>",
             "default_open": false
           }
-        },
-        "faq_U9gJBH": {
-          "type": "faq",
-          "settings": {
-            "show_item": true,
-            "category": "tab_1",
-            "question": "What makes Sofneu tights different?",
-            "answer": "<p>Choose based on temperature and desired look.</p><p>Ultra sheer styles are best for hot weather and a barely-there look, while higher denier tights provide more coverage and warmth for cooler days.</p>",
-            "default_open": false
-          }
-        },
-        "faq_6fVty4": {
-          "type": "faq",
-          "settings": {
-            "show_item": true,
-            "category": "tab_1",
-            "question": "Are these tights comfortable for all-day wear?",
-            "answer": "<p>Choose based on temperature and desired look.</p><p>Ultra sheer styles are best for hot weather and a barely-there look, while higher denier tights provide more coverage and warmth for cooler days.</p>",
-            "default_open": false
-          }
-        },
-        "faq_XraDGP": {
-          "type": "faq",
-          "settings": {
-            "show_item": true,
-            "category": "tab_1",
-            "question": "Will they snag easily?",
-            "answer": "<p>Choose based on temperature and desired look.</p><p>Ultra sheer styles are best for hot weather and a barely-there look, while higher denier tights provide more coverage and warmth for cooler days.</p>",
-            "default_open": false
-          }
-        },
-        "faq_xDTUjJ": {
-          "type": "faq",
-          "settings": {
-            "show_item": true,
-            "category": "tab_1",
-            "question": "Which tights are best for cold weather?",
-            "answer": "<p>Choose based on temperature and desired look.</p><p>Ultra sheer styles are best for hot weather and a barely-there look, while higher denier tights provide more coverage and warmth for cooler days.</p>",
-            "default_open": false
-          }
         }
       },
       "block_order": [
@@ -188,11 +148,7 @@
         "faq_NrHejt",
         "faq_eLaAza",
         "faq_id7H8E",
-        "faq_PNkKVj",
-        "faq_U9gJBH",
-        "faq_6fVty4",
-        "faq_XraDGP",
-        "faq_xDTUjJ"
+        "faq_PNkKVj"
       ],
       "name": "FAQ Tabs",
       "settings": {
@@ -204,12 +160,12 @@
         "heading_color": "#2b2b2b",
         "heading_alignment": "center",
         "heading_spacing": 30,
-        "show_tabs": false,
+        "show_tabs": true,
         "default_tab": "tab_1",
-        "tab_1_label": "General",
-        "tab_2_label": "Product",
-        "tab_3_label": "Shipping",
-        "tab_4_label": "Returns",
+        "tab_1_label": "Sticky Bra",
+        "tab_2_label": "Nipple Cover",
+        "tab_3_label": "Bra Insert",
+        "tab_4_label": "",
         "tab_size_mobile": 14,
         "tab_size_desktop": 14,
         "tab_letter_spacing": -2,
@@ -222,9 +178,9 @@
         "tab_color": "#2b2b2b",
         "tab_border_color": "#f8f8f8",
         "tab_border_thickness": 1,
-        "active_tab_background": "#b7644e",
-        "active_tab_color": "#ffffff",
-        "active_tab_border_color": "#b7644e",
+        "active_tab_background": "#B7644E",
+        "active_tab_color": "#FFFFFF",
+        "active_tab_border_color": "#B7644E",
         "section_background": "#ffffff",
         "max_width": 350,
         "side_padding_mobile": 0,
