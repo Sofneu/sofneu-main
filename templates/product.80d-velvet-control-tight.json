@@ -729,28 +729,12 @@
             "mobile_title_size": 12,
             "desktop_title_size": 15
           }
-        },
-        "icon_item_cft4zi": {
-          "type": "icon_item",
-          "settings": {
-            "show_block": true,
-            "icon": "shopify://shop_images/pdp-no1-1.svg",
-            "title": "Anti-Pilling Finish",
-            "mobile_icon_size": 26,
-            "desktop_icon_size": 52,
-            "max_width": 420,
-            "title_color": "#2b2b2b",
-            "desktop_title_color": "#2b2b2b",
-            "mobile_title_size": 12,
-            "desktop_title_size": 15
-          }
         }
       },
       "block_order": [
         "heading_f8XzHR",
         "icon_item_rYW4VB",
-        "icon_item_UUEX8w",
-        "icon_item_cft4zi"
+        "icon_item_UUEX8w"
       ],
       "name": "Text Overlay",
       "settings": {
