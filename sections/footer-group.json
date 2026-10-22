@@ -28,13 +28,6 @@
             "links": "discover"
           }
         },
-        "text_fzdQJJ": {
-          "type": "text",
-          "settings": {
-            "heading_text": "Contact Us",
-            "text": "<p><strong>Email: service@sofneu.com</strong></p>"
-          }
-        },
         "newsletter_GheLtV": {
           "type": "newsletter",
           "settings": {
@@ -46,13 +39,20 @@
             "consent_checkbox_label": "<p>I want to sign up for the Newsletter (information about promotions, discounts, premieres, contests).</p>",
             "consent_validation_message": "Please check this box to proceed."
           }
+        },
+        "text_fzdQJJ": {
+          "type": "text",
+          "settings": {
+            "heading_text": "Contact Us",
+            "text": "<p><strong>Email: service@sofneu.com</strong></p>"
+          }
         }
       },
       "block_order": [
         "menu_FVzkic",
         "menu_9f4hyN",
-        "text_fzdQJJ",
-        "newsletter_GheLtV"
+        "newsletter_GheLtV",
+        "text_fzdQJJ"
       ],
       "custom_css": [],
       "settings": {
