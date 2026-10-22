@@ -611,7 +611,8 @@
       "type": "feature-text-image",
       "name": "Feature Text Image",
       "settings": {
-        "anchor_id": "",
+        "anchor_id": "pattern",
+        "image": "shopify://shop_images/shimmer-detail.webp",
         "thickness": "Patterned",
         "weather": "Spring / Autumn",
         "content_title": "Designed for Style to complement different looks",
@@ -633,10 +634,10 @@
         "desktop_max_width": 800,
         "desktop_image_size": 480,
         "desktop_gap": 72,
-        "padding_top_mobile": 20,
-        "padding_bottom_mobile": 20,
-        "padding_top_desktop": 64,
-        "padding_bottom_desktop": 64
+        "padding_top_mobile": 12,
+        "padding_bottom_mobile": 12,
+        "padding_top_desktop": 20,
+        "padding_bottom_desktop": 20
       }
     },
     "xt_product_pickup_MPPdrX": {
@@ -645,7 +646,7 @@
         "product_6FN8fQ": {
           "type": "product",
           "settings": {
-            "product": ""
+            "product": "50d-shimmer-tights"
           }
         }
       },
