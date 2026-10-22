@@ -295,8 +295,9 @@
         "image_6T466M": {
           "type": "image",
           "settings": {
+            "desktop_image": "shopify://shop_images/free-shipping_1f4f8a23-bf48-406c-bcc8-b6e76204e20d.png",
             "select_icon": "bag",
-            "heading": "Free Delivery on A$59",
+            "heading": "Free Delivery on $59",
             "text": "",
             "link": ""
           }
@@ -304,6 +305,7 @@
         "image_WytYkN": {
           "type": "image",
           "settings": {
+            "desktop_image": "shopify://shop_images/30-days_warranty_f2c1cd27-f6c6-4085-8701-9f83da5a4a0b.png",
             "select_icon": "user",
             "heading": "30-Day Free Returns",
             "text": "",
@@ -313,6 +315,7 @@
         "image_LbCUBa": {
           "type": "image",
           "settings": {
+            "desktop_image": "shopify://shop_images/snag-techlogy_2c580cf7-e88d-476c-99b7-a4478400521b.png",
             "select_icon": "search",
             "heading": "Easy Size Exchange",
             "text": "",
@@ -779,6 +782,50 @@
         "margin-top-mobile": 10,
         "margin-bottom-mobile": 10
       }
+    },
+    "xt_product_pickup_iBYFbz": {
+      "type": "xt-product-pickup",
+      "blocks": {
+        "product_Cemjk4": {
+          "type": "product",
+          "settings": {
+            "product": "no1-10d-control-top-sheer-tights"
+          }
+        },
+        "product_WjQFH7": {
+          "type": "product",
+          "settings": {
+            "product": "grip-nipple-covers"
+          }
+        },
+        "product_9MnTzr": {
+          "type": "product",
+          "settings": {
+            "product": "cleavage-silicone-sticky-bra"
+          }
+        },
+        "product_8KEmY9": {
+          "type": "product",
+          "settings": {
+            "product": "push-up-bra-inserts"
+          }
+        }
+      },
+      "block_order": [
+        "product_Cemjk4",
+        "product_WjQFH7",
+        "product_9MnTzr",
+        "product_8KEmY9"
+      ],
+      "name": "XT 商品选购区",
+      "settings": {
+        "title": "You May Also Like",
+        "subtitle": "",
+        "image_ratio": "adapt",
+        "show_product_rating": false,
+        "enable_quick_add_button": true,
+        "quick_add_mode": "below_product"
+      }
     }
   },
   "order": [
@@ -791,6 +838,7 @@
     "grid_view_wCynBd",
     "grid_view_h8yryQ",
     "rich_text_X4j76U",
-    "grid_view_M9qFdd"
+    "grid_view_M9qFdd",
+    "xt_product_pickup_iBYFbz"
   ]
 }
