@@ -35,9 +35,17 @@
             "size_text_mobile": 100
           }
         },
-        "product_variations_dUJHfz": {
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_included": true,
+            "show_shipping_policy": true,
+            "size_text": 140,
+            "size_text_mobile": 140
+          }
+        },
+        "product_variations_ULFMAp": {
           "type": "product_variations",
-          "disabled": true,
           "settings": {
             "option_name": "",
             "picker_type": "button",
@@ -49,15 +57,6 @@
               "tencel-modal-short-sleeve-pajama-set",
               "tencel-modal-long-sleeve-pajama-set"
             ]
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-            "show_tax_included": true,
-            "show_shipping_policy": true,
-            "size_text": 140,
-            "size_text_mobile": 140
           }
         },
         "variant_picker_7mHC3V": {
@@ -102,13 +101,13 @@
       },
       "block_order": [
         "title",
-        "product_variations_dUJHfz",
         "price",
+        "product_variations_ULFMAp",
         "variant_picker_7mHC3V",
         "buy_buttons"
       ],
       "settings": {
-        "enable_sticky_buy_button": true,
+        "enable_sticky_buy_button": false,
         "sticky_button_visibility": "mobile",
         "sticky_button_type": "sticky",
         "sticky_button_select": "secondary",
