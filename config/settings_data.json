@@ -122,7 +122,7 @@
     "discount_bar_milestone_2_threshold": "4",
     "discount_bar_milestone_3_enabled": true,
     "discount_bar_milestone_3_threshold": "4",
-    "discount_bar_milestone_3_label": "$30 off",
+    "discount_bar_milestone_3_label": "Total $30 off",
     "discount_bar_milestone_3_message": "Add ||amount|| more item to unlock ||label||!",
     "discount_bar_milestone_3_icon_type": "price_tag",
     "discount_bar_all_achieved_label": "All savings unlocked!",
