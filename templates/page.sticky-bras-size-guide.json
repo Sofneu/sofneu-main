@@ -140,6 +140,46 @@
             "answer": "<p>Use your usual bra cup size as a starting point, then choose the diameter according to how much coverage you prefer. Cup size provides guidance, while the 8 cm, 10 cm and 13 cm options describe the actual coverage area.</p>",
             "default_open": false
           }
+        },
+        "faq_hYp3nd": {
+          "type": "faq",
+          "settings": {
+            "show_item": true,
+            "category": "tab_2",
+            "question": "Which diameter should I choose?",
+            "answer": "<p>As a general starting point:</p><ul><li>8 cm provides minimal, discreet coverage.</li><li>10 cm provides balanced everyday coverage.</li><li>13 cm provides fuller coverage and a wider, smoother edge.</li></ul><p>More than one diameter may work for the same cup size depending on your breast shape and outfit.</p>",
+            "default_open": false
+          }
+        },
+        "faq_DdxzLp": {
+          "type": "faq",
+          "settings": {
+            "show_item": true,
+            "category": "tab_2",
+            "question": "What should I choose if two diameters are recommended for my cup size?",
+            "answer": "<p>Choose the smaller diameter for a lighter, more minimal look. Choose the larger diameter for more coverage and a smoother transition under fitted clothing. CAKES similarly recommends sizing up when additional coverage and less visible edges are preferred.</p>",
+            "default_open": false
+          }
+        },
+        "faq_69HqEq": {
+          "type": "faq",
+          "settings": {
+            "show_item": true,
+            "category": "tab_2",
+            "question": "Does a larger Nipple Cover provide more lift?",
+            "answer": "<p>Not necessarily. A larger diameter provides more surface coverage, but Nipple Covers are primarily designed for coverage and smoothing rather than structured lift. If lift or cleavage is your main goal, a Sticky Bra or another support product may be more suitable.</p>",
+            "default_open": false
+          }
+        },
+        "faq_qTxkcz": {
+          "type": "faq",
+          "settings": {
+            "show_item": true,
+            "category": "tab_2",
+            "question": "How do I choose the right tights?",
+            "answer": "<p>Choose based on temperature and desired look.</p><p>Ultra sheer styles are best for hot weather and a barely-there look, while higher denier tights provide more coverage and warmth for cooler days.</p>",
+            "default_open": false
+          }
         }
       },
       "block_order": [
@@ -148,7 +188,11 @@
         "faq_NrHejt",
         "faq_eLaAza",
         "faq_id7H8E",
-        "faq_PNkKVj"
+        "faq_PNkKVj",
+        "faq_hYp3nd",
+        "faq_DdxzLp",
+        "faq_69HqEq",
+        "faq_qTxkcz"
       ],
       "name": "FAQ Tabs",
       "settings": {
