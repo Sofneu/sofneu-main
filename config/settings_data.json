@@ -151,6 +151,13 @@
     "disabled_animations_on_mobile": false,
     "ucp_enable_return_policy": false,
     "content_for_index": [],
+    "blocks": {
+      "1143683040400472741": {
+        "type": "shopify://apps/cwilltrustoo-reviews/blocks/trustoo-review-switch/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+        "disabled": false,
+        "settings": {}
+      }
+    },
     "colors": {
       "primary": "#151515",
       "background": "#ffffff",
