@@ -28,6 +28,29 @@
     },
     "image_banner_UCf7ir": {
       "type": "image-banner",
+      "blocks": {
+        "heading_qpkieQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Accurate Size Chart · Standard Measuring Tutorial",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_XiAatf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Give customers details about the banner image(s) or content on the template.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_qpkieQ",
+        "text_XiAatf"
+      ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "advanced_heading": false,
@@ -49,7 +72,7 @@
         "color-heading": "rgba(0,0,0,0)",
         "section-color-overlay": "rgba(0,0,0,0)",
         "section-color-overlay-opacity": 100,
-        "color-body-text": "rgba(0,0,0,0)",
+        "color-body-text": "{{ settings.colors.background }}",
         "text-container-color": "rgba(0,0,0,0)",
         "color-overlay-opacity": 100,
         "margin-top": 0,
