@@ -896,8 +896,8 @@
       ],
       "name": "XT 商品选购区",
       "settings": {
-        "title": "精选商品",
-        "subtitle": "点击商品快速选购",
+        "title": "You May Also Like",
+        "subtitle": "",
         "image_ratio": "portrait",
         "show_product_rating": false,
         "enable_quick_add_button": true,
