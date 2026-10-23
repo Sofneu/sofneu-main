@@ -93,7 +93,7 @@
         "menu": "sonfeu-mega-menu",
         "mobile_footer_menu": "",
         "customer_account_menu": "customer-account-main-menu",
-        "teaser_menu": "main-menu",
+        "teaser_menu": "sonfeu-mega-menu",
         "teaser_menu_limit": 3,
         "transparent_logo": "shopify://shop_images/icon_trans.png",
         "transparent_header_color": "{{ settings.colors.background }}",
