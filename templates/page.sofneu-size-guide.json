@@ -32,7 +32,7 @@
         "heading_qpkieQ": {
           "type": "heading",
           "settings": {
-            "heading": "Accurate Size Chart · Standard Measuring Tutorial",
+            "heading": "Sofneu Official Size Guide",
             "disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100
@@ -41,7 +41,7 @@
         "text_XiAatf": {
           "type": "text",
           "settings": {
-            "text": "<p>Give customers details about the banner image(s) or content on the template.</p>",
+            "text": "<p>Accurate Size Chart · Standard Measuring Tutorial</p>",
             "text_style": "body",
             "disable_on_mobile": false
           }
