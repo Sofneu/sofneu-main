@@ -82,10 +82,61 @@
         "margin-bottom-mobile": 10,
         "lcp_optimize": false
       }
+    },
+    "category_benefit_fLNE4T": {
+      "type": "category-benefit",
+      "name": "Category Benefit",
+      "settings": {
+        "image_1": "shopify://shop_images/aboutus_banner_670e26bd-758e-4653-9701-be82f042ee32.png",
+        "link_1": "shopify://pages/tights-size-guide",
+        "label_1": "Tights",
+        "benefit_1_1_title": "Tights Size Guide Intro",
+        "benefit_1_1_text": "Multi-gradient Size Chart",
+        "benefit_1_2_title": "perfect measurement",
+        "benefit_1_2_text": "Find Your Perfect Fit",
+        "benefit_1_3_title": "distance measurement",
+        "benefit_1_3_text": "Waist & Hip Measurement",
+        "link_2": "",
+        "label_2": "Sticky Bra",
+        "benefit_2_1_title": "MedicalSilicone",
+        "benefit_2_1_text": "Medical grade silicone\nskin-friendly for sensitive skin",
+        "benefit_2_2_title": "SafeAdhesive",
+        "benefit_2_2_text": "Mild adhesive, firm fit and easy\nresidue-free removal",
+        "benefit_2_3_title": "ErgonomicFit",
+        "benefit_2_3_text": "Ergonomic curve fits diverse\nbreast shapes",
+        "link_3": "",
+        "label_3": "Pajamas",
+        "benefit_3_1_title": "BlendTencel",
+        "benefit_3_1_text": "1:1 fabric blend\nsilky and great draping",
+        "benefit_3_2_title": "ShapeHold",
+        "benefit_3_2_text": "Shaping craft keeps neat\nsilhouette all day",
+        "benefit_3_3_title": "SoftAirTech",
+        "benefit_3_3_text": "Breathable weave\nkeeps skin fresh and dry",
+        "show_button": true,
+        "button_text": "General Knowledge",
+        "button_link": "",
+        "button_background": "#a65d4a",
+        "button_text_color": "#ffffff",
+        "button_width_mobile": 176,
+        "button_width_desktop": 192,
+        "section_background": "#ffffff",
+        "image_label_color": "#2b2b2b",
+        "benefit_title_color": "#2b2b2b",
+        "benefit_text_color": "#6f6f6f",
+        "image_position": "center",
+        "mobile_max_width": 340,
+        "desktop_max_width": 1200,
+        "desktop_item_gap": 32,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "padding_top_desktop": 48,
+        "padding_bottom_desktop": 48
+      }
     }
   },
   "order": [
     "main",
-    "image_banner_UCf7ir"
+    "image_banner_UCf7ir",
+    "category_benefit_fLNE4T"
   ]
 }
