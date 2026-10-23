@@ -149,7 +149,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Returns & Exchanges",
-            "content": "<p>Changed your mind or ordered the wrong size, colour or product? </p><p>You can request a <strong>return or exchange within 30 days of delivery</strong>.</p><p><strong>Returns</strong></p><ul><li>You pay the return shipping cost.</li><li>We’ll refund the amount paid for eligible returned products.</li><li>Original shipping charges are non-refundable.</li></ul><p><strong>Exchanges</strong></p><ul><li>You pay the shipping costs both ways.</li><li>Any difference in product price will be charged or refunded accordingly.</li><li>Exchanges are subject to availability.</li></ul>",
+            "content": "<p>Changed your mind or ordered the wrong size, colour or product?&nbsp;</p><p>You can request a <strong>return or exchange within 30 days of delivery</strong>.</p><p><strong>Returns</strong></p><ul><li>You pay the return shipping cost.</li><li>We’ll refund the amount paid for eligible returned products.</li><li>Original shipping charges are non-refundable.</li></ul><p><strong>Exchanges</strong></p><ul><li>You pay the shipping costs both ways.</li><li>Any difference in product price will be charged or refunded accordingly.</li><li>Exchanges are subject to availability.</li></ul>",
             "page": "",
             "icon": "none",
             "icon_advanced_settings": false,
@@ -164,7 +164,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Return Conditions",
-            "content": "<p>For hygiene reasons, products must meet the following conditions for change-of-mind returns or exchanges:</p><ul><li><strong>Tights & Hosiery:</strong> unworn, unwashed, undamaged and in original packaging. Tried-on tights cannot be returned or exchanged.</li><li><strong>Adhesive Bras & Nipple Covers:</strong> unused, with protective film or hygiene protection intact.</li><li><strong>Sleepwear:</strong> may be tried on for fit, but must be unwashed, unworn beyond fitting, undamaged and have original tags attached.</li></ul><p>These conditions do not limit your rights in relation to faulty products under Australian Consumer Law.</p>",
+            "content": "<p>For hygiene reasons, products must meet the following conditions for change-of-mind returns or exchanges:</p><ul><li><strong>Tights & Hosiery:</strong> unworn, unwashed, undamaged and in original packaging. Tried-on tights cannot be returned or exchanged.</li><li><strong>Adhesive Bras & Nipple Covers:</strong> unused, with protective film or hygiene protection intact.</li><li><strong>Sleepwear:</strong> may be tried on for fit, but must be unwashed, unworn beyond fitting, undamaged and have original tags attached.</li></ul><p>These conditions do not limit any rights or warranties available to you under applicable U.S. federal and state law, including the implied warranty of merchantability and fitness for a particular purpose.</p>",
             "page": "",
             "icon": "none",
             "icon_advanced_settings": false,
@@ -179,7 +179,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Faulty, Incorrect or Missing Items",
-            "content": "<p>If your product is faulty, or we have sent you an incorrect item or missed an item from your order, please contact us with your <strong>order number and photos where applicable</strong>.</p><p>Where the issue is our responsibility, <strong>Sofneu will cover the applicable return and replacement shipping costs</strong>.</p><p>Faulty products will be handled in accordance with Australian Consumer Law. A remedy for a genuinely faulty product does not use your one-time 30-Day Guarantee.</p>",
+            "content": "<p>If your product is faulty, or we have sent you an incorrect item or missed an item from your order, please contact us with your <strong>order number and photos where applicable</strong>.</p><p>Where the issue is our responsibility, <strong>Sofneu will cover the applicable return and replacement shipping costs</strong>.</p><p>Faulty products will be handled in accordance with applicable U.S. federal and state warranty law. If a product is genuinely faulty, any remedy we provide is in addition to the warranties and rights you have under law and does not count toward your one-time 30-Day Guarantee.</p>",
             "page": "",
             "icon": "none",
             "icon_advanced_settings": false,
