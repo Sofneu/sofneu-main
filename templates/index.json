@@ -366,7 +366,7 @@
           "settings": {
             "show_item": true,
             "title": "The best tights I have",
-            "text": "<h2>The best tights I have ever worn. So comfortable and feel nice on. Highly recommend！</h2>",
+            "text": "<h2>The best tights I have ever worn. So comfortable and feel nice on. Highly recommend!</h2>",
             "product_name": "No.1 Sheer tights",
             "image": "shopify://shop_images/sylvie-with-tights-1.webp",
             "second_image": "shopify://shop_images/sylvie-with-tights_43428d54-fa28-4243-abcf-94295ccff265.webp",
@@ -381,7 +381,7 @@
           "settings": {
             "show_item": true,
             "title": "Amazing product and customer service!",
-            "text": "<h2>Thank you for great communication</h2>",
+            "text": "<h2>Thank you for great communication.</h2>",
             "product_name": "No.1 Sheer tights",
             "image": "shopify://shop_images/elena-with-tights.webp",
             "second_image": "shopify://shop_images/elena-with-tights-1.webp",
@@ -411,7 +411,7 @@
           "settings": {
             "show_item": true,
             "title": "Beautiful tights",
-            "text": "<h2>Best tights ever. Comfy and sheer enough to look not like thick tights</h2>",
+            "text": "<h2>Best tights ever. Comfy and sheer enough to look not like thick tights.</h2>",
             "product_name": "No.1 Sheer tights",
             "image": "shopify://shop_images/onge-with-tights.webp",
             "second_image": "shopify://shop_images/onge-with-tights-1.webp",
@@ -426,7 +426,7 @@
           "settings": {
             "show_item": true,
             "title": "Winter staple for corporate women",
-            "text": "<h2>Winter staple for corporate women</h2>",
+            "text": "<h2>Winter staple for corporate women.</h2>",
             "product_name": "No.1 Sheer tights",
             "image": "shopify://shop_images/mal-with-tights-1.webp",
             "second_image": "shopify://shop_images/mal-with-tights.webp",
