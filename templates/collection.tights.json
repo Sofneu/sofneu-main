@@ -298,7 +298,7 @@
           "settings": {
             "advanced_heading": true,
             "heading": "Not Sure Which One to Choose?",
-            "heading_richtext": "<p><a href=\"/pages/shipping-policy\" title=\"Shipping Policy\">Not Sure Which One to Choose?</a></p>",
+            "heading_richtext": "<p><a href=\"/pages/tights-guide\" title=\"Tights Guide\">Not Sure Which One to Choose?</a></p>",
             "disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100,
