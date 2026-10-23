@@ -122,17 +122,17 @@
         "button_width_mobile": 176,
         "button_width_desktop": 192,
         "section_background": "#ffffff",
-        "image_label_color": "#2b2b2b",
+        "image_label_color": "{{ settings.colors.background }}",
         "benefit_title_color": "#2b2b2b",
         "benefit_text_color": "#6f6f6f",
         "image_position": "center",
         "mobile_max_width": 340,
         "desktop_max_width": 1200,
         "desktop_item_gap": 32,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 0,
-        "padding_top_desktop": 48,
-        "padding_bottom_desktop": 48
+        "padding_top_mobile": 12,
+        "padding_bottom_mobile": 12,
+        "padding_top_desktop": 20,
+        "padding_bottom_desktop": 20
       }
     }
   },
