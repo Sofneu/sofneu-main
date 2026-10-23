@@ -182,7 +182,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Shipping Carriers",
-            "content": "<p>We use trusted delivery partners to ship Sofneu orders. The carrier used depends on the destination and shipping service selected:</p><ul><li><strong>Standard Shipping:</strong> AU Post or Aramex</li><li><strong>Express Shipping:</strong> AU Post Express</li><li><strong>New Zealand Shipping:</strong> AU  Post International</li></ul><p>For Standard Shipping within Australia, the carrier is selected by Sofneu based on the delivery location and available shipping services.</p><p>Tracking information will be provided once your order has been dispatched.</p>",
+            "content": "<p>We use trusted delivery partners to ship Sofneu orders, including <strong>UPS, USPS, and FedEx</strong>. The carrier used depends on the shipping service selected, your delivery location, and your package weight.</p><p>Tracking information will be provided once your order has been dispatched.</p>",
             "page": "",
             "icon": "none",
             "icon_advanced_settings": false,
