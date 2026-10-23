@@ -208,21 +208,6 @@
             "open_by_default": false
           }
         },
-        "collapsible_tab_eFtrhU": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "New Zealand Duties and Taxes",
-            "content": "<p>For most orders valued at <strong>NZ$1,000 or less</strong>, New Zealand Customs generally does not collect duty or GST from the customer at the border.</p><p>Taxes, duties, customs charges or other fees may apply in certain circumstances, including where applicable thresholds are exceeded or where required by New Zealand law.</p><p>Any taxes collected by Sofneu at checkout, where applicable, will be displayed as part of your order before payment.</p>",
-            "page": "",
-            "icon": "none",
-            "icon_advanced_settings": false,
-            "icon_height_desktop": 28,
-            "icon_height": 27,
-            "icon_margin_desktop": 0,
-            "icon_margin": 0,
-            "open_by_default": false
-          }
-        },
         "collapsible_tab_ThxWTb": {
           "type": "collapsible_tab",
           "settings": {
@@ -332,7 +317,6 @@
       "block_order": [
         "collapsible_tab_zmEBQp",
         "collapsible_tab_nURMQc",
-        "collapsible_tab_eFtrhU",
         "collapsible_tab_ThxWTb",
         "collapsible_tab_Re3KXP",
         "collapsible_tab_BDq6cJ",
