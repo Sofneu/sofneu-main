@@ -78,6 +78,7 @@
       "block_order": [
         "column_yVYQQ3"
       ],
+      "disabled": true,
       "settings": {
         "layout": "option_3",
         "sticky_header": true,
