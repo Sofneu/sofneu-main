@@ -242,7 +242,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Incorrect or Incomplete Shipping Addresses",
-            "content": "<p>Please ensure that your shipping address is complete and accurate before placing your order.</p><p>If you need to change your address, contact us at <strong>service@sofneu.com.au</strong> as soon as possible.</p><p><strong>Before dispatch:</strong><br/><br/>If your order has not yet been dispatched, we will make reasonable efforts to update the address at no additional cost to you.</p><p><strong>After dispatch:</strong><br/><br/>Once an order has been dispatched, we cannot guarantee that the delivery address can be changed. We may attempt to arrange a redirect, recall or return with the carrier where available.</p><p>If an address change requested after dispatch results in additional costs, including <strong>carrier interception or redirection fees, return shipping fees, redelivery fees, or other reasonable logistics costs</strong>, these costs will be the customer’s responsibility.</p><p>Where an order cannot be recovered or is lost as a direct result of an incorrect address provided by the customer or an address change requested after dispatch, the customer may also be responsible for the resulting product loss, to the extent permitted by applicable law.</p><p>Nothing in this section limits your rights under applicable consumer law.</p>",
+            "content": "<p>Please ensure that your shipping address is complete and accurate before placing your order.</p><p>If you need to change your address, contact us at <strong>service@sofneu.com</strong> as soon as possible.</p><p><strong>Before dispatch:</strong><br/><br/>If your order has not yet been dispatched, we will make reasonable efforts to update the address at no additional cost to you.</p><p><strong>After dispatch:</strong><br/><br/>Once an order has been dispatched, we cannot guarantee that the delivery address can be changed. We may attempt to arrange a redirect, recall or return with the carrier where available.</p><p>If an address change requested after dispatch results in additional costs, including <strong>carrier interception or redirection fees, return shipping fees, redelivery fees, or other reasonable logistics costs</strong>, these costs will be the customer’s responsibility.</p><p>Where an order cannot be recovered or is lost as a direct result of an incorrect address provided by the customer or an address change requested after dispatch, the customer may also be responsible for the resulting product loss, to the extent permitted by applicable law.</p><p>Nothing in this section limits your rights under applicable consumer law.</p>",
             "page": "",
             "icon": "none",
             "icon_advanced_settings": false,
@@ -257,7 +257,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Lost Packages",
-            "content": "<p>If you believe your package has been lost in transit, please contact us at <strong>service@sofneu.com.au</strong> with your order number.</p><p>We may first investigate the delivery with the relevant carrier.</p><p>If the package is confirmed as lost, we will work with you to provide an appropriate resolution in accordance with applicable consumer law.<br/><br/></p>",
+            "content": "<p>If you believe your package has been lost in transit, please contact us at <strong>service@sofneu.com</strong> with your order number.</p><p>We may first investigate the delivery with the relevant carrier.</p><p>If the package is confirmed as lost, we will work with you to provide an appropriate resolution in accordance with applicable consumer law.<br/><br/></p>",
             "page": "",
             "icon": "none",
             "icon_advanced_settings": false,
@@ -272,7 +272,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Packages Marked as Delivered or Awaiting Collection",
-            "content": "<p>Please monitor your tracking information after your order has been dispatched, as the carrier may provide important delivery updates.</p><p>If delivery cannot be completed, your package may be taken to a nearby <strong>Post Office, collection point or other designated location</strong> for collection. Please follow the instructions provided by the carrier and collect your package within the specified timeframe.</p><p>If your tracking shows that your package has been delivered but you cannot locate it, please first:</p><ul><li>check the delivery location and any safe-drop areas;</li><li>check with household members, neighbours, reception or building management where applicable; and</li><li>review the latest tracking information to see whether the package is awaiting collection.</li></ul><p>If you still cannot locate your package, please contact us at <strong>service@sofneu.com.au</strong> and we will assist you with the next steps.</p><p>If a package is returned to us because it was not collected within the carrier’s required timeframe, additional shipping charges may apply if you request redelivery.<br/><br/></p>",
+            "content": "<p>Please monitor your tracking information after your order has been dispatched, as the carrier may provide important delivery updates.</p><p>If delivery cannot be completed, your package may be taken to a nearby <strong>Post Office, collection point or other designated location</strong> for collection. Please follow the instructions provided by the carrier and collect your package within the specified timeframe.</p><p>If your tracking shows that your package has been delivered but you cannot locate it, please first:</p><ul><li>check the delivery location and any safe-drop areas;</li><li>check with household members, neighbours, reception or building management where applicable; and</li><li>review the latest tracking information to see whether the package is awaiting collection.</li></ul><p>If you still cannot locate your package, please contact us at <strong>service@sofneu.com</strong> and we will assist you with the next steps.</p><p>If a package is returned to us because it was not collected within the carrier’s required timeframe, additional shipping charges may apply if you request redelivery.<br/><br/></p>",
             "page": "",
             "icon": "none",
             "icon_advanced_settings": false,
@@ -302,7 +302,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Returned to Sender",
-            "content": "<p>A package may be returned to us if it cannot be delivered, including where the address is incorrect or incomplete, or the package is not collected within the carrier’s required timeframe.</p><p>If a package is returned because it was <strong>not collected within the required timeframe</strong>, the customer will be responsible for any <strong>return shipping costs and redelivery costs</strong> incurred.</p><p>If your package is returned to us, please contact <strong>service@sofneu.com.au</strong> and we will assist you with the available redelivery options.</p><p>Nothing in this section limits your rights under applicable consumer law.</p>",
+            "content": "<p>A package may be returned to us if it cannot be delivered, including where the address is incorrect or incomplete, or the package is not collected within the carrier’s required timeframe.</p><p>If a package is returned because it was <strong>not collected within the required timeframe</strong>, the customer will be responsible for any <strong>return shipping costs and redelivery costs</strong> incurred.</p><p>If your package is returned to us, please contact <strong>service@sofneu.com</strong> and we will assist you with the available redelivery options.</p><p>Nothing in this section limits your rights under applicable consumer law.</p>",
             "page": "",
             "icon": "none",
             "icon_advanced_settings": false,
@@ -356,7 +356,7 @@
         "text_3rNwiN": {
           "type": "text",
           "settings": {
-            "text": "<p>If you have questions about shipping, tracking or the delivery of your order, </p><p>please contact:</p><p><strong>EROS INTIMATES PTY LTD</strong></p><p><strong>Trading as Sofneu</strong></p><p><strong>Email:</strong> service@sofneu.com.au</p>",
+            "text": "<p>If you have questions about shipping, tracking or the delivery of your order,&nbsp;</p><p>please contact:</p><p><strong>Sofneu LLC</strong><br/></p><p><strong>Trading as Sofneu</strong></p><p><strong>Email:</strong> service@sofneu.com.au</p>",
             "text_style": "body",
             "disable_on_mobile": false
           }
