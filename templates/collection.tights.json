@@ -180,7 +180,7 @@
         "margin-bottom": 20,
         "show_mobile_spacing": true,
         "margin-top-mobile": 0,
-        "margin-bottom-mobile": 10,
+        "margin-bottom-mobile": 0,
         "lcp_optimize": true
       }
     },

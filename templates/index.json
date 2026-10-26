@@ -108,7 +108,7 @@
         "small_ratio": "6 / 7",
         "image_fit": "cover",
         "image_radius": 0,
-        "gap": 0,
+        "gap": 6,
         "title_color": "#ffffff",
         "title_size_mobile": 16,
         "title_size_desktop": 36,
