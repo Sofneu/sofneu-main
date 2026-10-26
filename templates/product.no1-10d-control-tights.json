@@ -242,7 +242,7 @@
             "show_item": true,
             "title": "Fast & Reliable Delivery",
             "default_open": false,
-            "content": "<p>We offer reliable delivery across the U.S.</p><p><strong>Standard </strong>Delivery<strong>:</strong> 3–6 business days<br/><strong>Express </strong>Delivery: 2–3 business days<br/><strong>Priority </strong>Delivery<strong>:</strong> 1–2 business days</p><p>Free standard delivery is available on orders over $59.</p><p><em><strong>Click here to visit our Shipping Policy.</strong></em></p>",
+            "content": "<p>We offer reliable delivery across the U.S.</p><p><strong>Standard </strong>Delivery<strong>:</strong> 3–6 business days<br/><strong>Express </strong>Delivery: 2–3 business days<br/><strong>Priority </strong>Delivery<strong>:</strong> 1–2 business days</p><p>Free standard delivery is available on orders over $59.</p><p><a href=\"/pages/shipping-policy\" title=\"Shipping Policy\"><em><strong>Click here to visit our Shipping Policy.</strong></em></a></p>",
             "image_position": "top",
             "button_text": "",
             "button_link": "",
