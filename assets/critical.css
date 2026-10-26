@@ -4976,4 +4976,7 @@ body.no-focus-visible .search-overlay-on .wt-header__search__form:has(input:focu
 /* Balance the bag SVG internal whitespace against the account and flag. */
 @media (max-width: 1199px) {
   .wt-header__panel:has(.wt-header__store-dropdown-item) #cart-icon-bubble > svg.svg-icon--bag { translate: -1px 0; }
+  /* Anchor the count to the 24px bag, rather than the 36px control. */
+  .wt-header__panel:has(.wt-header__store-dropdown-item) #cart-icon-bubble > [data-icon-theme=option_1] + .wt-header__panel__counter { right: calc(6px - var(--gap, 8px)); bottom: calc(6px - var(--gap, 8px)); }
+  [dir=rtl] .wt-header__panel:has(.wt-header__store-dropdown-item) #cart-icon-bubble > [data-icon-theme=option_1] + .wt-header__panel__counter { right: auto; left: calc(6px - var(--gap, 8px) * 0.5); }
 }
