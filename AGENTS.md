@@ -11,7 +11,6 @@
 | `main` | AU（基准站） | 代码唯一来源 + AU 配置 |
 | `main-us` | US | 代码只从 `main` 合入 + US 配置 |
 | `main-<country>` | 新国家 | 同 `main-us` 模式 |
-| `feature/*` | — | 开发分支，PR → `main` |
 
 ## 路径规则（最重要的规则）
 
@@ -29,7 +28,7 @@ config/settings_data.json  sections/header-group.json  sections/footer-group.jso
 
 ## 操作规则
 
-1. **改代码**：只在 `main`（或 `feature/*` → PR → `main`）上改，然后逐条合入各国家分支：
+1. **改代码**：只在 `main` 上改，然后逐条合入各国家分支：
    ```bash
    git switch main && git pull
    # ...修改代码...
@@ -50,6 +49,22 @@ config/settings_data.json  sections/header-group.json  sections/footer-group.jso
 7. **提交纪律**：完成任何修改后**停在本地工作区，不要自行 `commit` / `push`，也不要自行
    合入国家分支**。先汇报改动内容，等待人工 review 后的明确指令，再执行第 1 条的提交与
    合入流程。
+
+## 模型保证与边界
+
+- **改动流程唯一**：所有代码改动直接在 `main` 上完成（操作规则 1）→ push 即 AU
+  上线（`main` 就是 AU 线上主题，Shopify 集成自动跟进）→ 按指令逐国同步。
+  不走 feature 分支 / PR 流程。
+- **特性必达每站**：国家分支的代码唯一来源是 `main`，合并方向单向、国家分支禁止
+  直接改代码，不存在代码分叉；逐国执行同步即全覆盖。
+- **线上配置不丢**：合并时 `.gitattributes` 的 `merge=ours` 自动保留目标国的
+  `settings_data.json`、`header-group.json`、`footer-group.json`、`templates/*.json`
+  （前提：克隆后已执行操作规则 5 的 `git config merge.ours.driver true`）。
+- **回退不断链**：一律 `git revert`、绝不 force push / 改写历史（Shopify 集成按
+  commit 追踪）。
+- **两个已知边界**：① `templates/*.json` 隔离优先——某国定制过的模板不会自动吃到
+  `main` 的改版，需人工判断移植（docs 3.4）；② `locales/` 属共享路径，`main-us` 的
+  `en.default.json` 现有一条 US 专属文案会被下次合并覆盖（docs 第 9 节待处理）。
 
 ## 禁止事项
 
