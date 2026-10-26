@@ -39,8 +39,8 @@
         "margin-top": 0,
         "margin-bottom": 0,
         "show_mobile_spacing": true,
-        "margin-top-mobile": 0,
-        "margin-bottom-mobile": 0
+        "margin-top-mobile": 8,
+        "margin-bottom-mobile": 12
       }
     },
     "rich_text_M8H7An": {
@@ -124,10 +124,10 @@
         "section_background": "#f9f7f3",
         "side_padding_mobile": 0,
         "side_padding_desktop": 0,
-        "padding_top_mobile": 20,
-        "padding_bottom_mobile": 20,
-        "padding_top_desktop": 40,
-        "padding_bottom_desktop": 40
+        "padding_top_mobile": 12,
+        "padding_bottom_mobile": 12,
+        "padding_top_desktop": 20,
+        "padding_bottom_desktop": 20
       }
     },
     "rich_text_RKpqdR": {
