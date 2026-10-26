@@ -824,6 +824,50 @@
         "padding_top_desktop": 20,
         "padding_bottom_desktop": 20
       }
+    },
+    "xt_product_pickup_GMLQah": {
+      "type": "xt-product-pickup",
+      "blocks": {
+        "product_HEBHML": {
+          "type": "product",
+          "settings": {
+            "product": "no1-10d-control-top-sheer-tights"
+          }
+        },
+        "product_nDwAjU": {
+          "type": "product",
+          "settings": {
+            "product": "50d-shimmer-tights"
+          }
+        },
+        "product_REYdag": {
+          "type": "product",
+          "settings": {
+            "product": "cleavage-silicone-sticky-bra"
+          }
+        },
+        "product_NC8PYj": {
+          "type": "product",
+          "settings": {
+            "product": "tencel-modal-short-sleeve-pajama-set"
+          }
+        }
+      },
+      "block_order": [
+        "product_HEBHML",
+        "product_nDwAjU",
+        "product_REYdag",
+        "product_NC8PYj"
+      ],
+      "name": "XT 商品选购区",
+      "settings": {
+        "title": "You May Also Like",
+        "subtitle": "",
+        "image_ratio": "portrait",
+        "show_product_rating": false,
+        "enable_quick_add_button": true,
+        "quick_add_mode": "below_product"
+      }
     }
   },
   "order": [
@@ -839,6 +883,7 @@
     "grid_view_rcbpWK",
     "before_and_after_EkW3rc",
     "background_video_iTM7p9",
-    "pair_comparison_htBBdW"
+    "pair_comparison_htBBdW",
+    "xt_product_pickup_GMLQah"
   ]
 }
