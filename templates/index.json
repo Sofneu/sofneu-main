@@ -39,8 +39,8 @@
         "margin-top": 0,
         "margin-bottom": 0,
         "show_mobile_spacing": true,
-        "margin-top-mobile": 8,
-        "margin-bottom-mobile": 12
+        "margin-top-mobile": 0,
+        "margin-bottom-mobile": 10
       }
     },
     "rich_text_M8H7An": {
