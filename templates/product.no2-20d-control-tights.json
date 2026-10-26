@@ -483,17 +483,30 @@
           "type": "heading",
           "settings": {
             "show_block": true,
-            "heading": "<p><strong>Flexible Stretch That Moves With You</strong></p>",
+            "heading": "<p><strong>Stretches to Fit You</strong></p>",
             "color": "#2b2b2b",
             "desktop_color": "#2b2b2b",
             "mobile_size": 16,
             "desktop_size": 36,
             "animation": "none"
           }
+        },
+        "text_XUELKm": {
+          "type": "text",
+          "settings": {
+            "show_block": true,
+            "text": "<p>Flexible stretch that adapts to your body</p>",
+            "color": "#2b2b2b",
+            "desktop_color": "#2b2b2b",
+            "mobile_size": 14,
+            "desktop_size": 16,
+            "animation": "none"
+          }
         }
       },
       "block_order": [
-        "heading_nBtyTT"
+        "heading_nBtyTT",
+        "text_XUELKm"
       ],
       "name": "Text Overlay",
       "settings": {
