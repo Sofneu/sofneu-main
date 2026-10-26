@@ -311,8 +311,9 @@
         "image_6Mapq8": {
           "type": "image",
           "settings": {
+            "desktop_image": "shopify://shop_images/free-shipping_1f4f8a23-bf48-406c-bcc8-b6e76204e20d.png",
             "select_icon": "bag",
-            "heading": "Free Delivery on A$59",
+            "heading": "Free Delivery on $59",
             "text": "",
             "link": ""
           }
@@ -320,6 +321,7 @@
         "image_PbAdtb": {
           "type": "image",
           "settings": {
+            "desktop_image": "shopify://shop_images/30-days_warranty_f2c1cd27-f6c6-4085-8701-9f83da5a4a0b.png",
             "select_icon": "user",
             "heading": "30-Day Free Returns",
             "text": "",
@@ -329,6 +331,7 @@
         "image_Cttxfp": {
           "type": "image",
           "settings": {
+            "desktop_image": "shopify://shop_images/snag-techlogy_2c580cf7-e88d-476c-99b7-a4478400521b.png",
             "select_icon": "search",
             "heading": "Anti-Snag Warranty",
             "text": "",
@@ -406,7 +409,7 @@
           "type": "heading",
           "settings": {
             "show_block": true,
-            "heading": "<p><strong>Sculpted Support, Without the Squeeze</strong></p>",
+            "heading": "<p><strong>Smooths Without the Squeeze</strong></p>",
             "color": "#2b2b2b",
             "desktop_color": "#2b2b2b",
             "mobile_size": 16,
@@ -414,44 +417,26 @@
             "animation": "none"
           }
         },
-        "icon_item_pYTdgD": {
-          "type": "icon_item",
+        "text_UpFXFA": {
+          "type": "text",
           "settings": {
             "show_block": true,
-            "icon": "shopify://shop_images/pdp-no1-1.svg",
-            "title": "Soft Stretch - Comfortable, flexible fit",
-            "mobile_icon_size": 26,
-            "desktop_icon_size": 52,
-            "max_width": 420,
-            "title_color": "#2b2b2b",
-            "desktop_title_color": "#2b2b2b",
-            "mobile_title_size": 12,
-            "desktop_title_size": 15
-          }
-        },
-        "icon_item_jTzGta": {
-          "type": "icon_item",
-          "settings": {
-            "show_block": true,
-            "icon": "shopify://shop_images/pdp-no1-2.svg",
-            "title": "Target Control - Smooth shaping support",
-            "mobile_icon_size": 26,
-            "desktop_icon_size": 52,
-            "max_width": 420,
-            "title_color": "#2b2b2b",
-            "desktop_title_color": "#2b2b2b",
-            "mobile_title_size": 12,
-            "desktop_title_size": 15
+            "text": "<p>Gentle shaping that never feels restrictive</p>",
+            "color": "#2b2b2b",
+            "desktop_color": "#2b2b2b",
+            "mobile_size": 14,
+            "desktop_size": 16,
+            "animation": "none"
           }
         }
       },
       "block_order": [
         "heading_7k9UKc",
-        "icon_item_pYTdgD",
-        "icon_item_jTzGta"
+        "text_UpFXFA"
       ],
       "name": "Text Overlay",
       "settings": {
+        "mobile_image": "shopify://shop_images/noqwaist1.webp",
         "image_size_mode": "auto",
         "mobile_image_height": 420,
         "desktop_image_height": 800,
@@ -466,7 +451,7 @@
         "mobile_content_gap": 16,
         "mobile_content_layout": "overlay",
         "mobile_overlay_x": 50,
-        "mobile_overlay_y": 85,
+        "mobile_overlay_y": 80,
         "mobile_overlay_safe_padding": 16,
         "content_alignment": "center",
         "content_text_align": "center",
