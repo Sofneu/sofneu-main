@@ -497,6 +497,7 @@
       ],
       "name": "Text Overlay",
       "settings": {
+        "mobile_image": "shopify://shop_images/no2waist2.webp",
         "image_size_mode": "auto",
         "mobile_image_height": 420,
         "desktop_image_height": 800,
@@ -511,7 +512,7 @@
         "mobile_content_gap": 16,
         "mobile_content_layout": "overlay",
         "mobile_overlay_x": 50,
-        "mobile_overlay_y": 50,
+        "mobile_overlay_y": 80,
         "mobile_overlay_safe_padding": 16,
         "content_alignment": "center",
         "content_text_align": "center",
