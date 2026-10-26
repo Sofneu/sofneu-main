@@ -4929,3 +4929,51 @@ body.no-focus-visible .search-overlay-on .wt-header__search__form:has(input:focu
   align-items: flex-start !important;
 }
 /*# sourceMappingURL=critical.css.map */
+
+/* Country dropdowns share styles; only the header trigger is flag-only. */
+.wt-header__panel__item.wt-header__store-dropdown-item { display: flex; align-items: center; }
+.wt-store-dropdown { position: relative; color: inherit; }
+.wt-store-dropdown > summary { display: flex; align-items: center; gap: 8px; min-height: 36px; cursor: pointer; list-style: none; white-space: nowrap; font-size: 14px; }
+.wt-store-dropdown > summary::-webkit-details-marker { display: none; }
+.wt-store-dropdown .wt-flag-icon { display: block; width: 24px; height: 18px; object-fit: cover; flex-shrink: 0; }
+.wt-store-dropdown--header > summary { width: 44px; height: 36px; justify-content: center; padding: 0; position: relative; }
+.wt-store-dropdown--header > summary::after { content: ''; position: absolute; inset: -4px 0; }
+.wt-store-dropdown__options { position: absolute; inset-block-start: 100%; inset-inline-end: 0; z-index: 50; margin: 8px 0 0; padding: 6px; list-style: none; width: 210px; max-width: calc(100vw - 32px); background: var(--color-header-background); color: var(--color-header-text); border: 1px solid var(--color-border); border-radius: 4px; box-shadow: 0 4px 16px #0002; }
+.wt-store-dropdown__options li, .wt-store-dropdown__options form { margin: 0; padding: 0; list-style: none; }
+.wt-store-dropdown__options a, .wt-store-dropdown__options button, .wt-store-dropdown__current { display: flex; align-items: center; gap: 10px; width: 100%; min-height: 44px; margin: 0; padding: 8px; border: 0; border-radius: 0; background: transparent; justify-content: flex-start; letter-spacing: normal; text-transform: none; font: inherit; font-size: 14px; line-height: 1.4; white-space: nowrap; color: inherit; text-decoration: none; text-align: start; box-sizing: border-box; }
+.wt-store-dropdown__options button { cursor: pointer; }
+.wt-store-dropdown__options a:hover, .wt-store-dropdown__options button:hover { background: var(--color-background); }
+.wt-store-dropdown__options a:focus-visible, .wt-store-dropdown__options button:focus-visible, .wt-store-dropdown > summary:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+.wt-store-dropdown--footer .wt-store-dropdown__options { inset-inline-start: 0; inset-inline-end: auto; inset-block-start: auto; inset-block-end: 100%; margin: 0 0 8px; }
+.wt-store-dropdown--footer { color: inherit; }
+.wt-store-dropdown--menu .wt-store-dropdown__options { position: static; width: 100%; margin-block-start: 4px; padding: 0; border: 0; border-radius: 0; background: transparent; color: inherit; box-shadow: none; }
+.search-overlay-on .wt-header__store-dropdown-item { visibility: hidden; }
+/* Keep every desktop control on the same axis as the navigation. */
+.wt-header__panel:has(.wt-header__store-dropdown-item) { align-items: center; }
+.wt-header__panel:has(.wt-header__store-dropdown-item) > .wt-header__panel__item { display: flex; align-items: center; justify-content: center; }
+.wt-header__panel:has(.wt-header__store-dropdown-item) shopify-account { height: 36px; display: flex; align-items: center; justify-content: center; }
+.wt-header__panel:has(.wt-header__store-dropdown-item) > .wt-header__panel__item > .wt-header__panel__link > .svg-icon,
+.wt-header__panel:has(.wt-header__store-dropdown-item) shopify-account [slot="signed-out-avatar"] > .svg-icon { display: block; }
+@media (max-width: 1199px) {
+  .wt-header__panel:has(.wt-header__store-dropdown-item) { align-items: center; }
+  .wt-header__panel:has(.wt-header__store-dropdown-item) > .wt-header__panel__item { display: flex; align-items: center; justify-content: center; width: 36px; flex: 0 0 36px; margin: 0; }
+  .wt-header__panel:has(.wt-header__store-dropdown-item) > .wt-header__panel__item > .wt-header__panel__link > svg.svg-icon,
+  .wt-header__panel:has(.wt-header__store-dropdown-item) shopify-account [slot="signed-out-avatar"] > svg.svg-icon { width: 24px; height: 24px; }
+  .wt-header__body:has(.wt-header__store-dropdown-item) .wt-header__aside > .wt-header__menu-trigger > svg.svg-icon,
+  .wt-header__body:has(.wt-header__store-dropdown-item) .wt-header__aside .wt-header__search-trigger > svg.svg-icon { width: 24px; height: 24px; }
+  .wt-header__panel:has(.wt-header__store-dropdown-item) shopify-account { align-self: center; width: 36px; height: 36px; }
+  .wt-header__panel:has(.wt-header__store-dropdown-item) .wt-header__panel__link { width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; }
+  .wt-store-dropdown--header > summary { width: 36px; }
+  .wt-store-dropdown--footer .wt-store-dropdown__options { inset-inline-start: 0; inset-inline-end: auto; }
+}
+@media (max-width: 359px) {
+  .wt-header__body:has(.wt-header__store-dropdown-item):not(.wt-header__body--search) .wt-header__logo { left: calc(50% - 12px); }
+  .wt-header__body:has(.wt-header__store-dropdown-item) .wt-header__logo__link { max-width: 72px; }
+}
+
+.wt-store-dropdown--menu .wt-store-dropdown__options a:hover, .wt-store-dropdown--menu .wt-store-dropdown__options button:hover { background: rgba(255, 255, 255, 0.08); }
+
+/* Balance the bag SVG internal whitespace against the account and flag. */
+@media (max-width: 1199px) {
+  .wt-header__panel:has(.wt-header__store-dropdown-item) #cart-icon-bubble > svg.svg-icon--bag { translate: -1px 0; }
+}
