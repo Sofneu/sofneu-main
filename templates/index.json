@@ -375,7 +375,7 @@
             "benefit_2_enabled": true,
             "benefit_2_icon": "shopify://shop_images/fast-shipping.svg",
             "benefit_2_icon_alt": "Fast Shipping From U.S.",
-            "benefit_2_text": "Fast Shipping From U.S.",
+            "benefit_2_text": "Fast Local Shipping",
             "benefit_2_link": "",
             "benefit_3_enabled": true,
             "benefit_3_icon": "shopify://shop_images/quick_support.svg",
