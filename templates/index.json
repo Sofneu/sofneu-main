@@ -68,8 +68,8 @@
         "section_width": "regular",
         "desktop_text_horizontal_position": "center",
         "full-width-enabled": false,
-        "color-body-text": "#2B2B2B",
-        "background_color": "#F9F7F3",
+        "color-body-text": "#2b2b2b",
+        "background_color": "#f9f7f3",
         "background_gradient": "",
         "margin-top": 20,
         "margin-bottom": 20,
@@ -126,7 +126,7 @@
         "side_padding_desktop": 0,
         "padding_top_mobile": 12,
         "padding_bottom_mobile": 12,
-        "padding_top_desktop": 20,
+        "padding_top_desktop": 0,
         "padding_bottom_desktop": 20
       }
     },
