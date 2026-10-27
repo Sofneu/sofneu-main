@@ -681,16 +681,16 @@
             "product": "80d-velvet-control-top-opaque-tights"
           }
         },
-        "product_kk6hC6": {
-          "type": "product",
-          "settings": {
-            "product": "no2-20d-control-top-sheer-tights"
-          }
-        },
         "product_P7UM9p": {
           "type": "product",
           "settings": {
             "product": "tencel-modal-long-sleeve-pajama-set"
+          }
+        },
+        "product_kk6hC6": {
+          "type": "product",
+          "settings": {
+            "product": "cleavage-silicone-sticky-bra"
           }
         },
         "product_TaV9wn": {
@@ -702,8 +702,8 @@
       },
       "block_order": [
         "product_8nfL7U",
-        "product_kk6hC6",
         "product_P7UM9p",
+        "product_kk6hC6",
         "product_TaV9wn"
       ],
       "name": "XT 商品选购区",
