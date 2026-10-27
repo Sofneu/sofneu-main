@@ -2,10 +2,23 @@
 <script src="{{ 'localization-drawer.js' | asset_url }}" defer="defer"></script>
 
 {% liquid
+  assign store_switch_target = 'US'
+  assign store_switch_url = settings.store_switch_us_url
+  if settings.store_switch_current == 'US'
+    assign store_switch_target = 'AU'
+    assign store_switch_url = settings.store_switch_au_url
+  endif
+
+  assign show_store_switch = false
+  assign store_switch_protocol = store_switch_url | slice: 0, 8
+  if settings.enable_store_switch and store_switch_url != blank and store_switch_protocol == 'https://'
+    assign show_store_switch = true
+  endif
+
   assign show_country_selector = false
   assign show_lang_selector = false
 
-  if localization.available_countries.size > 0
+  if localization.available_countries.size > 0 or show_store_switch
     assign show_country_selector = true
   endif
 
@@ -132,7 +145,13 @@
           </div>
 
           <ul class="wt-localization-drawer__countries country-selector">
+            {% if show_store_switch %}
+              {% render 'store-switch-link', country_code: store_switch_target, store_url: store_switch_url %}
+            {% endif %}
             {% for country in localization.available_countries %}
+              {% if show_store_switch and country.iso_code == store_switch_target %}
+                {% continue %}
+              {% endif %}
               {% unless country.iso_code == localization.country.iso_code %}
                 <li
                   class="country-selector__item"

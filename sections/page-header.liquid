@@ -221,7 +221,7 @@
         class="wt-header__localization__triggers"
         data-text-transform="{{ settings.type_navigation_font_uppercase }}"
       >
-        {% if section.settings.show_country_selector -%}
+        {% if section.settings.show_country_selector and settings.enable_store_switch != true -%}
           {%- render 'localization-btn-local',
             show_country_code: section.settings.show_country_selector_label,
             show_country_flag: section.settings.show_country_selector_flag
@@ -649,6 +649,11 @@
           <span class="wt-header__panel__label">{{ 'templates.cart.cart' | t }}</span>
         </a>
       </li>
+      {% if settings.enable_store_switch %}
+        <li class="wt-header__panel__item wt-header__store-dropdown-item">
+          {% render 'store-switch-dropdown', placement: 'header' %}
+        </li>
+      {% endif %}
     </ul>
     {% if section.settings.show_line_separator %}
       <div class="wt-header__spacer"></div>
@@ -742,11 +747,15 @@
                   class="wt-header__localization__triggers wt-header__localization__triggers--menu-drawer"
                 >
                   {% if section.settings.show_country_selector -%}
+                    {% if settings.enable_store_switch %}
+                      {% render 'store-switch-dropdown', placement: 'menu' %}
+                    {% else %}
                     {%- render 'localization-btn-local',
                       show_country_code: section.settings.show_country_selector_label,
                       show_country_flag: section.settings.show_country_selector_flag,
                       tabindex: '-1'
                     -%}
+                    {% endif %}
                   {%- endif %}
                   {% if section.settings.show_language_selector %}{% render 'localization-btn-lang', tabindex: '-1' %}{% endif %}
                 </div>
