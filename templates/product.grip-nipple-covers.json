@@ -561,6 +561,50 @@
         "margin-top-mobile": 0,
         "margin-bottom-mobile": 0
       }
+    },
+    "xt_product_pickup_DifzAG": {
+      "type": "xt-product-pickup",
+      "blocks": {
+        "product_iVFCbi": {
+          "type": "product",
+          "settings": {
+            "product": "push-up-bra-inserts"
+          }
+        },
+        "product_4PYe9g": {
+          "type": "product",
+          "settings": {
+            "product": "ultra-light-fabric-sticky-bra"
+          }
+        },
+        "product_j4refm": {
+          "type": "product",
+          "settings": {
+            "product": "80d-velvet-control-top-opaque-tights"
+          }
+        },
+        "product_m8pHKm": {
+          "type": "product",
+          "settings": {
+            "product": "200d-fleece-lined-thermal-tights"
+          }
+        }
+      },
+      "block_order": [
+        "product_iVFCbi",
+        "product_4PYe9g",
+        "product_j4refm",
+        "product_m8pHKm"
+      ],
+      "name": "XT 商品选购区",
+      "settings": {
+        "title": "You May Also Like",
+        "subtitle": "",
+        "image_ratio": "portrait",
+        "show_product_rating": false,
+        "enable_quick_add_button": true,
+        "quick_add_mode": "below_product"
+      }
     }
   },
   "order": [
@@ -570,6 +614,7 @@
     "product_accordion_tabs_VWMA9q",
     "grid_view_G3NxGN",
     "grid_view_wCynBd",
-    "grid_view_nKwkMT"
+    "grid_view_nKwkMT",
+    "xt_product_pickup_DifzAG"
   ]
 }
