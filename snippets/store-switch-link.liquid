@@ -1,0 +1,25 @@
+{%- liquid
+  assign country_name = 'United States'
+  assign currency_code = 'USD'
+  if country_code == 'AU'
+    assign country_name = 'Australia'
+    assign currency_code = 'AUD'
+  endif
+-%}
+<li
+  class="country-selector__item"
+  tabindex="-1"
+  data-filter-name="{{ country_name }} {{ country_code }} {{ currency_code }}"
+>
+  <a
+    class="country-selector__trigger"
+    href="{{ store_url | escape }}"
+    data-store-link
+  >
+    {% if settings.show_flag_in_localization_drawer %}
+      {% render 'flag-icon', country_code: country_code, alt: country_name %}
+    {% endif %}
+    <span class="country-selector__item__name">{{ country_name }}</span>
+    <span class="country-selector__item__currency">{{ currency_code }} $</span>
+  </a>
+</li>
