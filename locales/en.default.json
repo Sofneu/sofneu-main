@@ -323,7 +323,7 @@
       "cart_error": "There was an error while updating your cart. Please try again.",
       "cart_quantity_error_html": "You can only add {{ quantity }} of this item to your cart.",
       "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a class=\"policy-link\" href=\"{{ link }}\" tabindex=\"{{ tabindex }}\">shipping</a> calculated at checkout",
-      "taxes_included_but_shipping_at_checkout": "Shipping & taxes calculated at checkout",
+      "taxes_included_but_shipping_at_checkout": "Shipping calculated at checkout",
       "taxes_included_and_shipping_policy_html": " <a class=\"policy-link\" href=\"{{ link }}\" tabindex=\"{{ tabindex }}\">Shipping</a> & taxes calculated at checkout",
       "taxes_and_shipping_at_checkout": "Shipping calculated at checkout",
       "headings": {
