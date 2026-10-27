@@ -1,0 +1,45 @@
+{%- liquid
+  assign current_store = settings.store_switch_current | default: 'AU'
+  assign active_country = current_store
+  assign country_name = 'Australia'
+  assign currency_code = 'AUD'
+  if current_store == 'US'
+    assign country_name = 'United States'
+    assign currency_code = 'USD'
+  elsif localization.country.iso_code == 'NZ'
+    assign active_country = 'NZ'
+    assign country_name = 'New Zealand'
+  endif
+  assign placement = placement | default: 'header'
+  assign au_protocol = settings.store_switch_au_url | slice: 0, 8
+  assign us_protocol = settings.store_switch_us_url | slice: 0, 8
+  assign au_home = settings.store_switch_au_url | split: '?' | first
+  assign au_url = au_home | append: '?country=AU'
+  assign nz_url = au_home | append: '?country=NZ'
+-%}
+<details class="wt-store-dropdown wt-store-dropdown--{{ placement }}" data-store-dropdown>
+  <summary aria-label="Choose country: {{ country_name }}" tabindex="0">
+    {% render 'flag-icon', country_code: active_country, alt: country_name %}
+    {% unless placement == 'header' %}
+      <span>{{ country_name }} · {{ currency_code }}</span>
+      <span aria-hidden="true">⌃</span>
+    {% endunless %}
+  </summary>
+  <ul class="wt-store-dropdown__options">
+    {% if current_store == 'AU' %}
+      <li><a data-store-local-country="AU" href="{{ request.path | escape }}?country=AU"{% if active_country == 'AU' %} aria-current="true"{% endif %}>{% render 'flag-icon', country_code: 'AU', alt: '' %}<span>Australia · AUD</span></a></li>
+    {% elsif au_protocol == 'https://' %}
+      <li><a href="{{ au_url | escape }}">{% render 'flag-icon', country_code: 'AU', alt: '' %}<span>Australia · AUD</span></a></li>
+    {% endif %}
+    {% if current_store == 'US' %}
+      <li><span class="wt-store-dropdown__current" aria-current="true">{% render 'flag-icon', country_code: 'US', alt: '' %}<span>United States · USD</span></span></li>
+    {% elsif us_protocol == 'https://' %}
+      <li><a href="{{ settings.store_switch_us_url | escape }}">{% render 'flag-icon', country_code: 'US', alt: '' %}<span>United States · USD</span></a></li>
+    {% endif %}
+    {% if current_store == 'AU' %}
+      <li><a data-store-local-country="NZ" href="{{ request.path | escape }}?country=NZ"{% if active_country == 'NZ' %} aria-current="true"{% endif %}>{% render 'flag-icon', country_code: 'NZ', alt: '' %}<span>New Zealand · AUD</span></a></li>
+    {% elsif au_protocol == 'https://' %}
+      <li><a href="{{ nz_url | escape }}">{% render 'flag-icon', country_code: 'NZ', alt: '' %}<span>New Zealand · AUD</span></a></li>
+    {% endif %}
+  </ul>
+</details>

@@ -279,10 +279,14 @@
               class="wt-footer__localization__triggers"
             >
               {% if section.settings.show_country_selector -%}
+                {% if settings.enable_store_switch %}
+                  {% render 'store-switch-dropdown', placement: 'footer' %}
+                {% else %}
                 {%- render 'localization-btn-local',
                   show_country_code: section.settings.show_country_selector_label,
                   show_country_flag: section.settings.show_country_selector_flag
                 -%}
+                {% endif %}
               {%- endif %}
               {% if section.settings.show_language_selector %}{% render 'localization-btn-lang' %}{% endif %}
             </div>

@@ -268,7 +268,10 @@ class LocalizationDrawer extends HTMLElement {
     const countryForm = document.querySelector("#DrawerCountryForm");
     if (countryForm) {
       const countryInput = countryForm.querySelector('[name="country_code"]');
-      const countryLinks = this.querySelectorAll(".country-selector__trigger");
+      // Cross-store links use normal navigation, including keyboard and new-tab clicks.
+      const countryLinks = this.querySelectorAll(
+        ".country-selector__trigger:not([data-store-link])",
+      );
 
       countryLinks.forEach((link) => {
         link.addEventListener("click", (e) => {
@@ -295,3 +298,40 @@ class LocalizationDrawer extends HTMLElement {
 }
 
 customElements.define("localization-drawer", LocalizationDrawer);
+
+// Independent compact store dropdown; never opens the localization drawer.
+document.addEventListener("click", (event) => {
+  document.querySelectorAll("details[data-store-dropdown][open]").forEach((dropdown) => {
+    if (!dropdown.contains(event.target)) dropdown.open = false;
+  });
+});
+document.addEventListener("keydown", (event) => {
+  if (event.key !== "Escape") return;
+  document.querySelectorAll("details[data-store-dropdown][open]").forEach((dropdown) => {
+    dropdown.open = false;
+    dropdown.querySelector("summary")?.focus();
+  });
+});
+
+// Only same-store country links retain page state; cross-store links stay homepages.
+function refreshLocalCountryLinks(dropdown) {
+  dropdown.querySelectorAll('a[data-store-local-country]').forEach((link) => {
+    const destination = new URL(window.location.href);
+    destination.searchParams.set('country', link.dataset.storeLocalCountry);
+    link.href = destination.href;
+  });
+}
+document.querySelectorAll('details[data-store-dropdown]').forEach(refreshLocalCountryLinks);
+document.addEventListener('toggle', (event) => {
+  if (event.target.matches?.('details[data-store-dropdown][open]')) {
+    refreshLocalCountryLinks(event.target);
+  }
+}, true);
+// Refresh before default navigation for touch, mouse and keyboard activation.
+function refreshCountryLinkBeforeNavigation(event) {
+  const link = event.target.closest?.('a[data-store-local-country]');
+  if (link) refreshLocalCountryLinks(link.closest('details[data-store-dropdown]'));
+}
+document.addEventListener('pointerdown', refreshCountryLinkBeforeNavigation, true);
+document.addEventListener('click', refreshCountryLinkBeforeNavigation, true);
+document.addEventListener('focusin', refreshCountryLinkBeforeNavigation);

@@ -1421,6 +1421,39 @@
         "id": "show_flag_in_localization_drawer",
         "label": "t:settings_schema.localization_drawer.settings.show_flag_in_localization_drawer.label",
         "default": true
+      },
+      {
+        "type": "header",
+        "content": "AU / US store switching"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_store_switch",
+        "label": "Enable AU / US store links",
+        "default": false,
+        "info": "Opens the other store homepage. Carts do not transfer between stores."
+      },
+      {
+        "type": "select",
+        "id": "store_switch_current",
+        "label": "This store",
+        "options": [
+          { "value": "AU", "label": "Australia" },
+          { "value": "US", "label": "United States" }
+        ],
+        "default": "AU"
+      },
+      {
+        "type": "url",
+        "id": "store_switch_au_url",
+        "label": "Australia store homepage",
+        "info": "Use an absolute HTTPS URL, e.g. https://sofneu.com.au/"
+      },
+      {
+        "type": "url",
+        "id": "store_switch_us_url",
+        "label": "United States store homepage",
+        "info": "Use an absolute HTTPS URL, e.g. https://sofneu.com/"
       }
     ]
   },
