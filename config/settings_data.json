@@ -160,6 +160,11 @@
         "type": "shopify://apps/cwilltrustoo-reviews/blocks/trustoo-review-switch/c8f15077-6475-4e86-ad06-b66038d5ba2c",
         "disabled": false,
         "settings": {}
+      },
+      "13305437469741356523": {
+        "type": "shopify://apps/gsc-instagram-feed/blocks/embed/96970b1b-b770-454f-b16b-51f47e1aa4ed",
+        "disabled": false,
+        "settings": {}
       }
     },
     "colors": {
