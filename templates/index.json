@@ -214,7 +214,7 @@
       "name": "Text Overlay",
       "settings": {
         "mobile_image": "shopify://shop_images/comfot.webp",
-        "image_size_mode": "custom",
+        "image_size_mode": "auto",
         "mobile_image_height": 400,
         "desktop_image_height": 800,
         "image_fit": "cover",
