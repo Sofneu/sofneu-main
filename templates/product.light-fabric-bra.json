@@ -35,6 +35,18 @@
             "size_text_mobile": 100
           }
         },
+        "cwilltrustoo_reviews_star_rating_widget_aJfJMq": {
+          "type": "shopify://apps/cwilltrustoo-reviews/blocks/star-rating-widget/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+          "settings": {
+            "star_size": 20,
+            "font_size": 16,
+            "text_color": "#2b2b2b",
+            "block_aligment": "left",
+            "rating_decimal_places": "1",
+            "margin_top": 8,
+            "margin_bottom": 8
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -121,6 +133,7 @@
       },
       "block_order": [
         "title",
+        "cwilltrustoo_reviews_star_rating_widget_aJfJMq",
         "price",
         "product_variations_7LBAAU",
         "variant_picker_7mHC3V",
@@ -652,6 +665,23 @@
         "enable_quick_add_button": true,
         "quick_add_mode": "below_product"
       }
+    },
+    "179309527571f90dad": {
+      "type": "apps",
+      "blocks": {
+        "cwilltrustoo_reviews_review_widget_GtwjnX": {
+          "type": "shopify://apps/cwilltrustoo-reviews/blocks/review-widget/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+          "settings": {
+            "product": "ultra-light-fabric-sticky-bra"
+          }
+        }
+      },
+      "block_order": [
+        "cwilltrustoo_reviews_review_widget_GtwjnX"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -663,6 +693,7 @@
     "grid_view_wCynBd",
     "grid_view_nKwkMT",
     "grid_view_cCPAKE",
-    "xt_product_pickup_UH3GrB"
+    "xt_product_pickup_UH3GrB",
+    "179309527571f90dad"
   ]
 }

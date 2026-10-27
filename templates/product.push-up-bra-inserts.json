@@ -35,6 +35,18 @@
             "size_text_mobile": 100
           }
         },
+        "cwilltrustoo_reviews_star_rating_widget_pdMTpU": {
+          "type": "shopify://apps/cwilltrustoo-reviews/blocks/star-rating-widget/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+          "settings": {
+            "star_size": 20,
+            "font_size": 16,
+            "text_color": "#2b2b2b",
+            "block_aligment": "left",
+            "rating_decimal_places": "1",
+            "margin_top": 8,
+            "margin_bottom": 8
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -86,6 +98,7 @@
       },
       "block_order": [
         "title",
+        "cwilltrustoo_reviews_star_rating_widget_pdMTpU",
         "price",
         "variant_picker_7mHC3V",
         "buy_buttons"
@@ -378,7 +391,7 @@
         "section_width": "regular",
         "desktop_text_horizontal_position": "center",
         "full-width-enabled": false,
-        "color-body-text": "#2B2B2B",
+        "color-body-text": "#2b2b2b",
         "background_color": "",
         "background_gradient": "",
         "margin-top": 20,
@@ -476,6 +489,23 @@
         "enable_quick_add_button": true,
         "quick_add_mode": "below_product"
       }
+    },
+    "17930953409634c216": {
+      "type": "apps",
+      "blocks": {
+        "cwilltrustoo_reviews_review_widget_nzWEpq": {
+          "type": "shopify://apps/cwilltrustoo-reviews/blocks/review-widget/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+          "settings": {
+            "product": "push-up-bra-inserts"
+          }
+        }
+      },
+      "block_order": [
+        "cwilltrustoo_reviews_review_widget_nzWEpq"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -487,6 +517,7 @@
     "text_overlay_9AbVzy",
     "rich_text_NFBxQb",
     "text_overlay_pPWpUC",
-    "xt_product_pickup_jMkEQ4"
+    "xt_product_pickup_jMkEQ4",
+    "17930953409634c216"
   ]
 }
