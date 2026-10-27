@@ -132,7 +132,7 @@
           "settings": {
             "heading": "Product Grade",
             "show_info_icon": true,
-            "info_page": "",
+            "info_page": "understanding-product-grade",
             "desktop_columns": "4",
             "show_item_1": true,
             "title_1": "Warmth",
