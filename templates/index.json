@@ -25,7 +25,7 @@
         "video_custom_play_controls": true,
         "video_custom_mute_controls": true,
         "video_url": "",
-        "original_ratio": "fixed_height",
+        "original_ratio": "original_ratio",
         "desktop_fixed_height": 1000,
         "mobile_fixed_height": 560,
         "color-body-heading": "rgba(0,0,0,0)",
