@@ -193,7 +193,7 @@
             "show_card": true,
             "image": "shopify://shop_images/10d-top.webp",
             "name": "Ultra Sheer (10D)",
-            "temperature": "25–35°C",
+            "temperature": "25 – 35°C",
             "feeling": "Almost invisible",
             "link": "",
             "jump_target": "10D"
@@ -205,7 +205,7 @@
             "show_card": true,
             "image": "shopify://shop_images/20d-top.webp",
             "name": "Sheer (20D)",
-            "temperature": "20–30°C",
+            "temperature": "20 – 30°C",
             "feeling": "Light sheer",
             "link": "",
             "jump_target": "20D"
@@ -230,7 +230,7 @@
             "show_card": true,
             "image": "shopify://shop_images/80d-top.webp",
             "name": "Opaque (80D)",
-            "temperature": "-5–15°C",
+            "temperature": "-5 – 15°C",
             "feeling": "Opaque",
             "link": "",
             "jump_target": "80D"
@@ -242,7 +242,7 @@
             "show_card": true,
             "image": "shopify://shop_images/200d-top.webp",
             "name": "Fleece (200D)",
-            "temperature": "-10–5°C",
+            "temperature": "-10 – 5°C",
             "feeling": "Opaque Extra warm",
             "link": "",
             "jump_target": "200D"
@@ -254,7 +254,7 @@
             "show_card": true,
             "image": "shopify://shop_images/pattern-top.webp",
             "name": "Patterned",
-            "temperature": "10–25°C",
+            "temperature": "10 – 25°C",
             "feeling": "Chic essentials",
             "link": "",
             "jump_target": "pattern"
