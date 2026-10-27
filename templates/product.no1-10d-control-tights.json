@@ -35,6 +35,18 @@
             "size_text_mobile": 100
           }
         },
+        "cwilltrustoo_reviews_star_rating_widget_bAG3JL": {
+          "type": "shopify://apps/cwilltrustoo-reviews/blocks/star-rating-widget/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+          "settings": {
+            "star_size": 20,
+            "font_size": 16,
+            "text_color": "#2B2B2B",
+            "block_aligment": "left",
+            "rating_decimal_places": "1",
+            "margin_top": 8,
+            "margin_bottom": 8
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -86,6 +98,7 @@
       },
       "block_order": [
         "title",
+        "cwilltrustoo_reviews_star_rating_widget_bAG3JL",
         "price",
         "variant_picker_7mHC3V",
         "buy_buttons"
@@ -755,6 +768,23 @@
         "enable_quick_add_button": true,
         "quick_add_mode": "below_product"
       }
+    },
+    "17930934455fd655db": {
+      "type": "apps",
+      "blocks": {
+        "cwilltrustoo_reviews_review_widget_3p8B8n": {
+          "type": "shopify://apps/cwilltrustoo-reviews/blocks/review-widget/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+          "settings": {
+            "product": "no1-10d-control-top-sheer-tights"
+          }
+        }
+      },
+      "block_order": [
+        "cwilltrustoo_reviews_review_widget_3p8B8n"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -769,6 +799,7 @@
     "before_and_after_EkW3rc",
     "background_video_8W8AWe",
     "pair_comparison_htBBdW",
-    "xt_product_pickup_ULp7eq"
+    "xt_product_pickup_ULp7eq",
+    "17930934455fd655db"
   ]
 }
