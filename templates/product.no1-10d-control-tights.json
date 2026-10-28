@@ -40,7 +40,7 @@
           "settings": {
             "star_size": 20,
             "font_size": 16,
-            "text_color": "#2B2B2B",
+            "text_color": "#2b2b2b",
             "block_aligment": "left",
             "rating_decimal_places": "1",
             "margin_top": 8,
@@ -145,7 +145,7 @@
           "settings": {
             "heading": "Product Grade",
             "show_info_icon": true,
-            "info_page": "",
+            "info_page": "understanding-product-grade",
             "desktop_columns": "4",
             "show_item_1": true,
             "title_1": "Warmth",
