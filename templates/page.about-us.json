@@ -613,6 +613,51 @@
         "margin-top-mobile": 10,
         "margin-bottom-mobile": 10
       }
+    },
+    "rich_text_QJYCCT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UDdaGt": {
+          "type": "heading",
+          "settings": {
+            "advanced_heading": true,
+            "heading": "Our Studio / Contact",
+            "heading_richtext": "<p><strong>Our Studio / Contact</strong></p>",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100,
+            "heading_richtext_color": "",
+            "heading_richtext_gradient": ""
+          }
+        },
+        "text_WtWmC4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Email: service@sofneu.com</p><p>Address:&nbsp;</p><p>Registered Agents Inc</p><p>30 N Gould St Ste R</p><p>Sheridan, WY 82801</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_UDdaGt",
+        "text_WtWmC4"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "center",
+        "full-width-enabled": false,
+        "color-body-text": "",
+        "background_color": "",
+        "background_gradient": "",
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "show_mobile_spacing": true,
+        "margin-top-mobile": 0,
+        "margin-bottom-mobile": 0,
+        "compact_size": false
+      }
     }
   },
   "order": [
@@ -625,6 +670,7 @@
     "rich_text_wBKJBy",
     "pair_comparison_njYid7",
     "sofneu_carousel_FCRYND",
-    "multicolumn_D33mfA"
+    "multicolumn_D33mfA",
+    "rich_text_QJYCCT"
   ]
 }
