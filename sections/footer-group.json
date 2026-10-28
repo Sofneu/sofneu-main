@@ -44,7 +44,7 @@
           "type": "text",
           "settings": {
             "heading_text": "Contact Us",
-            "text": "<p><strong>Email: service@sofneu.com</strong></p>"
+            "text": "<p><strong>Email:</strong> service@sofneu.com</p><p><strong>Company: </strong>Sofneu LLC</p><p><strong>Address: </strong>30 N Gould St, Sheridan, WY 82801, United States</p>"
           }
         }
       },
