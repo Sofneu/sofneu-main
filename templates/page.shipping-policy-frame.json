@@ -197,7 +197,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Order Processing",
-            "content": "<p>Orders received before 12:00pm EST will be shipped that same business day.</p><p>Orders are typically processed and dispatched within <strong>1–2 business days</strong> after your order is successfully placed.</p><p>Orders placed on weekends or public holidays will generally begin processing on the next business day.</p><p>During peak periods, major promotions or public holidays, processing may occasionally take longer.</p><p>Once your order has been dispatched, you will receive a shipping confirmation email with tracking information where available.</p>",
+            "content": "<p>Orders placed before 5:00 PM EST will be processed the same business day. Orders placed after 5:00 PM EST will be processed the next business day.</p><p>Orders placed on weekends or public holidays will generally begin processing on the next business day.</p><p>During peak periods, major promotions or public holidays, processing may occasionally take longer.</p><p>Once your order has been dispatched, you will receive a shipping confirmation email with tracking information where available.</p>",
             "page": "",
             "icon": "none",
             "icon_advanced_settings": false,
