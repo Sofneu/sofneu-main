@@ -131,7 +131,7 @@
     "store_switch_current": "US",
     "store_switch_au_url": "https://sofneu.com.au/",
     "store_switch_us_url": "https://sofneu.com/",
-    "currency_code_enabled": true,
+    "currency_code_enabled": false,
     "iconset": "option_1",
     "enable-bag-icon": false,
     "enable-lock-icon": true,
