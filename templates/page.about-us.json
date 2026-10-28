@@ -622,7 +622,7 @@
           "settings": {
             "advanced_heading": true,
             "heading": "Our Studio / Contact",
-            "heading_richtext": "<p><strong>Our Studio / Contact</strong></p>",
+            "heading_richtext": "<p><strong>Contact Us</strong></p>",
             "disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100,
@@ -633,7 +633,7 @@
         "text_WtWmC4": {
           "type": "text",
           "settings": {
-            "text": "<p>Email: service@sofneu.com</p><p>Address:&nbsp;</p><p>Registered Agents Inc</p><p>30 N Gould St Ste R</p><p>Sheridan, WY 82801</p>",
+            "text": "<p></p><p><strong>Email: </strong>service@sofneu.com</p><p><strong>Company:</strong> Sofneu LLC</p><p><strong>Address:</strong> 30 N Gould St, Sheridan, WY 82801, United States</p><p></p>",
             "text_style": "body",
             "disable_on_mobile": false
           }
