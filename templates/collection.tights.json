@@ -281,7 +281,7 @@
         "divider_color": "#ece8e0",
         "title_size_mobile": 16,
         "title_size_desktop": 24,
-        "mobile_max_width": 350,
+        "mobile_max_width": 430,
         "mobile_side_padding": 14,
         "desktop_max_width": 1400,
         "padding_top_mobile": 20,
