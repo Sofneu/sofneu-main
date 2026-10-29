@@ -41,6 +41,12 @@
             "consent_validation_message": "Please check this box to proceed."
           }
         },
+        "klaviyo_email_marketing_sms_form_embed_block_E6dNi9": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-XKVpzW\"></div>"
+          }
+        },
         "text_fzdQJJ": {
           "type": "text",
           "settings": {
@@ -53,6 +59,7 @@
         "menu_FVzkic",
         "menu_9f4hyN",
         "newsletter_GheLtV",
+        "klaviyo_email_marketing_sms_form_embed_block_E6dNi9",
         "text_fzdQJJ"
       ],
       "custom_css": [],
