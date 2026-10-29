@@ -30,6 +30,7 @@
         },
         "newsletter_GheLtV": {
           "type": "newsletter",
+          "disabled": true,
           "settings": {
             "heading_newsletter": "Join the Sofneu Girls ✨",
             "text_newsletter": "<p>Get 10% Off when you subscribe.<br/></p>",
