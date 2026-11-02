@@ -86,7 +86,7 @@
     "cart_show_additional_service": false,
     "cart_additional_service_product": "eros-20d-line-tights",
     "cart_additional_service_show_qty_remove": true,
-    "enable_cross_sells": false,
+    "enable_cross_sells": true,
     "cross_sells_collapsed": false,
     "show_vendor": false,
     "heading_cross_sells": "Complete your look",
