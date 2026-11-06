@@ -1,0 +1,26 @@
+{% if settings.enable_store_region_prompt and settings.enable_store_switch %}
+  {{ 'store-region-prompt.css' | asset_url | stylesheet_tag }}
+  <script src="{{ 'store-region-rules.js' | asset_url }}" defer></script>
+  <script src="{{ 'store-region-prompt.js' | asset_url }}" defer></script>
+  <div id="sofneu-region-prompt" data-current-store="{{ settings.store_switch_current | escape }}" data-au-url="{{ settings.store_switch_au_url | escape }}" data-us-url="{{ settings.store_switch_us_url | escape }}" data-second="{{ settings.store_region_second_prompt }}" data-design-mode="{{ request.design_mode }}" data-theme-role="{{ theme.role | escape }}">
+    <dialog class="srp-dialog" aria-labelledby="srp-title" aria-describedby="srp-description srp-warning">
+      <button type="button" class="srp-close" aria-label="Close store recommendation" data-srp-action="dismiss">{% render 'icons', id: 'close' %}</button>
+      <div class="srp-logo-host"></div>
+      <p class="srp-eyebrow" data-srp-eyebrow>A LITTLE CLOSER TO HOME</p>
+      <h2 id="srp-title"></h2>
+      <p id="srp-description"></p>
+      <div class="srp-destination">
+        <span class="srp-flags" aria-hidden="true">
+          <span data-srp-flag="AU" hidden>{% render 'flag-icon', country_code: 'AU', alt: '', width: 32, height: 24 %}</span>
+          <span data-srp-flag="NZ" hidden>{% render 'flag-icon', country_code: 'NZ', alt: '', width: 32, height: 24 %}</span>
+          <span data-srp-flag="US" hidden>{% render 'flag-icon', country_code: 'US', alt: '', width: 32, height: 24 %}</span>
+        </span>
+        <div class="srp-country-copy"><span data-srp-country></span><span data-srp-domain></span></div>
+      </div>
+      <p id="srp-warning" hidden>Switching stores takes you to the homepage. Your item and selections won’t transfer.</p>
+      <a class="srp-primary" data-srp-action="switch" href="#"></a>
+      <button type="button" class="srp-stay" data-srp-action="stay"></button>
+      <p class="srp-note">You can switch stores anytime using the flag in the menu.</p>
+    </dialog>
+  </div>
+{% endif %}

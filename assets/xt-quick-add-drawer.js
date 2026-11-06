@@ -123,11 +123,21 @@
 
     // 点击加购（无选中态：点击直接加购跳转 /cart；qty<=1 视为非法，兜底跳过）
     bundle.querySelectorAll('.xt-quantity-bundle__btn').forEach((btn) => {
-      btn.addEventListener('click', () => {
+      btn.addEventListener('click', async () => {
         const qty = parseInt(btn.getAttribute('data-qty'), 10);
         if (qty <= 1) return;
         const variantIdInput = form.querySelector('input[name="id"]');
         if (!variantIdInput || !variantIdInput.value) return;
+
+        if (btn.dataset.regionPending === 'true') return;
+        if (window.SofneuRegionPrompt) {
+          btn.dataset.regionPending = 'true';
+          let proceed = true;
+          try { proceed = await window.SofneuRegionPrompt.beforeAdd(form); }
+          catch (_) { /* Keep the original cart flow available. */ }
+          finally { delete btn.dataset.regionPending; }
+          if (!proceed || !form.isConnected) return;
+        }
 
         const tempForm = document.createElement('form');
         tempForm.method = 'POST';

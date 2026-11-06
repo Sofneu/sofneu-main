@@ -41,9 +41,19 @@ if (!customElements.get("product-form")) {
           );
       }
 
-      onSubmitHandler(evt) {
+      async onSubmitHandler(evt) {
         evt.preventDefault();
         if (this.submitButton.getAttribute("aria-disabled") === "true") return;
+
+        if (this.regionConfirmationPending) return;
+        if (window.SofneuRegionPrompt) {
+          this.regionConfirmationPending = true;
+          let proceed = true;
+          try { proceed = await window.SofneuRegionPrompt.beforeAdd(this.form); }
+          catch (_) { /* A recommendation error must not stop normal add-to-cart. */ }
+          finally { this.regionConfirmationPending = false; }
+          if (!proceed || !this.isConnected) return;
+        }
 
         this.handleErrorMessage();
         this.cart?.setActiveElement(document.activeElement);
