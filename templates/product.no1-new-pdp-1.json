@@ -56,21 +56,6 @@
             "size_text_mobile": 140
           }
         },
-        "product_variations_7LBAAU": {
-          "type": "product_variations",
-          "settings": {
-            "option_name": "Color",
-            "picker_type": "swatch",
-            "swatch_size": 36,
-            "radius": "default",
-            "border_radius": 0,
-            "option_value_metafield": "custom.tab",
-            "products": [
-              "10d-tight-nude",
-              "10d-tight-black"
-            ]
-          }
-        },
         "variant_picker_7mHC3V": {
           "type": "variant_picker",
           "settings": {
@@ -147,7 +132,6 @@
         "title",
         "cwilltrustoo_reviews_star_rating_widget_79aMUA",
         "price",
-        "product_variations_7LBAAU",
         "variant_picker_7mHC3V",
         "buy_buttons",
         "collapsible_tab_Q7UFgL",
@@ -246,50 +230,6 @@
         "show_mobile_spacing": true,
         "margin-top-mobile": 10,
         "margin-bottom-mobile": 10
-      }
-    },
-    "xt_product_pickup_CBEQFV": {
-      "type": "xt-product-pickup",
-      "blocks": {
-        "product_9RTYtQ": {
-          "type": "product",
-          "settings": {
-            "product": "10d-tight-nude"
-          }
-        },
-        "product_b6KQTH": {
-          "type": "product",
-          "settings": {
-            "product": "20d-line-tights"
-          }
-        },
-        "product_H9HFCe": {
-          "type": "product",
-          "settings": {
-            "product": "30d-dot-tights"
-          }
-        },
-        "product_6QzAbF": {
-          "type": "product",
-          "settings": {
-            "product": "30d-ring-tights"
-          }
-        }
-      },
-      "block_order": [
-        "product_9RTYtQ",
-        "product_b6KQTH",
-        "product_H9HFCe",
-        "product_6QzAbF"
-      ],
-      "name": "XT 商品选购区",
-      "settings": {
-        "title": "You May Also Like",
-        "subtitle": "",
-        "image_ratio": "adapt",
-        "show_product_rating": false,
-        "enable_quick_add_button": true,
-        "quick_add_mode": "below_product"
       }
     },
     "multicolumn_njFRzi": {
@@ -827,39 +767,48 @@
         "margin-bottom-mobile": 20
       }
     },
-    "image_banner_HFArfV": {
-      "type": "image-banner",
-      "name": "size",
+    "xt_product_pickup_CBEQFV": {
+      "type": "xt-product-pickup",
+      "blocks": {
+        "product_9RTYtQ": {
+          "type": "product",
+          "settings": {
+            "product": "10d-tight-nude"
+          }
+        },
+        "product_b6KQTH": {
+          "type": "product",
+          "settings": {
+            "product": "20d-line-tights"
+          }
+        },
+        "product_H9HFCe": {
+          "type": "product",
+          "settings": {
+            "product": "30d-dot-tights"
+          }
+        },
+        "product_6QzAbF": {
+          "type": "product",
+          "settings": {
+            "product": "30d-ring-tights"
+          }
+        }
+      },
+      "block_order": [
+        "product_9RTYtQ",
+        "product_b6KQTH",
+        "product_H9HFCe",
+        "product_6QzAbF"
+      ],
+      "name": "XT 商品选购区",
       "settings": {
-        "advanced_heading": false,
-        "heading": "Find Your Perfect Fit",
-        "heading_richtext": "<h2>Image banner</h2>",
-        "full-width-enabled": false,
-        "container_max_width": 0,
-        "slide_height": "adapt_to_first_image",
-        "desktop_fixed_height": 320,
-        "mobile_fixed_height": 460,
-        "desktop_image": "shopify://shop_images/pc-size.jpg",
-        "desktop_text_vertical_position": "center",
-        "desktop_text_horizontal_position": "center",
-        "mobile_image": "shopify://shop_images/m-size.jpg",
-        "mobile_text_vertical_position": "center",
-        "mobile_text_horizontal_position": "center",
-        "out_hero_mobile": false,
-        "out-background-color": "",
-        "out-text-color": "",
-        "color-heading": "rgba(0,0,0,0)",
-        "section-color-overlay": "rgba(0,0,0,0)",
-        "section-color-overlay-opacity": 100,
-        "color-body-text": "rgba(0,0,0,0)",
-        "text-container-color": "rgba(0,0,0,0)",
-        "color-overlay-opacity": 100,
-        "margin-top": 20,
-        "margin-bottom": 20,
-        "show_mobile_spacing": false,
-        "margin-top-mobile": 20,
-        "margin-bottom-mobile": 20,
-        "lcp_optimize": false
+        "title": "You May Also Like",
+        "subtitle": "",
+        "image_ratio": "adapt",
+        "show_product_rating": false,
+        "enable_quick_add_button": true,
+        "quick_add_mode": "below_product"
       }
     },
     "3aeb6d9a447ae5270dc8": {
@@ -891,7 +840,6 @@
     "breadcrumbs",
     "main",
     "features_banner_4xLMtP",
-    "xt_product_pickup_CBEQFV",
     "multicolumn_njFRzi",
     "image_with_text_Jzp8ia",
     "multicolumn_XpYCQR",
@@ -900,7 +848,7 @@
     "rich_text_JLmDma",
     "custom_liquid_Bf444n",
     "features_banner_ahktVM",
-    "image_banner_HFArfV",
+    "xt_product_pickup_CBEQFV",
     "3aeb6d9a447ae5270dc8"
   ]
 }
