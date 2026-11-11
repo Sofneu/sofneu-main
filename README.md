@@ -11,8 +11,8 @@ Sofneu Shopify 多国家站点主题。**分支即站点**，无构建步骤，�
 
 ## 核心规则（一句话版）
 
-- **代码共享**：`layout/`、`sections/*.liquid`、`snippets/`、`assets/`、`blocks/`、`locales/`、`settings_schema.json` 只在 `main` 上改，逐条合入各国家分支
-- **配置隔离**：`config/settings_data.json`、header/footer-group、`templates/*.json` 各国分支独立，由线上主题编辑器修改并自动 commit 回各自分支
+- **代码共享**：`layout/`、`sections/*.liquid`、`snippets/`、`assets/`、`blocks/`、`settings_schema.json` 只在 `main` 上改，逐条合入各国家分支
+- **配置隔离**：`config/settings_data.json`、header/footer-group、`templates/*.json`、`locales/*.json` 各国分支独立，由线上主题编辑器 / 「编辑默认主题内容」修改并自动 commit 回各自分支
 - 合并方向永远 `main` → `main-<国家>`；clone 后先执行 `git config merge.ours.driver true`
 
 ## 环境要求与本地开发
