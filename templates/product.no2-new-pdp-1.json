@@ -603,7 +603,7 @@
         "video_controls": false,
         "video_custom_play_controls": false,
         "video_custom_mute_controls": false,
-        "number_of_column_desktop": 4,
+        "number_of_column_desktop": 3,
         "spacing_desktop": "16",
         "number_of_column_mobile": "1",
         "spacing_mobile": "16",
@@ -696,7 +696,7 @@
         "video_controls": false,
         "video_custom_play_controls": false,
         "video_custom_mute_controls": false,
-        "number_of_column_desktop": 4,
+        "number_of_column_desktop": 3,
         "spacing_desktop": "16",
         "number_of_column_mobile": "1",
         "spacing_mobile": "16",
@@ -849,11 +849,11 @@
         "compact_size": false
       }
     },
-    "custom_liquid_Bf444n": {
+    "custom_liquid_r7qaJr": {
       "type": "custom-liquid",
       "name": "comparison",
       "settings": {
-        "custom_liquid": "<section class=\"eros-compare\">\n  <style>\n    .eros-compare{\n      --table-max: 1000px;      /* 表格最大宽度 */\n      --fs: 16px;              /* PC 字号 */\n      --fs-sm: 12px;           /* 移动端字号 */\n      --pad-y: 12px;           /* 行间距（上下内边距） */\n      --pad-x: 14px;           /* 左右内边距 */\n      --pad-y-sm: 8px;\n      --pad-x-sm: 8px;\n      --row-alt: #F5F2EB;      /* ✅ 斑马纹底色（关闭可改为 transparent） */\n      --chip-bg: #E9E6E4;      /* 标签底色 */\n      --good:#10b981; --bad:#ef4444; --warn:#f59e0b;\n      --text:#111827;\n    }\n\n    .eros-compare{\n      font-family:system-ui,-apple-system,\"Segoe UI\",Roboto,Arial;\n      color:var(--text);\n    }\n    .eros-compare .table-wrap{\n      max-width:var(--table-max);\n      margin:0 auto;\n      overflow-x:auto;\n    }\n    .eros-compare table{\n      width:100%;\n      border-collapse:collapse;\n    }\n    .eros-compare th,.eros-compare td{\n      padding:var(--pad-y) var(--pad-x);\n      font-size:var(--fs);\n      text-align:left;\n      line-height:1.5;\n      border:0;\n      white-space:nowrap;\n    }\n    .eros-compare thead th{font-weight:700}\n    .eros-compare .feat{font-weight:600}\n    .eros-compare tbody tr:nth-child(odd){\n      background:var(--row-alt);  /* ✅ 控制斑马纹色 */\n    }\n\n    /* 标签样式 */\n    .chip{\n      display:inline-flex;\n      align-items:center;\n      gap:6px;\n      padding:5px 9px;\n      border-radius:999px;\n      background:var(--chip-bg);\n      font-size:0.85em;\n    }\n    .chip i{font-style:normal}\n    .ok i{color:var(--good)}\n    .bad i{color:var(--bad)}\n    .warn i{color:var(--warn)}\n    .value{font-weight:600}\n\n    /* 移动端字体、间距缩小 */\n    @media (max-width: 750px){\n      .eros-compare th,.eros-compare td{\n        font-size:var(--fs-sm);\n        padding:var(--pad-y-sm) var(--pad-x-sm);\n        white-space:normal;\n      }\n    }\n  </style>\n\n  <div class=\"table-wrap\">\n    <table>\n      <thead>\n        <tr>\n          <th>Feature</th>\n          <th>Low-End</th>\n          <th>Sofneu</th>\n          <th>High-End</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td class=\"feat\">Waist Stay</td>\n          <td><span class=\"chip bad\"><i>❌</i> Slips</span></td>\n          <td><span class=\"chip ok\"><i>✅</i> Perfect</span></td>\n          <td><span class=\"chip ok\"><i>✅</i> Good</span></td>\n        </tr>\n        <tr>\n          <td class=\"feat\">Control Top</td>\n          <td><span class=\"chip bad\"><i>❌</i> None</span></td>\n          <td><span class=\"chip ok\"><i>✅</i> Smooth</span></td>\n          <td><span class=\"chip warn\"><i>⚠️</i> Firm</span></td>\n        </tr>\n        <tr>\n          <td class=\"feat\">Comfort</td>\n          <td><span class=\"chip bad\"><i>❌</i> Rough</span></td>\n          <td><span class=\"chip ok\"><i>✅</i> Silky</span></td>\n          <td><span class=\"chip warn\"><i>⚠️</i> Heavy</span></td>\n        </tr>\n        <tr>\n          <td class=\"feat\">Elasticity</td>\n          <td><span class=\"chip bad\"><i>❌</i> Weak</span></td>\n          <td><span class=\"chip ok\"><i>✅</i> Superior</span></td>\n          <td><span class=\"chip ok\"><i>✅</i> Good</span></td>\n        </tr>\n        <tr>\n          <td class=\"feat\">Durability</td>\n          <td><span class=\"chip bad\"><i>❌</i> Fragile</span></td>\n          <td><span class=\"chip ok\"><i>✅</i> Resistant</span></td>\n          <td><span class=\"chip warn\"><i>⚠️</i> Thick</span></td>\n        </tr>\n        <tr>\n          <td class=\"feat\">Finish</td>\n          <td><span class=\"chip bad\"><i>❌</i> Dull</span></td>\n          <td><span class=\"chip ok\"><i>✅</i> Versatile</span></td>\n          <td><span class=\"chip ok\"><i>✅</i> Glossy</span></td>\n        </tr>\n        <tr>\n          <td class=\"feat value\">Value</td>\n          <td class=\"value\">AUD $15</td>\n          <td class=\"value\">AUD $25</td>\n          <td class=\"value\">AUD $60</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n</section>"
+        "custom_liquid": "<section class=\"eros-compare\">\n  <style>\n    .eros-compare {\n      --table-max: 1000px;\n      --fs: 16px;\n      --fs-sm: 12px;\n      --pad-y: 12px;\n      --pad-x: 14px;\n      --pad-y-sm: 8px;\n      --pad-x-sm: 8px;\n      --row-alt: #F5F2EB;\n      --chip-bg: #E9E6E4;\n      --good: #10b981;\n      --bad: #ef4444;\n      --warn: #f59e0b;\n      --text: #111827;\n\n      font-family: system-ui, -apple-system, \"Segoe UI\", Roboto, Arial, sans-serif;\n      color: var(--text);\n    }\n\n    .eros-compare .table-wrap {\n      max-width: var(--table-max);\n      margin: 0 auto;\n      overflow-x: auto;\n    }\n\n    .eros-compare table {\n      width: 100%;\n      border-collapse: collapse;\n    }\n\n    .eros-compare th,\n    .eros-compare td {\n      padding: var(--pad-y) var(--pad-x);\n      font-size: var(--fs);\n      text-align: left;\n      line-height: 1.5;\n      border: 0;\n      white-space: nowrap;\n      vertical-align: middle;\n    }\n\n    .eros-compare thead th {\n      font-weight: 700;\n    }\n\n    .eros-compare .feat {\n      font-weight: 600;\n    }\n\n    .eros-compare tbody tr:nth-child(odd) {\n      background: var(--row-alt);\n    }\n\n    .eros-compare .chip {\n      display: inline-flex;\n      align-items: center;\n      gap: 6px;\n      padding: 5px 9px;\n      border-radius: 999px;\n      background: var(--chip-bg);\n      font-size: 0.85em;\n    }\n\n    .eros-compare .chip i {\n      font-style: normal;\n    }\n\n    .eros-compare .ok i {\n      color: var(--good);\n    }\n\n    .eros-compare .bad i {\n      color: var(--bad);\n    }\n\n    .eros-compare .warn i {\n      color: var(--warn);\n    }\n\n    .eros-compare .value {\n      font-weight: 600;\n    }\n\n    .eros-compare .sofneu-price {\n      display: block;\n      font-weight: 700;\n    }\n\n    .eros-compare .sofneu-price-note {\n      display: block;\n      margin-top: 4px;\n      font-size: 12px;\n      font-weight: 400;\n      color: #59534e;\n      line-height: 1.4;\n    }\n\n    .eros-compare .price-footnote {\n      box-sizing: border-box;\n      max-width: var(--table-max);\n      margin: 10px auto 0;\n      padding: 0 var(--pad-x);\n      font-size: 12px;\n      color: #59534e;\n      line-height: 1.5;\n    }\n\n    @media (max-width: 750px) {\n      .eros-compare th,\n      .eros-compare td {\n        font-size: var(--fs-sm);\n        padding: var(--pad-y-sm) var(--pad-x-sm);\n        white-space: normal;\n      }\n\n      .eros-compare .sofneu-price-note,\n      .eros-compare .price-footnote {\n        font-size: 11px;\n      }\n    }\n  </style>\n\n  <div class=\"table-wrap\">\n    <table aria-label=\"Tights feature and price comparison\">\n      <thead>\n        <tr>\n          <th scope=\"col\">Feature</th>\n          <th scope=\"col\">Low-End</th>\n          <th scope=\"col\">Sofneu</th>\n          <th scope=\"col\">High-End</th>\n        </tr>\n      </thead>\n\n      <tbody>\n        <tr>\n          <td class=\"feat\">Waist Stay</td>\n          <td><span class=\"chip bad\"><i>❌</i> Slips</span></td>\n          <td><span class=\"chip ok\"><i>✅</i> Perfect</span></td>\n          <td><span class=\"chip ok\"><i>✅</i> Good</span></td>\n        </tr>\n\n        <tr>\n          <td class=\"feat\">Control Top</td>\n          <td><span class=\"chip bad\"><i>❌</i> None</span></td>\n          <td><span class=\"chip ok\"><i>✅</i> Smooth</span></td>\n          <td><span class=\"chip warn\"><i>⚠️</i> Firm</span></td>\n        </tr>\n\n        <tr>\n          <td class=\"feat\">Comfort</td>\n          <td><span class=\"chip bad\"><i>❌</i> Rough</span></td>\n          <td><span class=\"chip ok\"><i>✅</i> Silky</span></td>\n          <td><span class=\"chip warn\"><i>⚠️</i> Heavy</span></td>\n        </tr>\n\n        <tr>\n          <td class=\"feat\">Elasticity</td>\n          <td><span class=\"chip bad\"><i>❌</i> Weak</span></td>\n          <td><span class=\"chip ok\"><i>✅</i> Superior</span></td>\n          <td><span class=\"chip ok\"><i>✅</i> Good</span></td>\n        </tr>\n\n        <tr>\n          <td class=\"feat\">Durability</td>\n          <td><span class=\"chip bad\"><i>❌</i> Fragile</span></td>\n          <td><span class=\"chip ok\"><i>✅</i> Resistant</span></td>\n          <td><span class=\"chip warn\"><i>⚠️</i> Thick</span></td>\n        </tr>\n\n        <tr>\n          <td class=\"feat\">Finish</td>\n          <td><span class=\"chip bad\"><i>❌</i> Dull</span></td>\n          <td><span class=\"chip ok\"><i>✅</i> Versatile</span></td>\n          <td><span class=\"chip ok\"><i>✅</i> Glossy</span></td>\n        </tr>\n\n        <tr>\n          <td class=\"feat value\">Price per pair</td>\n          <td class=\"value\">A$15</td>\n          <td class=\"value\">\n            <span class=\"sofneu-price\">From A$20*</span>\n          </td>\n          <td class=\"value\">A$60</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n\n  <p class=\"price-footnote\">\n    *A$20.49 per pair when you buy 4 pairs priced at A$27.99 each and receive A$30 off. Total: A$81.96. All prices in AUD.\n  </p>\n</section>"
       }
     },
     "features_banner_ahktVM": {
@@ -924,13 +924,13 @@
         "product_zyjAye": {
           "type": "product",
           "settings": {
-            "product": "10d-tight-black"
+            "product": "no1-10d-control-top-sheer-tights"
           }
         },
         "product_tDeRtg": {
           "type": "product",
           "settings": {
-            "product": "20d-line-tights"
+            "product": "50d-shimmer-tights"
           }
         },
         "product_PQVR68": {
@@ -999,7 +999,7 @@
     "multicolumn_P8rNPH",
     "collage_zqQLnk",
     "rich_text_JLmDma",
-    "custom_liquid_Bf444n",
+    "custom_liquid_r7qaJr",
     "features_banner_ahktVM",
     "xt_product_pickup_4RTCTV",
     "17553557861ba2a1f6"
