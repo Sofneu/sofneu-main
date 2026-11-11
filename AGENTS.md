@@ -17,13 +17,13 @@
 **共享代码路径**（只存在于 `main`，国家分支永远与 `main` 保持一致）：
 
 ```
-layout/  sections/*.liquid  snippets/  assets/  blocks/  locales/  config/settings_schema.json
+layout/  sections/*.liquid  snippets/  assets/  blocks/  config/settings_schema.json
 ```
 
 **隔离配置路径**（每个国家分支各自维护，冲突时保留该国版本）：
 
 ```
-config/settings_data.json  sections/header-group.json  sections/footer-group.json  templates/*.json
+config/settings_data.json  sections/header-group.json  sections/footer-group.json  templates/*.json  locales/*.json
 ```
 
 ## 操作规则
@@ -58,13 +58,13 @@ config/settings_data.json  sections/header-group.json  sections/footer-group.jso
 - **特性必达每站**：国家分支的代码唯一来源是 `main`，合并方向单向、国家分支禁止
   直接改代码，不存在代码分叉；逐国执行同步即全覆盖。
 - **线上配置不丢**：合并时 `.gitattributes` 的 `merge=ours` 自动保留目标国的
-  `settings_data.json`、`header-group.json`、`footer-group.json`、`templates/*.json`
-  （前提：克隆后已执行操作规则 5 的 `git config merge.ours.driver true`）。
+  `settings_data.json`、`header-group.json`、`footer-group.json`、`templates/*.json`、
+  `locales/*.json`（前提：克隆后已执行操作规则 5 的 `git config merge.ours.driver true`）。
 - **回退不断链**：一律 `git revert`、绝不 force push / 改写历史（Shopify 集成按
   commit 追踪）。
-- **两个已知边界**：① `templates/*.json` 隔离优先——某国定制过的模板不会自动吃到
-  `main` 的改版，需人工判断移植（docs 3.4）；② `locales/` 属共享路径，`main-us` 的
-  `en.default.json` 现有一条 US 专属文案会被下次合并覆盖（docs 第 9 节待处理）。
+- **已知边界**：`templates/*.json` 与 `locales/*.json` 均隔离优先——某国定制过的模板 /
+  改过的文案文件不会自动吃到 `main` 的改版或新增键，需人工判断移植（docs 3.4）。
+  后台「编辑默认主题内容」只能改值、不能增删键；新增文案键是代码改动，必须在 `main` 做。
 
 ## 禁止事项
 
@@ -81,5 +81,5 @@ config/settings_data.json  sections/header-group.json  sections/footer-group.jso
 |---|---|
 | 新 section / snippet / 修 bug / 改样式 / 改 JS | `main`（再合入各国） |
 | 改某国的首页排版、文案、公告栏、页脚 | 该国的 `main-<国家>` 分支（通常由编辑器自动完成） |
-| 所有国家都要的翻译新增 | `main` 的 `locales/`（再合入各国） |
-| 只有某国要的翻译差异 | 上报讨论，不要私自分叉 `locales/`（见已知例外） |
+| 所有国家都要的翻译新增 | `main` 的 `locales/`（再合入各国；某国改过同一文件时按 docs 3.4 人工移植） |
+| 只有某国要的翻译差异 | 该国 `main-<国家>` 分支（`locales/` 已隔离），或在该国后台「编辑默认主题内容」改 |

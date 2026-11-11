@@ -2,7 +2,7 @@
 
 > 一句话：**分支即站点**。`main` 是基准站（AU）兼代码唯一来源；每新增一个国家 =
 > 新增一条 `main-<国家>` 分支。代码只从 `main` 向外流动（一次修改，所有国家生效）；
-> 配置（全局设置、公告/页脚、模板内容）各分支独立，由线上主题编辑器直接修改、
+> 配置（全局设置、公告/页脚、模板内容、店面文案）各分支独立，由线上主题编辑器直接修改、
 > Shopify GitHub 集成自动 commit 回各自分支。没有构建步骤，分支本身就是该国完整主题。
 
 ## 1. 分支结构
@@ -23,10 +23,11 @@
 
 | 路径 | 类别 | 合并冲突时取向 | 说明 |
 |---|---|---|---|
-| `layout/` `sections/*.liquid` `snippets/` `assets/` `blocks/` `locales/` `config/settings_schema.json` | **代码（全站共享）** | 永远取 `main` | 国家分支不允许有自己的代码版本。某国需要不同行为时，用 section 设置 / 模板内容区分，**不分叉代码** |
+| `layout/` `sections/*.liquid` `snippets/` `assets/` `blocks/` `config/settings_schema.json` | **代码（全站共享）** | 永远取 `main` | 国家分支不允许有自己的代码版本。某国需要不同行为时，用 section 设置 / 模板内容区分，**不分叉代码** |
 | `config/settings_data.json` | 配置（各国隔离） | 取目标分支自己 | 主题全局设置（颜色、字体、动效等） |
 | `sections/header-group.json` `sections/footer-group.json` | 配置（各国隔离） | 取目标分支自己 | 公告栏 / 页脚内容 |
 | `templates/*.json` | 混合（隔离优先） | 冲突时取目标分支自己 | 未定制过的模板自动跟随 `main` 更新；某国定制过的模板不会再自动吃到 `main` 的改版，需人工判断移植（见 3.4） |
+| `locales/*.json`（含 `*.schema.json`） | 混合（隔离优先） | 冲突时取目标分支自己 | 各国后台「编辑默认主题内容」与翻译差异各自保留，互不覆盖；某国改过的语言文件不再自动吃到 `main` 对该文件的新增键，需人工移植（同 templates，见 3.4）。`.schema.json` 是开发者维护的设置面板翻译，后台改不到，实际总是跟随 `main` |
 
 ### 2.2 实现：`.gitattributes` + `merge=ours`
 
@@ -39,6 +40,8 @@ sections/header-group.json merge=ours
 sections/footer-group.json merge=ours
 # 模板：冲突（= 该国定制且 main 也改了）时保留该国定制
 templates/*.json merge=ours
+# 多语言文案：冲突（= 该国改过文案且 main 也改了）时保留该国文案
+locales/*.json merge=ours
 ```
 
 原理：`merge=ours` 里的 **ours 指被合并进入的目标分支**，与方向无关。
@@ -95,11 +98,12 @@ git push                           # US 站生效
 ### 3.4 查看 / 移植某国定制
 
 ```bash
-git diff --name-only main main-us -- templates/   # 该国定制过的模板清单
+git diff --name-only main main-us -- templates/ locales/   # 该国定制过的模板与文案文件清单
 ```
 
-`main` 上改版了某国定制过的模板时，该国**不会**自动更新（`merge=ours` 保住该国版本）。
-需要人工 diff 判断是否移植；上 CI 后机器人 PR 会自动列出这些文件提醒。
+`main` 上改版了某国定制过的模板、或新增了某国改过的语言文件里的翻译键时，
+该国**不会**自动更新（`merge=ours` 保住该国版本）。需要人工 diff 判断是否移植；
+上 CI 后机器人 PR 会自动列出这些文件提醒。
 
 ## 4. 新增国家 SOP（= 增加一条分支）
 
@@ -111,10 +115,10 @@ git diff --name-only main main-us -- templates/   # 该国定制过的模板清�
    `shopify theme pull --store <新店铺> --path /tmp/<country>-live`
 4. 用临时目录内容**只覆盖配置类路径**：
    `config/settings_data.json`、`sections/header-group.json`、`sections/footer-group.json`、
-   `templates/`（含该国独有模板的新增、缺失模板的删除）
+   `templates/`（含该国独有模板的新增、缺失模板的删除）、`locales/*.json`（该国改过的店面文案）
 5. **校验代码路径 = `main` 版本**（必须为空输出）：
    ```bash
-   git diff main --stat -- layout "sections/*.liquid" snippets assets blocks locales config/settings_schema.json
+   git diff main --stat -- layout "sections/*.liquid" snippets assets blocks config/settings_schema.json
    ```
    不为空就把对应文件还原：`git checkout main -- <文件>`
 6. 提交基线：`git commit -am "main-<country> baseline: live config & templates"`
@@ -159,7 +163,7 @@ jobs:
       - run: |
           git switch ${{ matrix.branch }}
           git merge main --no-ff -m "sync: main → ${{ matrix.branch }}"  # 纯代码路径冲突在此失败
-      - run: git diff --name-only main ${{ matrix.branch }} -- templates/ config/ sections/ > kept.txt
+      - run: git diff --name-only main ${{ matrix.branch }} -- templates/ locales/ config/ sections/ > kept.txt
       - uses: peter-evans/create-pull-request@v6
         with: { branch: sync/main-to-${{ matrix.branch }}, title: "sync: main → ${{ matrix.branch }}", body_path: kept.txt }
 ```
@@ -187,8 +191,8 @@ App 需在 GitHub 上安装到仓库所属组织/账户并授权本仓库，否�
 
 ## 9. 已知待处理
 
-- `locales` 例外：`main-us` 的 `locales/en.default.json` 带一条 US 专属
-  `shipping_policy_html` 文案（`main` 上为空）。locales 属共享代码路径，下次
-  `main` 改动 locales 合并时会覆盖掉它。二选一：
-  ① 把该文案同步设置到 `main`（推荐，值是通用英文，AU 可共用）；
-  ② 把 `locales/` 加入 `.gitattributes` 隔离清单（代价：`main` 新增的翻译键不再自动同步到各国）。
+- ~~`locales` 例外~~ **已处理（2026-11）**：采用方案②，`locales/*.json` 已加入
+  `.gitattributes` 隔离清单。各国后台「编辑默认主题内容」的修改与各自的翻译差异
+  落在各自分支，合并时互不覆盖；`main-us` 现有的 `shipping_policy_html` 专属文案
+  自此合法化。代价与 templates 相同：某国改过的语言文件不再自动吃到 `main` 对该
+  文件的新增/改版键，由 CI PR 的保留清单（kept.txt，已含 `locales/`）提示人工移植。
