@@ -904,7 +904,7 @@
         "size_heading": 80,
         "icon_width_mobile": 36,
         "icon_width_desktop": 48,
-        "icon_layout": "left",
+        "icon_layout": "center",
         "columns_desktop": "3",
         "icon_layout_mobile": "grid",
         "color_body_icon": "rgba(0,0,0,0)",
