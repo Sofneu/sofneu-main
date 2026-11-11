@@ -1428,6 +1428,18 @@
       },
       {
         "type": "checkbox",
+        "id": "enable_store_region_prompt",
+        "label": "Enable IP store recommendation",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "store_region_second_prompt",
+        "label": "Confirm on first add after dismissing recommendation",
+        "default": true
+      },
+      {
+        "type": "checkbox",
         "id": "enable_store_switch",
         "label": "Enable AU / US store links",
         "default": false,
