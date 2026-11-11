@@ -94,38 +94,6 @@
             "text_color_hover": "",
             "background_color_hover": ""
           }
-        },
-        "collapsible_tab_Q7UFgL": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Material",
-            "content": "<ul><li>58% Polyamide, 42% Elastane</li><li>Ultra-fine, high-stretch fibers</li><li>Smooth, soft touch</li><li>Perfect adaptive fit</li></ul>",
-            "metafield_variables": "",
-            "page": "",
-            "open_by_default": false,
-            "icon": "leather",
-            "icon_advanced_settings": false,
-            "icon_height_desktop": 28,
-            "icon_height": 27,
-            "icon_margin_desktop": 0,
-            "icon_margin": 0
-          }
-        },
-        "collapsible_tab_KatCG8": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Features",
-            "content": "<ul><li>10 Denier sheer finish, ideal for Australia’s mild weather.</li><li>Adaptive elasticity for all-day comfort and flawless fit.</li><li>Run-resistant micro-weave for lasting durability.</li></ul><p></p>",
-            "metafield_variables": "",
-            "page": "",
-            "open_by_default": false,
-            "icon": "heart",
-            "icon_advanced_settings": false,
-            "icon_height_desktop": 28,
-            "icon_height": 27,
-            "icon_margin_desktop": 0,
-            "icon_margin": 0
-          }
         }
       },
       "block_order": [
@@ -133,9 +101,7 @@
         "cwilltrustoo_reviews_star_rating_widget_6xDWpk",
         "price",
         "variant_picker_7mHC3V",
-        "buy_buttons",
-        "collapsible_tab_Q7UFgL",
-        "collapsible_tab_KatCG8"
+        "buy_buttons"
       ],
       "settings": {
         "enable_sticky_buy_button": true,
@@ -169,6 +135,188 @@
         "show_mobile_spacing": false,
         "margin-top-mobile": 20,
         "margin-bottom-mobile": 20
+      }
+    },
+    "blocks_HhkGyi": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_16c62a3_Qrr9J3": {
+          "type": "ai_gen_block_16c62a3",
+          "disabled": true,
+          "settings": {
+            "heading": "Product Grade",
+            "show_info_icon": true,
+            "info_page": "understanding-product-grade",
+            "desktop_columns": "4",
+            "show_item_1": true,
+            "title_1": "Warmth",
+            "value_1": 30,
+            "label_1": "Cool",
+            "show_item_2": true,
+            "title_2": "Durability",
+            "value_2": 50,
+            "label_2": "Strong",
+            "show_item_3": true,
+            "title_3": "Stretch",
+            "value_3": 80,
+            "label_3": "Adaptive Stretch",
+            "show_item_4": true,
+            "title_4": "Sheerness",
+            "value_4": 80,
+            "label_4": "Sheer",
+            "bar_color": "#e7e7e7",
+            "marker_color": "#b3877b",
+            "background_color": "#ffffff",
+            "padding_mobile": 20,
+            "padding_desktop": 40
+          },
+          "blocks": {}
+        },
+        "ai_gen_block_5dcd6eb_RnnJ83": {
+          "type": "ai_gen_block_5dcd6eb",
+          "name": "Main benefits icons",
+          "settings": {
+            "title": "Main Benefits",
+            "title_size_mobile": 16,
+            "title_size_desktop": 36,
+            "title_color": "#2b2b2b",
+            "title_spacing": 30,
+            "max_width": 800,
+            "padding_mobile": 20,
+            "padding_desktop": 40,
+            "background_color": "#ffffff",
+            "icon_size_mobile": 40,
+            "icon_size_desktop": 80,
+            "icon_gap_mobile": 20,
+            "icon_gap_desktop": 40,
+            "icon_text_spacing": 12,
+            "text_size_mobile": 14,
+            "text_size_desktop": 16,
+            "text_color": "#2b2b2b",
+            "benefit_1_enabled": true,
+            "benefit_1_icon": "shopify://shop_images/Seamless_comfort_tights.svg",
+            "benefit_1_icon_alt": "Seamless comfort icon",
+            "benefit_1_text": "Seamless Comfort",
+            "benefit_1_link": "",
+            "benefit_2_enabled": true,
+            "benefit_2_icon": "shopify://shop_images/Sculpted_control-top.svg",
+            "benefit_2_icon_alt": "Sculpted control-top icon",
+            "benefit_2_text": "Sculpted Control-top",
+            "benefit_2_link": "",
+            "benefit_3_enabled": true,
+            "benefit_3_icon": "shopify://shop_images/Powered_by_soflume_tech.svg",
+            "benefit_3_icon_alt": "Soflume tech icon",
+            "benefit_3_text": "Powered by Soflume Tech",
+            "benefit_3_link": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_16c62a3_Qrr9J3",
+        "ai_gen_block_5dcd6eb_RnnJ83"
+      ],
+      "name": "Product grade",
+      "settings": {
+        "section-margin": 0
+      }
+    },
+    "product_accordion_tabs_QeKUck": {
+      "type": "product-accordion-tabs",
+      "blocks": {
+        "item_yDUmxn": {
+          "type": "item",
+          "settings": {
+            "show_item": true,
+            "title": "62% Polyamide, 38% Elastane",
+            "default_open": false,
+            "content": "<p>20D sheer tights with enhanced snag resistance and balanced coverage. Comfortable and versatile for work, weekends, and everyday wear.</p>",
+            "image_position": "top",
+            "button_text": "",
+            "button_link": "",
+            "custom_liquid": ""
+          }
+        },
+        "item_XxMj4m": {
+          "type": "item",
+          "settings": {
+            "show_item": true,
+            "title": "30-Day Guarantee & Replacement",
+            "default_open": false,
+            "content": "<p>If your tights arrive with a quality issue or are damaged during normal wear within 30 days, we’ll provide a free replacement to make it right.</p><p><a href=\"/pages/return-policy\" title=\"Return Policy\"><em><strong>Click here to visit our Return Policy</strong></em></a></p>",
+            "image_position": "top",
+            "button_text": "",
+            "button_link": "",
+            "custom_liquid": ""
+          }
+        },
+        "item_fxjy7n": {
+          "type": "item",
+          "settings": {
+            "show_item": true,
+            "title": "Fast & Reliable Delivery",
+            "default_open": false,
+            "content": "<p>We offer reliable delivery across Australia and New Zealand.Standard&nbsp;</p><p>Delivery: 2–5 business days</p><p>Express Delivery: 1–4 business days</p><p>Free standard delivery is available on orders over A$59.</p><p><a href=\"/pages/shipping-policy\" title=\"Shipping Policy\"><em><strong>Click here to visit our Shipping Policy.</strong></em></a></p>",
+            "image_position": "top",
+            "button_text": "",
+            "button_link": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_yDUmxn",
+        "item_XxMj4m",
+        "item_fxjy7n"
+      ],
+      "name": "Product Accordion Tabs",
+      "settings": {
+        "title": "Product Information",
+        "title_size_mobile": 16,
+        "title_size_desktop": 36,
+        "title_letter_spacing": 0,
+        "title_color": "#2b2b2b",
+        "title_alignment": "center",
+        "title_spacing": 24,
+        "section_background": "#ffffff",
+        "section_max_width": 800,
+        "accordion_width_mode": "container",
+        "accordion_max_width": 800,
+        "side_padding_mobile": 14,
+        "side_padding_desktop": 20,
+        "padding_top_mobile": 12,
+        "padding_bottom_mobile": 12,
+        "padding_top_desktop": 20,
+        "padding_bottom_desktop": 20,
+        "accordion_background": "#f9f5f3",
+        "accordion_radius": 0,
+        "content_padding_mobile": 10,
+        "content_padding_desktop": 20,
+        "accordion_title_size_mobile": 14,
+        "accordion_title_size_desktop": 16,
+        "accordion_title_letter_spacing": -2,
+        "accordion_title_color": "#2b2b2b",
+        "content_size_mobile": 12,
+        "content_size_desktop": 14,
+        "content_letter_spacing": 0,
+        "content_line_height": 140,
+        "content_color": "#2b2b2b",
+        "content_top_spacing": 14,
+        "item_spacing": 16,
+        "divider_color": "#e0d5cf",
+        "divider_thickness": 1,
+        "arrow_color": "#2b2b2b",
+        "arrow_size": 20,
+        "media_spacing": 16,
+        "image_radius": 0,
+        "button_spacing": 16,
+        "button_size": 14,
+        "button_background": "#2b2b2b",
+        "button_color": "#ffffff",
+        "button_border_color": "#2b2b2b",
+        "button_radius": 0,
+        "custom_liquid_spacing": 10,
+        "allow_multiple_open": false
       }
     },
     "features_banner_fE94qE": {
@@ -842,6 +990,8 @@
   "order": [
     "breadcrumbs",
     "main",
+    "blocks_HhkGyi",
+    "product_accordion_tabs_QeKUck",
     "features_banner_fE94qE",
     "multicolumn_njFRzi",
     "image_with_text_Jzp8ia",
