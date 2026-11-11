@@ -1,0 +1,27 @@
+#sofneu-region-prompt .srp-dialog{box-sizing:border-box;width:min(480px,calc(100% - 32px));max-height:calc(100dvh - 32px);padding:32px;border:0;border-radius:8px;background:var(--color-background,#fff);color:var(--color-text,#292929);font-family:var(--font-base,Arial,sans-serif);font-size:var(--font-base-size,16px);line-height:var(--font-base-line-height,1.4);overflow:auto}
+#sofneu-region-prompt .srp-dialog::backdrop{background:rgb(41 41 41 / 30%)}
+#sofneu-region-prompt .srp-close{position:absolute;right:8px;top:8px;display:grid;place-items:center;width:44px;height:44px;border:0;background:transparent;color:inherit;cursor:pointer}
+#sofneu-region-prompt .srp-close svg{width:20px;height:20px}
+#sofneu-region-prompt .srp-logo{width:100px;height:auto;object-fit:contain;display:block;margin:0 0 24px}
+#sofneu-region-prompt h2{font-family:var(--font-headline,Arial,sans-serif);font-weight:var(--font-headline-weight,400);font-size:28px;line-height:1.1;letter-spacing:var(--font-headline-letter-spacing,.5px);margin:8px 36px 16px 0}
+#sofneu-region-prompt p{margin:0 0 24px}
+#sofneu-region-prompt .srp-destination{display:flex;flex-direction:column;gap:4px;background:#f1eee7;color:#292929;padding:16px;margin-bottom:24px;border-radius:4px}
+#sofneu-region-prompt [data-srp-domain]{font-size:14px;color:#625c56}
+#sofneu-region-prompt #srp-warning{font-size:14px}
+#sofneu-region-prompt .srp-primary,#sofneu-region-prompt .srp-stay{box-sizing:border-box;width:100%;min-height:48px;padding:16px;font-family:var(--font-button,Arial,sans-serif);font-weight:var(--font-button-weight,400);font-size:var(--font-button-size,14px);line-height:1.4;border-radius:4px;cursor:pointer}
+#sofneu-region-prompt .srp-primary{background:var(--color-button-primary-background,#a65d4a);color:var(--color-button-primary-text,#fff);border:0}
+#sofneu-region-prompt .srp-stay{background:transparent;border:0;color:inherit;text-decoration:underline;text-underline-offset:4px}
+#sofneu-region-prompt .srp-note{font-size:12px;margin:8px 0 0;color:inherit;opacity:.8}
+#sofneu-region-prompt [hidden]{display:none!important}
+@media(max-width:767px){#sofneu-region-prompt .srp-dialog{margin:auto auto max(12px,env(safe-area-inset-bottom));padding:24px;width:calc(100% - 24px);border-radius:12px;max-height:calc(100dvh - 24px)}#sofneu-region-prompt h2{font-size:var(--font-headline-size,18px)}}
+/* Match the approved brand mockup without inheriting global button tracking. */
+#sofneu-region-prompt .srp-eyebrow{font-family:var(--font-base,Arial,sans-serif);font-size:12px;line-height:1.4;letter-spacing:.5px;color:#746b62;margin:0 0 8px}
+#sofneu-region-prompt h2{margin-top:0}
+#sofneu-region-prompt .srp-destination{flex-direction:row;align-items:center;gap:16px}
+#sofneu-region-prompt .srp-flags{display:flex;flex:none;align-items:center}
+#sofneu-region-prompt .srp-flags img{display:block;width:32px;height:24px;object-fit:contain}
+#sofneu-region-prompt .srp-country-copy{display:flex;flex-direction:column;gap:4px;min-width:0}
+#sofneu-region-prompt .srp-primary,#sofneu-region-prompt .srp-stay{font-size:14px;letter-spacing:normal;text-transform:none}
+#sofneu-region-prompt .srp-note{text-align:center;opacity:1;color:#68625c}
+@media(max-width:767px){#sofneu-region-prompt .srp-primary{font-size:12px}}
+#sofneu-region-prompt a.srp-primary{display:block;text-align:center;text-decoration:none}
