@@ -161,7 +161,7 @@
             "label_3": "Adaptive Stretch",
             "show_item_4": true,
             "title_4": "Sheerness",
-            "value_4": 60,
+            "value_4": 80,
             "label_4": "Opaque",
             "bar_color": "#e7e7e7",
             "marker_color": "#b3877b",
