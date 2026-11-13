@@ -132,9 +132,9 @@
         "pdp_nav_icon_color": "",
         "margin-top": 8,
         "margin-bottom": 8,
-        "show_mobile_spacing": false,
+        "show_mobile_spacing": true,
         "margin-top-mobile": 20,
-        "margin-bottom-mobile": 20
+        "margin-bottom-mobile": 0
       }
     },
     "blocks_X9QmkE": {
@@ -142,6 +142,7 @@
       "blocks": {
         "ai_gen_block_16c62a3_fUzPdh": {
           "type": "ai_gen_block_16c62a3",
+          "disabled": true,
           "settings": {
             "heading": "Product Grade",
             "show_info_icon": true,
