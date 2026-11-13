@@ -142,6 +142,7 @@
       "blocks": {
         "ai_gen_block_16c62a3_fUzPdh": {
           "type": "ai_gen_block_16c62a3",
+          "disabled": true,
           "settings": {
             "heading": "Product Grade",
             "show_info_icon": true,
