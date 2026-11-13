@@ -9,8 +9,44 @@
  */
 {
   "sections": {
+    "image_banner_XmnTHi": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "advanced_heading": false,
+        "heading": "",
+        "heading_richtext": "<h2>Image banner</h2>",
+        "full-width-enabled": true,
+        "container_max_width": 0,
+        "slide_height": "adapt_to_first_image",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "desktop_image": "shopify://shop_images/pc-banner-BFCM.png",
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_image": "shopify://shop_images/m-banner-BFCM.png",
+        "mobile_text_vertical_position": "center",
+        "mobile_text_horizontal_position": "center",
+        "out_hero_mobile": false,
+        "out-background-color": "",
+        "out-text-color": "",
+        "color-heading": "",
+        "section-color-overlay": "",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "",
+        "text-container-color": "",
+        "color-overlay-opacity": 100,
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "show_mobile_spacing": false,
+        "margin-top-mobile": 20,
+        "margin-bottom-mobile": 20,
+        "lcp_optimize": false
+      }
+    },
     "background_video_VPfVnM": {
       "type": "background-video",
+      "disabled": true,
       "name": "t:sections.background-video.presets.name",
       "settings": {
         "advanced_heading": false,
@@ -596,6 +632,7 @@
     }
   },
   "order": [
+    "image_banner_XmnTHi",
     "background_video_VPfVnM",
     "rich_text_7idfz7",
     "shop_by_category_V9x7t9",
