@@ -36,6 +36,34 @@
   const IMPERIAL_ACTIVE =
     'stsg-unit-imperial-active';
 
+  // Scope defaults to modern product popups explicitly marked by Liquid.
+  // WeakSet prevents dynamic reinsertion from resetting a user's selection.
+  const localizedGuides = new WeakSet();
+
+  function applyStoreDefaults(guide) {
+    const context = guide.closest('[data-sofneu-tights-store]');
+    const store = context?.getAttribute('data-sofneu-tights-store');
+    if (!['AU', 'US'].includes(store) || localizedGuides.has(guide)) return;
+    localizedGuides.add(guide);
+    const us = store === 'US';
+    guide.classList.remove(METRIC_ACTIVE, IMPERIAL_ACTIVE);
+    guide.classList.add(us ? IMPERIAL_ACTIVE : METRIC_ACTIVE);
+
+    const preferredButton = guide.querySelector(us ? '.stsg-unit-imperial' : '.stsg-unit-metric');
+    const switcher = guide.querySelector('.stsg-unit-switch');
+    if (switcher && preferredButton?.parentNode === switcher) {
+      switcher.insertBefore(preferredButton, switcher.firstChild);
+    }
+
+    guide.querySelectorAll('.stsg-panel-international table tbody').forEach(body => {
+      const preferredRow = Array.from(body.rows).find(row => {
+        const label = row.querySelector('th')?.textContent.trim().toUpperCase().replace(/\s/g, '');
+        return label === (us ? 'US' : 'AU/NZ');
+      });
+      if (preferredRow) body.insertBefore(preferredRow, body.firstChild);
+    });
+  }
+
 
 
   /* ========================================================
@@ -508,6 +536,8 @@
     }
 
 
+
+    applyStoreDefaults(guide);
 
     /* Default tab = SIZE & FIT */
 

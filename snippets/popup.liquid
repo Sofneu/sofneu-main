@@ -1,3 +1,15 @@
+{%- liquid
+          assign tights_templates = 'no1-10d-control-tights,no2-20d-control-tights,no1-new-pdp-1,no2-new-pdp-1,80d-velvet-control-tight,200d-thermal-fleece-tight,50d-shimmer-tights' | split: ','
+          assign tights_pages = 'tights-size-guide-1,tights-size-guide-2,tights-size-guide-3' | split: ','
+          assign localize_tights = false
+          assign tights_guide_id = id
+          if tights_templates contains product.template_suffix
+            if tights_pages contains size_content.handle
+              assign localize_tights = true
+              assign tights_guide_id = id | append: '-' | append: product.id | append: '-' | append: size_content.id
+            endif
+          endif
+-%}
 {% if size_link != empty %}
 <div class="wt-product__content wt-product__information-popup {% if settings.animations %} scroll-trigger animate--slide-in {% endif %} {% if settings.disabled_animations_on_mobile %} disabled-on-mobile {% endif %}">
     {% if size_icon != 'none' %}
@@ -7,11 +19,11 @@
     {% endif %}
     <div class="wt-product__page">
     <button
-        id="SizeGuideBtn-{{ id }}"
+        id="SizeGuideBtn-{{ tights_guide_id | escape }}"
         class="wt-product__opener wt-product__button wt-product__link no-js-hidden quick-add-hidden"
         type="button"
         aria-haspopup="dialog"
-        data-size-guide-open="{{ id }}"
+        data-size-guide-open="{{ tights_guide_id | escape }}"
         {{ shopify_attributes }}
     >
         {{ size_link | default: size_page.title }}
@@ -20,7 +32,7 @@
 </div>
 
 <sl-dialog
-    id="SizeGuideDialog-{{ id }}"
+    id="SizeGuideDialog-{{ tights_guide_id | escape }}"
     class="wt-product__size-guide-dialog"
     label="{{ size_content.title | default: size_link | escape }}"
     {{ shopify_attributes }}
@@ -52,7 +64,9 @@
         </div>
         {% endif %}
         {% if size_content != empty %}
+        {% if localize_tights %}<div data-sofneu-tights-store="{{ settings.store_switch_current | default: 'AU' | escape }}">{% endif %}
         {{ size_content.content }}
+        {% if localize_tights %}</div>{% endif %}
         {% endif %}
     </div>
 </sl-dialog>
