@@ -595,7 +595,7 @@
         "section_width": "regular",
         "desktop_text_horizontal_position": "center",
         "full-width-enabled": false,
-        "color-body-text": "#2B2B2B",
+        "color-body-text": "#2b2b2b",
         "background_color": "",
         "background_gradient": "",
         "margin-top": 12,
@@ -606,58 +606,189 @@
         "compact_size": false
       }
     },
-    "image_with_text_Jzp8ia": {
-      "type": "image-with-text",
+    "rich_text_KiP8yW": {
+      "type": "rich-text",
       "blocks": {
-        "heading_i9XFXA": {
+        "heading_aQANt3": {
           "type": "heading",
           "settings": {
-            "heading": "High-waist design that stays in place — smooth, supportive, and breathable all day.",
+            "advanced_heading": false,
+            "heading": "03 ｜ Comfort in Every Detail",
+            "heading_richtext": "<h2>Your headline here</h2>",
             "disable_on_mobile": false,
             "size_heading": 100,
-            "size_heading_mobile": 100
-          }
-        },
-        "text_F4MxPT": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li>High-Waist Support</li><li>Control Top Design</li><li>Hip Coverage</li><li>No Marks Just Comfort</li></ul>",
-            "text_style": "body",
-            "disable_on_mobile": false
+            "size_heading_mobile": 100,
+            "heading_richtext_color": "",
+            "heading_richtext_gradient": ""
           }
         }
       },
       "block_order": [
-        "heading_i9XFXA",
-        "text_F4MxPT"
+        "heading_aQANt3"
       ],
-      "name": "t:sections.image-with-text.presets.name",
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "advanced_heading": false,
-        "title": "03 ｜ Comfort Starts at the Top",
-        "heading_richtext": "<h2>Image with text</h2>",
-        "layout": "image_first",
-        "desktop-percentage-image-width": 50,
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "center",
         "full-width-enabled": false,
-        "slide_height": "adapt_to_first_image",
-        "desktop_fixed_height": 320,
-        "mobile_fixed_height": 460,
-        "section-color-body-text": "rgba(0,0,0,0)",
-        "section-color-overlay": "#faf8f6",
-        "section-color-overlay-opacity": 0,
         "color-body-text": "rgba(0,0,0,0)",
-        "color-overlay": "rgba(0,0,0,0)",
-        "color-overlay-opacity": 100,
-        "desktop_image": "shopify://shop_images/pc-waist-nude.jpg",
-        "desktop_text_vertical_position": "center",
-        "desktop_text_horizontal_position": "left",
-        "mobile_image": "shopify://shop_images/m-waist-nude.jpg",
-        "mobile_text_horizontal_position": "left",
-        "margin-top": 20,
-        "margin-bottom": 20,
+        "background_color": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "margin-top": 0,
+        "margin-bottom": 0,
         "show_mobile_spacing": false,
         "margin-top-mobile": 20,
-        "margin-bottom-mobile": 20
+        "margin-bottom-mobile": 20,
+        "compact_size": false
+      }
+    },
+    "text_overlay_AdUywq": {
+      "type": "text-overlay",
+      "blocks": {
+        "heading_mBR3Tc": {
+          "type": "heading",
+          "settings": {
+            "show_block": true,
+            "heading": "<p><strong>Seamless Crotch</strong></p>",
+            "color": "#2b2b2b",
+            "desktop_color": "#2b2b2b",
+            "mobile_size": 16,
+            "desktop_size": 36,
+            "animation": "none"
+          }
+        },
+        "text_39Hnre": {
+          "type": "text",
+          "settings": {
+            "show_block": true,
+            "text": "<p>Just smooth, comfortable wear</p>",
+            "color": "#2b2b2b",
+            "desktop_color": "#2b2b2b",
+            "mobile_size": 14,
+            "desktop_size": 16,
+            "animation": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mBR3Tc",
+        "text_39Hnre"
+      ],
+      "name": "Text Overlay",
+      "settings": {
+        "mobile_image": "shopify://shop_images/no2waist1.webp",
+        "image_size_mode": "auto",
+        "mobile_image_height": 420,
+        "desktop_image_height": 800,
+        "image_fit": "contain",
+        "image_radius": 12,
+        "width_style": "contained",
+        "mobile_max_width": 420,
+        "desktop_max_width": 1280,
+        "desktop_layout": "image_left",
+        "desktop_image_width": "50",
+        "desktop_gap": 40,
+        "mobile_content_gap": 16,
+        "mobile_content_layout": "overlay",
+        "mobile_overlay_x": 50,
+        "mobile_overlay_y": 80,
+        "mobile_overlay_safe_padding": 16,
+        "content_alignment": "center",
+        "content_text_align": "center",
+        "content_gap": 12,
+        "mobile_content_max_width": 420,
+        "desktop_content_max_width": 800,
+        "icon_text_gap": 10,
+        "button_height": 42,
+        "button_padding_x": 20,
+        "button_radius": 0,
+        "button_text_size": 14,
+        "primary_button_background": "#2b2b2b",
+        "primary_button_color": "#ffffff",
+        "outline_button_color": "#2b2b2b",
+        "text_link_color": "#2b2b2b",
+        "section_background": "#ffffff",
+        "side_padding_mobile": 14,
+        "side_padding_desktop": 20,
+        "padding_top_mobile": 12,
+        "padding_bottom_mobile": 12,
+        "padding_top_desktop": 20,
+        "padding_bottom_desktop": 20
+      }
+    },
+    "text_overlay_CWKpYJ": {
+      "type": "text-overlay",
+      "blocks": {
+        "heading_FJMMwY": {
+          "type": "heading",
+          "settings": {
+            "show_block": true,
+            "heading": "<p><strong>High-Waist Control Top</strong></p>",
+            "color": "#2b2b2b",
+            "desktop_color": "#2b2b2b",
+            "mobile_size": 16,
+            "desktop_size": 36,
+            "animation": "none"
+          }
+        },
+        "text_p3bXhg": {
+          "type": "text",
+          "settings": {
+            "show_block": true,
+            "text": "<p>Smooth support around your waist and tummy</p>",
+            "color": "#2b2b2b",
+            "desktop_color": "#2b2b2b",
+            "mobile_size": 14,
+            "desktop_size": 16,
+            "animation": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FJMMwY",
+        "text_p3bXhg"
+      ],
+      "name": "Text Overlay",
+      "settings": {
+        "desktop_image": "shopify://shop_images/pc-waist-nude.jpg",
+        "mobile_image": "shopify://shop_images/m-waist-nude.jpg",
+        "image_size_mode": "auto",
+        "mobile_image_height": 420,
+        "desktop_image_height": 800,
+        "image_fit": "contain",
+        "image_radius": 12,
+        "width_style": "contained",
+        "mobile_max_width": 420,
+        "desktop_max_width": 1280,
+        "desktop_layout": "content_left",
+        "desktop_image_width": "50",
+        "desktop_gap": 40,
+        "mobile_content_gap": 16,
+        "mobile_content_layout": "overlay",
+        "mobile_overlay_x": 50,
+        "mobile_overlay_y": 80,
+        "mobile_overlay_safe_padding": 16,
+        "content_alignment": "center",
+        "content_text_align": "center",
+        "content_gap": 12,
+        "mobile_content_max_width": 420,
+        "desktop_content_max_width": 800,
+        "icon_text_gap": 10,
+        "button_height": 42,
+        "button_padding_x": 20,
+        "button_radius": 0,
+        "button_text_size": 14,
+        "primary_button_background": "#2b2b2b",
+        "primary_button_color": "#ffffff",
+        "outline_button_color": "#2b2b2b",
+        "text_link_color": "#2b2b2b",
+        "section_background": "#ffffff",
+        "side_padding_mobile": 14,
+        "side_padding_desktop": 20,
+        "padding_top_mobile": 12,
+        "padding_bottom_mobile": 12,
+        "padding_top_desktop": 20,
+        "padding_bottom_desktop": 20
       }
     },
     "sofneu_carousel_TJFAGf": {
@@ -667,9 +798,9 @@
           "type": "item",
           "settings": {
             "show_item": true,
-            "title": "Beautiful tights",
-            "text": "<p>Best tights ever. Comfy and sheer enough to look not like thick tights</p>",
-            "product_name": "No.1 Sheer tights",
+            "title": "Very durable and comfortable tight",
+            "text": "<p>Suuuuper durable tights. I’m very impressed. I really tried to ladder them by pulling and pinching them but they held strong!&nbsp;</p>",
+            "product_name": "",
             "image": "shopify://shop_images/onge-with-tights.webp",
             "second_image": "shopify://shop_images/onge-with-tights-1.webp",
             "avatar": "shopify://shop_images/onge-with-tights_icon_3a17dc3c-d2fe-406e-9391-f01de05768a8.webp",
@@ -684,7 +815,7 @@
             "show_item": true,
             "title": "The best tights I have",
             "text": "<p>The best tights I have ever worn. So comfortable and feel nice on. Highly recommend！</p>",
-            "product_name": "No.1 Sheer tights",
+            "product_name": "",
             "image": "shopify://shop_images/sylvie-with-tights-1.webp",
             "second_image": "shopify://shop_images/sylvie-with-tights_d72ac285-8c85-4374-968f-dc83cf904d0e.webp",
             "avatar": "shopify://shop_images/sylvie-with-tights_icon_f84adf2f-c6b3-4a93-9cbd-405918e6f6d8.webp",
@@ -699,7 +830,7 @@
             "show_item": true,
             "title": "Amazing product and customer service!",
             "text": "<p>Thank you for great communication</p>",
-            "product_name": "No.1 Sheer tights",
+            "product_name": "",
             "image": "shopify://shop_images/elena-with-tights.webp",
             "second_image": "shopify://shop_images/elena-with-tights-1.webp",
             "avatar": "shopify://shop_images/elena-with-tights_icon_75bb939b-d942-4f31-98d2-008d177bea7d.webp",
@@ -714,7 +845,7 @@
             "show_item": true,
             "title": "Love these tights A+ Resilient",
             "text": "<p>They feel incredibly light on the body, almost like a second skin, while still holding everything nicely.&nbsp;</p>",
-            "product_name": "No.2 Sheer tights",
+            "product_name": "",
             "image": "shopify://shop_images/sandi-with-tights-1.webp",
             "second_image": "shopify://shop_images/sandi-with-tights.webp",
             "avatar": "shopify://shop_images/sandi-with-tights_icon_29990966-52ea-414d-b814-bc5fe52a8b1d.webp",
@@ -729,7 +860,7 @@
             "show_item": true,
             "title": "Winter staple for corporate women",
             "text": "<p>Winter staple for corporate women</p>",
-            "product_name": "No.1 Sheer tights",
+            "product_name": "",
             "image": "shopify://shop_images/mal-with-tights-1.webp",
             "second_image": "shopify://shop_images/mal-with-tights.webp",
             "avatar": "shopify://shop_images/mal-with-tights_icon_b0a54b27-804e-4085-b815-619a89e43690.webp",
@@ -744,7 +875,7 @@
             "show_item": true,
             "title": "They’re great!! They’re super light",
             "text": "<p>yet don’t break! I love that it comes with gloves to put the tights on, and the sheer is incredible!! I’m so happy with them!</p>",
-            "product_name": "No.1 Sheer tights",
+            "product_name": "",
             "image": "shopify://shop_images/andrea-with-tights.webp",
             "second_image": "shopify://shop_images/andrea-with-tights-1.webp",
             "avatar": "shopify://shop_images/andrea-with-tights_icon_bb55a745-a50b-4ce0-b720-086cf34c94d1.webp",
@@ -764,7 +895,7 @@
       ],
       "name": "Sofneu Carousel",
       "settings": {
-        "eyebrow": "Shaped by the women who wear us",
+        "eyebrow": "04 ｜Shaped by the women who wear us",
         "heading": "",
         "show_review_summary": true,
         "review_label": "Product Reviews",
@@ -812,7 +943,7 @@
           "type": "heading",
           "settings": {
             "advanced_heading": false,
-            "heading": "How Sofneu Stands Apart",
+            "heading": "05 ｜How Sofneu Stands Apart",
             "heading_richtext": "<h2>Your headline here</h2>",
             "disable_on_mobile": false,
             "size_heading": 100,
@@ -988,7 +1119,9 @@
     "multicolumn_njFRzi",
     "multicolumn_XpYCQR",
     "rich_text_xznUKz",
-    "image_with_text_Jzp8ia",
+    "rich_text_KiP8yW",
+    "text_overlay_AdUywq",
+    "text_overlay_CWKpYJ",
     "sofneu_carousel_TJFAGf",
     "rich_text_JLmDma",
     "custom_liquid_r7qaJr",
