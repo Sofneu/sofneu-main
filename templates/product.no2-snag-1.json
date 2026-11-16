@@ -383,6 +383,25 @@
     "multicolumn_njFRzi": {
       "type": "multicolumn",
       "blocks": {
+        "column_zRTRqK": {
+          "type": "column",
+          "settings": {
+            "heading": "One snag, outfit ruined",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Your dressed up for them - then your tights failed you</p>",
+            "text_disable_on_mobile": false,
+            "text_style": "body",
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "desktop_image": "shopify://shop_images/pc-no1-product-nude-problem1.jpg",
+            "mobile_image": "shopify://shop_images/m-no1-product-nude-problem1.jpg",
+            "out-background-color": "",
+            "out-text-color": ""
+          }
+        },
         "column_Q7GfxN": {
           "type": "column",
           "settings": {
@@ -407,7 +426,7 @@
           "settings": {
             "heading": "Can’t breathe in them",
             "heading_disable_on_mobile": false,
-            "text": "<p>Tights shouldn’t dig into your thighs or ruin your comfort</p>",
+            "text": "<p>Too stuffy to stay comfortable.</p>",
             "text_disable_on_mobile": false,
             "text_style": "body",
             "button_select": "primary",
@@ -420,13 +439,49 @@
             "out-background-color": "",
             "out-text-color": ""
           }
-        },
-        "column_zRTRqK": {
+        }
+      },
+      "block_order": [
+        "column_zRTRqK",
+        "column_Q7GfxN",
+        "column_dfbQq3"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "advanced_heading": false,
+        "heading": "01 ｜ Why We Rethought Sheer Tights",
+        "heading_richtext": "<h2>Multicolumn</h2>",
+        "enable_stack_products": false,
+        "full-width-enabled": false,
+        "video_controls": false,
+        "video_custom_play_controls": false,
+        "video_custom_mute_controls": false,
+        "number_of_column_desktop": 3,
+        "spacing_desktop": "16",
+        "number_of_column_mobile": "1",
+        "spacing_mobile": "16",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "size_heading": 80,
+        "size_heading_mobile": 80,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20,
+        "show_mobile_spacing": false,
+        "margin-top-mobile": 20,
+        "margin-bottom-mobile": 20
+      }
+    },
+    "multicolumn_XpYCQR": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_6e7JaA": {
           "type": "column",
           "settings": {
-            "heading": "One snag, outfit ruined",
+            "heading": "900-Needle Precision",
             "heading_disable_on_mobile": false,
-            "text": "<p>Your dressed up for them - then your tights failed you</p>",
+            "text": "<p>A denser knit for greater durability</p>",
             "text_disable_on_mobile": false,
             "text_style": "body",
             "button_select": "primary",
@@ -434,22 +489,60 @@
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/pc-no1-product-nude-problem1.jpg",
-            "mobile_image": "shopify://shop_images/m-no1-product-nude-problem1.jpg",
+            "desktop_image": "shopify://shop_images/pc-no1-product-nude-machine2.jpg",
+            "mobile_image": "shopify://shop_images/m-no1-product-nude-machine2.jpg",
+            "out-background-color": "",
+            "out-text-color": ""
+          }
+        },
+        "column_MGpbNY": {
+          "type": "column",
+          "settings": {
+            "heading": "Four-Way Reinforced Weaving",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Advanced interlock knit for strength, stretch, and shape retention.</p><p></p>",
+            "text_disable_on_mobile": false,
+            "text_style": "body",
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "desktop_image": "shopify://shop_images/pc-no1-product-nude-machine3.jpg",
+            "mobile_image": "shopify://shop_images/m-no1-product-nude-machine3.jpg",
+            "out-background-color": "",
+            "out-text-color": ""
+          }
+        },
+        "column_FhGYbh": {
+          "type": "column",
+          "settings": {
+            "heading": "High-Stretch Core Blend",
+            "heading_disable_on_mobile": false,
+            "text": "<p>42% Spandex for ultimate flexibility and shape retention.</p>",
+            "text_disable_on_mobile": false,
+            "text_style": "body",
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "desktop_image": "shopify://shop_images/pc-no1-product-nude-material1.jpg",
+            "mobile_image": "shopify://shop_images/m-no1-product-nude-material1.jpg",
             "out-background-color": "",
             "out-text-color": ""
           }
         }
       },
       "block_order": [
-        "column_Q7GfxN",
-        "column_dfbQq3",
-        "column_zRTRqK"
+        "column_6e7JaA",
+        "column_MGpbNY",
+        "column_FhGYbh"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "advanced_heading": false,
-        "heading": "01 ｜ Why We Rethought Tights",
+        "heading": "02 ｜ Made for More Wear",
         "heading_richtext": "<h2>Multicolumn</h2>",
         "enable_stack_products": false,
         "full-width-enabled": false,
@@ -520,192 +613,6 @@
         "desktop_text_horizontal_position": "left",
         "mobile_image": "shopify://shop_images/m-waist-nude.jpg",
         "mobile_text_horizontal_position": "left",
-        "margin-top": 20,
-        "margin-bottom": 20,
-        "show_mobile_spacing": false,
-        "margin-top-mobile": 20,
-        "margin-bottom-mobile": 20
-      }
-    },
-    "multicolumn_XpYCQR": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_NKJKdY": {
-          "type": "column",
-          "settings": {
-            "heading": "Crafted with Italian Tech",
-            "heading_disable_on_mobile": false,
-            "text": "<p>Precision knitting perfected in Italy’s finest mills.</p>",
-            "text_disable_on_mobile": false,
-            "text_style": "body",
-            "button_select": "primary",
-            "button_label": "",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/pc-no1-product-nude-machine1.jpg",
-            "mobile_image": "shopify://shop_images/m-no1-product-nude-machine1.jpg",
-            "out-background-color": "",
-            "out-text-color": ""
-          }
-        },
-        "column_6e7JaA": {
-          "type": "column",
-          "settings": {
-            "heading": "Run-Resistant Weave",
-            "heading_disable_on_mobile": false,
-            "text": "<p>Delicate micro-knit structure designed to resist snags and ladders.</p>",
-            "text_disable_on_mobile": false,
-            "text_style": "body",
-            "button_select": "primary",
-            "button_label": "",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/pc-no1-product-nude-machine2.jpg",
-            "mobile_image": "shopify://shop_images/m-no1-product-nude-machine2.jpg",
-            "out-background-color": "",
-            "out-text-color": ""
-          }
-        },
-        "column_MGpbNY": {
-          "type": "column",
-          "settings": {
-            "heading": "Four-Way Reinforced Weaving",
-            "heading_disable_on_mobile": false,
-            "text": "<p>Advanced interlock knit for strength, stretch, and shape retention.</p><p></p>",
-            "text_disable_on_mobile": false,
-            "text_style": "body",
-            "button_select": "primary",
-            "button_label": "",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/pc-no1-product-nude-machine3.jpg",
-            "mobile_image": "shopify://shop_images/m-no1-product-nude-machine3.jpg",
-            "out-background-color": "",
-            "out-text-color": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_NKJKdY",
-        "column_6e7JaA",
-        "column_MGpbNY"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "advanced_heading": false,
-        "heading": "03 ｜ Crafted the Right Way",
-        "heading_richtext": "<h2>Multicolumn</h2>",
-        "enable_stack_products": false,
-        "full-width-enabled": false,
-        "video_controls": false,
-        "video_custom_play_controls": false,
-        "video_custom_mute_controls": false,
-        "number_of_column_desktop": 3,
-        "spacing_desktop": "16",
-        "number_of_column_mobile": "1",
-        "spacing_mobile": "16",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "size_heading": 80,
-        "size_heading_mobile": 80,
-        "color-body-text": "rgba(0,0,0,0)",
-        "background_color": "rgba(0,0,0,0)",
-        "margin-top": 20,
-        "margin-bottom": 20,
-        "show_mobile_spacing": false,
-        "margin-top-mobile": 20,
-        "margin-bottom-mobile": 20
-      }
-    },
-    "multicolumn_P8rNPH": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_WcWJ9n": {
-          "type": "column",
-          "settings": {
-            "heading": "High-Stretch Core Blend",
-            "heading_disable_on_mobile": false,
-            "text": "<p>42% Spandex for ultimate flexibility and shape retention.</p>",
-            "text_disable_on_mobile": false,
-            "text_style": "body",
-            "button_select": "primary",
-            "button_label": "",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/pc-no1-product-nude-material1.jpg",
-            "mobile_image": "shopify://shop_images/m-no1-product-nude-material1.jpg",
-            "out-background-color": "",
-            "out-text-color": ""
-          }
-        },
-        "column_T7mxbP": {
-          "type": "column",
-          "settings": {
-            "heading": "Air-Flow Micro Weave",
-            "heading_disable_on_mobile": false,
-            "text": "<p>Microscopic knit allows air to circulate for lasting comfort.</p>",
-            "text_disable_on_mobile": false,
-            "text_style": "body",
-            "button_select": "primary",
-            "button_label": "",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/pc-no1-product-nude-material2.jpg",
-            "mobile_image": "shopify://shop_images/m-no1-product-nude-material2.jpg",
-            "out-background-color": "",
-            "out-text-color": ""
-          }
-        },
-        "column_8zNCzb": {
-          "type": "column",
-          "settings": {
-            "heading": "Tighter weave, smoother touch",
-            "heading_disable_on_mobile": false,
-            "text": "<p>Ultra-fine yarns knitted with 900-needle accuracy for a smoother, denser finish.</p>",
-            "text_disable_on_mobile": false,
-            "text_style": "body",
-            "button_select": "primary",
-            "button_label": "",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/pc-no1-product-nude-material3.jpg",
-            "mobile_image": "shopify://shop_images/m-no1-product-nude-material3.jpg",
-            "out-background-color": "",
-            "out-text-color": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_WcWJ9n",
-        "column_T7mxbP",
-        "column_8zNCzb"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "advanced_heading": false,
-        "heading": "04 ｜ It All Begins with Better Yarn",
-        "heading_richtext": "<h2>Multicolumn</h2>",
-        "enable_stack_products": false,
-        "full-width-enabled": false,
-        "video_controls": false,
-        "video_custom_play_controls": false,
-        "video_custom_mute_controls": false,
-        "number_of_column_desktop": 3,
-        "spacing_desktop": "16",
-        "number_of_column_mobile": "1",
-        "spacing_mobile": "16",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "size_heading": 80,
-        "size_heading_mobile": 80,
-        "color-body-text": "rgba(0,0,0,0)",
-        "background_color": "rgba(0,0,0,0)",
         "margin-top": 20,
         "margin-bottom": 20,
         "show_mobile_spacing": false,
@@ -994,9 +901,8 @@
     "product_accordion_tabs_QeKUck",
     "features_banner_fE94qE",
     "multicolumn_njFRzi",
-    "image_with_text_Jzp8ia",
     "multicolumn_XpYCQR",
-    "multicolumn_P8rNPH",
+    "image_with_text_Jzp8ia",
     "collage_zqQLnk",
     "rich_text_JLmDma",
     "custom_liquid_r7qaJr",
