@@ -18,7 +18,7 @@
           endif
 -%}
 {% if size_link != empty %}
-<div class="wt-product__content wt-product__information-popup {% if settings.animations %} scroll-trigger animate--slide-in {% endif %} {% if settings.disabled_animations_on_mobile %} disabled-on-mobile {% endif %}">
+<div {% if is_bundle_offer %}not-quick-add{% endif %} class="wt-product__content wt-product__information-popup {% if settings.animations %} scroll-trigger animate--slide-in {% endif %} {% if settings.disabled_animations_on_mobile %} disabled-on-mobile {% endif %}">
     {% if size_icon != 'none' %}
     <div class="wt-product__icon">
         {% render 'icons', id: size_icon %}
@@ -39,6 +39,7 @@
 </div>
 
 <sl-dialog
+    {% if is_bundle_offer %}not-quick-add{% endif %}
     id="SizeGuideDialog-{{ tights_guide_id | escape }}"
     class="wt-product__size-guide-dialog{% if is_bundle_offer %} sbo-dialog{% endif %}"
     label="{% if is_bundle_offer %}SITEWIDE OFFER{% else %}{{ size_content.title | default: size_link | escape }}{% endif %}"
