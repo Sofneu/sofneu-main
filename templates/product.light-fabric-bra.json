@@ -96,6 +96,16 @@
             "skin_button_label": "Match your skin"
           }
         },
+        "information_popup_KKQihw": {
+          "type": "information_popup",
+          "settings": {
+            "size_icon": "price_tag",
+            "size_link": "Save $30 in Black Friday",
+            "size_content": "bundle-savings",
+            "metafield": "",
+            "enable-striped-rows": true
+          }
+        },
         "information_popup_pw9mqt": {
           "type": "information_popup",
           "disabled": true,
@@ -137,6 +147,7 @@
         "price",
         "product_variations_7LBAAU",
         "variant_picker_7mHC3V",
+        "information_popup_KKQihw",
         "information_popup_pw9mqt",
         "separator_xgqTJM",
         "buy_buttons"
