@@ -1,0 +1,24 @@
+{%- assign offer_store = settings.store_switch_current | default: 'AU' -%}
+{%- assign offer_currency_label = 'A$' -%}
+{%- if offer_store == 'US' -%}{%- assign offer_currency_label = 'US$' -%}{%- endif -%}
+{%- capture offer_shipping_math -%}{% render 'cart-shipping-math' %}{%- endcapture -%}
+{%- assign offer_threshold = offer_shipping_math | split: '|' | first | times: 100 | round -%}
+{%- assign offer_kind = 'item' -%}
+{%- if product.handle contains 'tights' -%}{%- assign offer_kind = 'tights' -%}
+{%- elsif product.handle contains 'nipple-cover' -%}{%- assign offer_kind = 'covers' -%}
+{%- elsif product.handle contains 'bra' -%}{%- assign offer_kind = 'bra' -%}{%- endif -%}
+<div class="sbo" data-bundle-offer data-store="{{ offer_store | escape }}" data-currency="{{ cart.currency.iso_code | escape }}" data-country="{{ localization.country.iso_code | escape }}" data-threshold="{{ offer_threshold }}" data-kind="{{ offer_kind }}" data-initial-variant="{{ product.selected_or_first_available_variant.id }}">
+  <script type="application/json" data-offer-variants>{{ product.variants | json }}</script>
+  <p class="sbo-kicker">SITEWIDE OFFER</p>
+  <h3 class="sbo-heading">One more favourite.<br>Just a little extra.</h3>
+  <p class="sbo-promo">Buy 3, save {{ offer_currency_label }}15 · Buy 4, save {{ offer_currency_label }}30<br><small>Mix &amp; match across the store</small></p>
+  {% if offer_store == 'AU' %}
+  <label class="sbo-destination">Delivery estimate
+    <select data-offer-country aria-label="Delivery estimate destination"><option value="AU">Australia</option><option value="NZ">New Zealand</option></select>
+  </label>
+  {% endif %}
+  <p class="sbo-context" data-offer-product>{{ product.title | escape }}</p>
+  <div data-offer-cards aria-live="polite"></div>
+  <p class="sbo-notice" data-offer-notice>Loading bundle savings…</p>
+  <p class="sbo-note">Totals before new-customer discount.<br>Free standard delivery on {{ offer_currency_label }}{{ offer_threshold | divided_by: 100.0 }}+ after all discounts.</p>
+</div>

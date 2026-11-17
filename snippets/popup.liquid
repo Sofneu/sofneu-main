@@ -1,6 +1,10 @@
 {%- liquid
           assign tights_templates = 'no1-10d-control-tights,no2-20d-control-tights,no1-new-pdp-1,no2-new-pdp-1,80d-velvet-control-tight,200d-thermal-fleece-tight,50d-shimmer-tights' | split: ','
           assign tights_pages = 'tights-size-guide-1,tights-size-guide-2,tights-size-guide-3' | split: ','
+          assign is_bundle_offer = bundle_offer | default: false
+          if size_content.content contains 'data-sofneu-bundle-offer'
+            assign is_bundle_offer = true
+          endif
           assign localize_tights = false
           assign tights_guide_id = id
           if tights_templates contains product.template_suffix
@@ -8,6 +12,9 @@
               assign localize_tights = true
               assign tights_guide_id = id | append: '-' | append: product.id | append: '-' | append: size_content.id
             endif
+          endif
+          if is_bundle_offer
+            assign tights_guide_id = id | append: '-' | append: product.id | append: '-' | append: size_content.id
           endif
 -%}
 {% if size_link != empty %}
@@ -33,11 +40,14 @@
 
 <sl-dialog
     id="SizeGuideDialog-{{ tights_guide_id | escape }}"
-    class="wt-product__size-guide-dialog"
+    class="wt-product__size-guide-dialog{% if is_bundle_offer %} sbo-dialog{% endif %}"
     label="{{ size_content.title | default: size_link | escape }}"
     {{ shopify_attributes }}
 >
     <div class="wt-product__modal--content-info rte">
+        {% if is_bundle_offer %}
+          {% render 'bundle-offer', product: product %}
+        {% else %}
         {% assign metafield = metafield_name | strip | split: '.' %}
         {% assign metafield_namespace = metafield | first | strip %}
         {% assign metafield_key = metafield | last | strip %}
@@ -67,6 +77,7 @@
         {% if localize_tights %}<div data-sofneu-tights-store="{{ settings.store_switch_current | default: 'AU' | escape }}">{% endif %}
         {{ size_content.content }}
         {% if localize_tights %}</div>{% endif %}
+        {% endif %}
         {% endif %}
     </div>
 </sl-dialog>
