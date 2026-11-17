@@ -27,7 +27,7 @@
     const state = states.get(root);
     const store = root.dataset.store;
     const country = store === 'US' ? 'US' : root.querySelector('[data-offer-country]')?.value === 'NZ' ? 'NZ' : 'AU';
-    const money = cents => (store === 'US' ? 'US$' : 'A$') + (cents / 100).toFixed(2).replace(/\.00$/, '');
+    const money = cents => (store === 'US' ? '$' : 'A$') + (cents / 100).toFixed(2).replace(/\.00$/, '');
     const notice = root.querySelector('[data-offer-notice]');
     const cards = root.querySelector('[data-offer-cards]');
     cards.replaceChildren();

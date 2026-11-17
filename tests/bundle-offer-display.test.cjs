@@ -26,8 +26,8 @@ test('AU renders immediately, NZ changes estimates without writing the product f
 });
 test('US renders USD estimates without needing a destination selector', () => {
   const f = fixture('US');
-  assert.match(f.cards[0].innerHTML, /US\$62.97/);
-  assert.match(f.cards[1].innerHTML, /US\$6 more</);
+  assert.match(f.cards[0].innerHTML, /\$62.97/);
+  assert.match(f.cards[1].innerHTML, /\$6 more</);
 });
 test('opening reads selected variant; unrelated add clicks are never intercepted', () => {
   const f = fixture('AU');

@@ -1,6 +1,6 @@
 {%- assign offer_store = settings.store_switch_current | default: 'AU' -%}
 {%- assign offer_currency_label = 'A$' -%}
-{%- if offer_store == 'US' -%}{%- assign offer_currency_label = 'US$' -%}{%- endif -%}
+{%- if offer_store == 'US' -%}{%- assign offer_currency_label = '$' -%}{%- endif -%}
 {%- capture offer_shipping_math -%}{% render 'cart-shipping-math' %}{%- endcapture -%}
 {%- assign offer_threshold = offer_shipping_math | split: '|' | first | times: 100 | round -%}
 {%- assign offer_kind = 'item' -%}
