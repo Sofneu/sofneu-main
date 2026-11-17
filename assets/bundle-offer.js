@@ -39,17 +39,19 @@
     const rows = calculate(Number(state.variant.price), { freeAt, shipping: country === 'US' ? 699 : country === 'NZ' ? 1299 : 999 });
     const quantity = quantityUnit(root.dataset.kind, state.variant);
     const unit = quantity.plural;
-    root.querySelector('[data-offer-product]').textContent = state.title + (quantity.detail ? ' · ' + quantity.detail : '');
+    root.querySelector('[data-offer-product]').textContent = state.title;
+    root.querySelector('[data-offer-detail]').textContent = money(Number(state.variant.price)) + ' per ' + quantity.singular + (quantity.detail ? ' · ' + quantity.detail : '');
+    const truck = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 17V4H2v13h3M14 8h4l4 4v5h-3M9 17h6"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg>';
     rows.forEach((row, i) => {
       const card = document.createElement('div'); card.className = 'sbo-tier' + (i === 2 ? ' best' : '');
-      const badge = i === 2 ? 'BEST PICK · BEST VALUE' : row.shipping === 0 ? 'FREE DELIVERY' : '';
-      const delta = row.difference == null ? money(row.total) : row.difference > 0 ? '+ ' + money(row.difference) : row.difference === 0 ? 'No extra cost' : money(-row.difference) + ' less';
-      const icons = Array.from({ length: row.quantity }, (_, index) => '<span class="sbo-item' + (index === row.quantity - 1 && i ? ' extra' : '') + '"></span>').join('');
-      card.innerHTML = (badge ? '<span class="sbo-badge">' + badge + '</span>' : '') + '<div class="sbo-grid"><div class="sbo-art" aria-hidden="true">' + icons + '</div><div class="sbo-qty">' + row.quantity + ' ' + unit + '</div><div class="sbo-difference">' + delta + '</div><div class="sbo-shipping">' + (row.shipping === 0 ? 'FREE delivery' : money(row.shipping) + ' delivery included') + '</div></div>' + (i === 2 ? '<div class="sbo-average">Only <strong>' + money(row.average) + '</strong> per ' + quantity.singular + '</div>' : '') + (i ? '<div class="sbo-total"><span>You pay in total</span><strong>' + money(row.total) + '</strong></div>' : '');
+      const badge = i === 2 ? '<span class="sbo-badge">BEST PICK · BEST VALUE</span>' : '';
+      const delta = row.difference == null ? '' : row.difference > 0 ? money(row.difference) + ' more' : row.difference === 0 ? 'No extra cost' : money(-row.difference) + ' less';
+      const shipping = row.shipping === 0 ? 'Free' : money(row.shipping);
+      card.innerHTML = badge + '<div class="sbo-tier-main"><div class="sbo-quantity"><span class="sbo-item" aria-hidden="true"></span><span class="sbo-qty">' + row.quantity + ' ' + unit + '</span><span class="sbo-shipping" aria-label="Standard delivery: ' + shipping + '">' + truck + '<span>' + shipping + '</span></span></div><strong class="sbo-amount">' + money(row.total) + '</strong></div>' + (row.discount ? '<div class="sbo-subline"><span class="sbo-saving">Save ' + money(row.discount) + '</span><span class="sbo-difference">' + delta + '</span></div>' : '') + (i === 2 ? '<div class="sbo-average">Only <strong>' + money(row.average) + '</strong> per ' + quantity.singular + '</div>' : '');
       if (i) card.querySelector('.sbo-difference').setAttribute('aria-label', (row.difference > 0 ? 'Pay ' + money(row.difference) + ' more' : row.difference === 0 ? 'No extra cost' : 'Pay ' + money(-row.difference) + ' less') + ' compared with ' + (row.quantity - 1) + ' ' + unit);
       cards.append(card);
     });
-    root.querySelector('.sbo-note').textContent = (country === 'US' ? 'United States' : country === 'NZ' ? 'New Zealand' : 'Australia') + ' standard delivery estimate. Totals before new-customer discount. Free standard delivery on ' + money(freeAt) + '+ after all discounts.';
+    root.querySelector('.sbo-note').textContent = 'Totals before new-customer discount. Free standard delivery on ' + money(freeAt) + '+ after all discounts.';
     notice.hidden = true;
   }
   function init(root) {

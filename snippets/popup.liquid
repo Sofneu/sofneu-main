@@ -41,7 +41,7 @@
 <sl-dialog
     id="SizeGuideDialog-{{ tights_guide_id | escape }}"
     class="wt-product__size-guide-dialog{% if is_bundle_offer %} sbo-dialog{% endif %}"
-    label="{{ size_content.title | default: size_link | escape }}"
+    label="{% if is_bundle_offer %}SITEWIDE OFFER{% else %}{{ size_content.title | default: size_link | escape }}{% endif %}"
     {{ shopify_attributes }}
 >
     <div class="wt-product__modal--content-info rte">
