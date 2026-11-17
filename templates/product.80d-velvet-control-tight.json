@@ -83,6 +83,7 @@
         },
         "information_popup_FBkiVQ": {
           "type": "information_popup",
+          "disabled": true,
           "settings": {
             "size_icon": "price_tag",
             "size_link": "Save A$30 in Black Friday",
