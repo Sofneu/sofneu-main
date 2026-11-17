@@ -81,6 +81,16 @@
             "skin_button_label": "Match your skin"
           }
         },
+        "information_popup_ki3C3g": {
+          "type": "information_popup",
+          "settings": {
+            "size_icon": "price_tag",
+            "size_link": "Save $30 in Black Friday",
+            "size_content": "bundle-savings",
+            "metafield": "",
+            "enable-striped-rows": true
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -101,6 +111,7 @@
         "cwilltrustoo_reviews_star_rating_widget_RcerMP",
         "price",
         "variant_picker_7mHC3V",
+        "information_popup_ki3C3g",
         "buy_buttons"
       ],
       "settings": {
