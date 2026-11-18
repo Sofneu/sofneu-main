@@ -1027,13 +1027,13 @@
         "product_PQVR68": {
           "type": "product",
           "settings": {
-            "product": "30d-dot-tights"
+            "product": "80d-velvet-control-top-opaque-tights"
           }
         },
         "product_NjxXRn": {
           "type": "product",
           "settings": {
-            "product": "30d-ring-tights"
+            "product": "200d-fleece-lined-thermal-tights"
           }
         }
       },
@@ -1058,6 +1058,7 @@
       "blocks": {
         "cwilltrustoo_reviews_ai_summary_bgT9yd": {
           "type": "shopify://apps/cwilltrustoo-reviews/blocks/ai-summary/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+          "disabled": true,
           "settings": {
             "product": "10d-tight-nude"
           }
