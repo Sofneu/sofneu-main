@@ -936,7 +936,7 @@
         "padding_left_mobile": 16,
         "padding_right_mobile": 16,
         "padding_top_desktop": 40,
-        "padding_bottom_desktop": 0,
+        "padding_bottom_desktop": 20,
         "padding_left_desktop": 32,
         "padding_right_desktop": 32
       }
