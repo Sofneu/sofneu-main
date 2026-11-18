@@ -81,6 +81,16 @@
             "skin_button_label": "Match your skin"
           }
         },
+        "information_popup_zniXn4": {
+          "type": "information_popup",
+          "settings": {
+            "size_icon": "price_tag",
+            "size_link": "Save $30 in Black Friday",
+            "size_content": "bundle-savings",
+            "metafield": "",
+            "enable-striped-rows": true
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -101,6 +111,7 @@
         "cwilltrustoo_reviews_star_rating_widget_6xDWpk",
         "price",
         "variant_picker_7mHC3V",
+        "information_popup_zniXn4",
         "buy_buttons"
       ],
       "settings": {
@@ -396,8 +407,6 @@
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/pc-no1-product-nude-problem3.jpg",
-            "mobile_image": "shopify://shop_images/m-no1-product-nude-problem3.jpg",
             "out-background-color": "",
             "out-text-color": ""
           }
@@ -415,7 +424,6 @@
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/pc-no1-product-nude-problem2.jpg",
             "mobile_image": "shopify://shop_images/m-no1-product-nude-problem2.jpg",
             "out-background-color": "",
             "out-text-color": ""
@@ -434,8 +442,6 @@
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/pc-no1-product-nude-problem1.jpg",
-            "mobile_image": "shopify://shop_images/m-no1-product-nude-problem1.jpg",
             "out-background-color": "",
             "out-text-color": ""
           }
@@ -515,10 +521,8 @@
         "color-body-text": "rgba(0,0,0,0)",
         "color-overlay": "rgba(0,0,0,0)",
         "color-overlay-opacity": 100,
-        "desktop_image": "shopify://shop_images/pc-waist-nude.jpg",
         "desktop_text_vertical_position": "center",
         "desktop_text_horizontal_position": "left",
-        "mobile_image": "shopify://shop_images/m-waist-nude.jpg",
         "mobile_text_horizontal_position": "left",
         "margin-top": 20,
         "margin-bottom": 20,
@@ -543,8 +547,6 @@
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/pc-no1-product-nude-machine1.jpg",
-            "mobile_image": "shopify://shop_images/m-no1-product-nude-machine1.jpg",
             "out-background-color": "",
             "out-text-color": ""
           }
@@ -562,8 +564,6 @@
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/pc-no1-product-nude-machine2.jpg",
-            "mobile_image": "shopify://shop_images/m-no1-product-nude-machine2.jpg",
             "out-background-color": "",
             "out-text-color": ""
           }
@@ -581,8 +581,6 @@
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/pc-no1-product-nude-machine3.jpg",
-            "mobile_image": "shopify://shop_images/m-no1-product-nude-machine3.jpg",
             "out-background-color": "",
             "out-text-color": ""
           }
@@ -636,8 +634,6 @@
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/pc-no1-product-nude-material1.jpg",
-            "mobile_image": "shopify://shop_images/m-no1-product-nude-material1.jpg",
             "out-background-color": "",
             "out-text-color": ""
           }
@@ -655,8 +651,6 @@
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/pc-no1-product-nude-material2.jpg",
-            "mobile_image": "shopify://shop_images/m-no1-product-nude-material2.jpg",
             "out-background-color": "",
             "out-text-color": ""
           }
@@ -674,8 +668,6 @@
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
-            "desktop_image": "shopify://shop_images/pc-no1-product-nude-material3.jpg",
-            "mobile_image": "shopify://shop_images/m-no1-product-nude-material3.jpg",
             "out-background-color": "",
             "out-text-color": ""
           }
@@ -730,10 +722,8 @@
             "button_label": "",
             "button_disable_on_mobile": false,
             "button_link": "",
-            "desktop_image": "shopify://shop_images/pc-no1-product-nude-show2.jpg",
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
-            "mobile_image": "shopify://shop_images/m-no1-product-nude-show3.jpg",
             "mobile_text_vertical_position": "center",
             "mobile_text_horizontal_position": "center",
             "color-body-text": "rgba(0,0,0,0)",
@@ -757,7 +747,6 @@
             "button_link": "",
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
-            "mobile_image": "shopify://shop_images/m-no1-product-nude-show2.jpg",
             "mobile_text_vertical_position": "center",
             "mobile_text_horizontal_position": "center",
             "color-body-text": "rgba(0,0,0,0)",
@@ -781,7 +770,6 @@
             "button_link": "",
             "desktop_text_vertical_position": "center",
             "desktop_text_horizontal_position": "center",
-            "mobile_image": "shopify://shop_images/m-no1-product-nude-show1.jpg",
             "mobile_text_vertical_position": "center",
             "mobile_text_horizontal_position": "center",
             "color-body-text": "rgba(0,0,0,0)",
@@ -862,7 +850,6 @@
         "image_QwDQV6": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/icon-care-1.png",
             "select_icon": "user",
             "heading": "Heat",
             "text": "<p>Sterilized for Hygiene</p>",
@@ -872,7 +859,6 @@
         "image_hP4JBe": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/icon-care-2.png",
             "select_icon": "bag",
             "heading": "Skin",
             "text": "<p>Dermatologically Tested</p>",
@@ -882,7 +868,6 @@
         "image_B8WBgc": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/icon-care-3.png",
             "select_icon": "bag",
             "heading": "Thread",
             "text": "<p>Free Precision</p>",
