@@ -397,41 +397,6 @@
         "column_Q7GfxN": {
           "type": "column",
           "settings": {
-            "heading": "Sagging again",
-            "heading_disable_on_mobile": false,
-            "text": "<p>No woman should be pulling up her tights all day.</p>",
-            "text_disable_on_mobile": false,
-            "text_style": "body",
-            "button_select": "primary",
-            "button_label": "",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "button_link_in_new_window": false,
-            "out-background-color": "",
-            "out-text-color": ""
-          }
-        },
-        "column_dfbQq3": {
-          "type": "column",
-          "settings": {
-            "heading": "Can’t breathe in them",
-            "heading_disable_on_mobile": false,
-            "text": "<p>Tights shouldn’t dig into your thighs or ruin your comfort</p>",
-            "text_disable_on_mobile": false,
-            "text_style": "body",
-            "button_select": "primary",
-            "button_label": "",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "button_link_in_new_window": false,
-            "mobile_image": "shopify://shop_images/m-no1-product-nude-problem2.jpg",
-            "out-background-color": "",
-            "out-text-color": ""
-          }
-        },
-        "column_zRTRqK": {
-          "type": "column",
-          "settings": {
             "heading": "One snag, outfit ruined",
             "heading_disable_on_mobile": false,
             "text": "<p>Your dressed up for them - then your tights failed you</p>",
@@ -442,6 +407,43 @@
             "button_disable_on_mobile": false,
             "button_link": "",
             "button_link_in_new_window": false,
+            "mobile_image": "shopify://shop_images/m-no1-product-nude-problem1.jpg",
+            "out-background-color": "",
+            "out-text-color": ""
+          }
+        },
+        "column_dfbQq3": {
+          "type": "column",
+          "settings": {
+            "heading": "Sagging again",
+            "heading_disable_on_mobile": false,
+            "text": "<p>No woman should be pulling up her tights all day.</p>",
+            "text_disable_on_mobile": false,
+            "text_style": "body",
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "mobile_image": "shopify://shop_images/pc-no1-product-nude-problem3.jpg",
+            "out-background-color": "",
+            "out-text-color": ""
+          }
+        },
+        "column_zRTRqK": {
+          "type": "column",
+          "settings": {
+            "heading": "Can’t breathe in them",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Too stuffy to stay comfortable.</p>",
+            "text_disable_on_mobile": false,
+            "text_style": "body",
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "mobile_image": "shopify://shop_images/m-no1-product-nude-problem2_d0694b85-1dfb-4f19-89ed-5bd1c534ab09.jpg",
             "out-background-color": "",
             "out-text-color": ""
           }
@@ -455,7 +457,7 @@
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "advanced_heading": false,
-        "heading": "01 ｜ Why We Rethought Tights",
+        "heading": "01 ｜ Why We Rethought Sheer Tights",
         "heading_richtext": "<h2>Multicolumn</h2>",
         "enable_stack_products": false,
         "full-width-enabled": false,
