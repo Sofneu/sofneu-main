@@ -481,56 +481,244 @@
         "margin-bottom-mobile": 20
       }
     },
-    "image_with_text_Jzp8ia": {
-      "type": "image-with-text",
+    "multicolumn_CLkCT4": {
+      "type": "multicolumn",
       "blocks": {
-        "heading_i9XFXA": {
-          "type": "heading",
+        "column_NdMMbF": {
+          "type": "column",
           "settings": {
-            "heading": "High-waist design that stays in place — smooth, supportive, and breathable all day.",
-            "disable_on_mobile": false,
-            "size_heading": 100,
-            "size_heading_mobile": 100
+            "heading": "900-Needle Precision",
+            "heading_disable_on_mobile": false,
+            "text": "<p>A denser knit for greater durability</p>",
+            "text_disable_on_mobile": false,
+            "text_style": "body",
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "mobile_image": "shopify://shop_images/m-no1-product-nude-machine2.jpg",
+            "out-background-color": "",
+            "out-text-color": ""
           }
         },
-        "text_F4MxPT": {
+        "column_KamHCz": {
+          "type": "column",
+          "settings": {
+            "heading": "Four-Way Reinforced Weaving",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Advanced interlock knit for strength, stretch, and shape retention.</p>",
+            "text_disable_on_mobile": false,
+            "text_style": "body",
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "mobile_image": "shopify://shop_images/m-no1-product-nude-machine3.jpg",
+            "out-background-color": "",
+            "out-text-color": ""
+          }
+        },
+        "column_V3C7Xn": {
+          "type": "column",
+          "settings": {
+            "heading": "High-Stretch Core Blend",
+            "heading_disable_on_mobile": false,
+            "text": "<p>42% Spandex for ultimate flexibility and shape retention.</p>",
+            "text_disable_on_mobile": false,
+            "text_style": "body",
+            "button_select": "primary",
+            "button_label": "",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "mobile_image": "shopify://shop_images/m-no1-product-nude-material1.jpg",
+            "out-background-color": "",
+            "out-text-color": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_NdMMbF",
+        "column_KamHCz",
+        "column_V3C7Xn"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "advanced_heading": false,
+        "heading": "02 ｜ Made for More Wear",
+        "heading_richtext": "<h2>Multicolumn</h2>",
+        "enable_stack_products": false,
+        "full-width-enabled": false,
+        "video_controls": false,
+        "video_custom_play_controls": false,
+        "video_custom_mute_controls": false,
+        "number_of_column_desktop": 3,
+        "spacing_desktop": "16",
+        "number_of_column_mobile": "1",
+        "spacing_mobile": "16",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "size_heading": 80,
+        "size_heading_mobile": 80,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20,
+        "show_mobile_spacing": false,
+        "margin-top-mobile": 20,
+        "margin-bottom-mobile": 20
+      }
+    },
+    "rich_text_ip9xE7": {
+      "type": "rich-text",
+      "blocks": {
+        "text_3dHr6Q": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>High-Waist Support</li><li>Control Top Design</li><li>Hip Coverage</li><li>No Marks Just Comfort</li></ul>",
+            "text": "<p>No sheer tights are indestructible. We simply want yours to last more wears.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        },
+        "text_qJ6bXV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Prefer a thicker pair with more coverage? <a href=\"/products/80d-velvet-control-top-opaque-tights\" title=\"Velvet 80D Control Top Opaque Tights\">Explore snag-resistant Opaque tights</a></p>",
             "text_style": "body",
             "disable_on_mobile": false
           }
         }
       },
       "block_order": [
-        "heading_i9XFXA",
-        "text_F4MxPT"
+        "text_3dHr6Q",
+        "text_qJ6bXV"
       ],
-      "name": "t:sections.image-with-text.presets.name",
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "advanced_heading": false,
-        "title": "02 ｜ Comfort Starts at the Top",
-        "heading_richtext": "<h2>Image with text</h2>",
-        "layout": "image_first",
-        "desktop-percentage-image-width": 50,
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "center",
         "full-width-enabled": false,
-        "slide_height": "adapt_to_first_image",
-        "desktop_fixed_height": 320,
-        "mobile_fixed_height": 460,
-        "section-color-body-text": "rgba(0,0,0,0)",
-        "section-color-overlay": "#faf8f6",
-        "section-color-overlay-opacity": 0,
-        "color-body-text": "rgba(0,0,0,0)",
-        "color-overlay": "rgba(0,0,0,0)",
-        "color-overlay-opacity": 100,
-        "desktop_text_vertical_position": "center",
-        "desktop_text_horizontal_position": "left",
-        "mobile_text_horizontal_position": "left",
-        "margin-top": 20,
-        "margin-bottom": 20,
+        "color-body-text": "#2B2B2B",
+        "background_color": "",
+        "background_gradient": "",
+        "margin-top": 12,
+        "margin-bottom": 12,
         "show_mobile_spacing": false,
         "margin-top-mobile": 20,
-        "margin-bottom-mobile": 20
+        "margin-bottom-mobile": 20,
+        "compact_size": false
+      }
+    },
+    "rich_text_JLmDma": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9H3YHy": {
+          "type": "heading",
+          "settings": {
+            "advanced_heading": false,
+            "heading": "03 ｜ Comfort in Every Detail",
+            "heading_richtext": "<h2>Your headline here</h2>",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100,
+            "heading_richtext_color": "",
+            "heading_richtext_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_9H3YHy"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "center",
+        "full-width-enabled": false,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "show_mobile_spacing": false,
+        "margin-top-mobile": 20,
+        "margin-bottom-mobile": 20,
+        "compact_size": false
+      }
+    },
+    "text_overlay_gkwb9J": {
+      "type": "text-overlay",
+      "blocks": {
+        "heading_QNqKf4": {
+          "type": "heading",
+          "settings": {
+            "show_block": true,
+            "heading": "<p><strong>Seamless Crotch</strong></p>",
+            "color": "#2b2b2b",
+            "desktop_color": "#2b2b2b",
+            "mobile_size": 16,
+            "desktop_size": 36,
+            "animation": "none"
+          }
+        },
+        "text_rydAqK": {
+          "type": "text",
+          "settings": {
+            "show_block": true,
+            "text": "<p>Just smooth, comfortable wear</p>",
+            "color": "#2b2b2b",
+            "desktop_color": "#2b2b2b",
+            "mobile_size": 14,
+            "desktop_size": 16,
+            "animation": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QNqKf4",
+        "text_rydAqK"
+      ],
+      "name": "Text Overlay",
+      "settings": {
+        "mobile_image": "shopify://shop_images/no2waist1.webp",
+        "image_size_mode": "auto",
+        "mobile_image_height": 420,
+        "desktop_image_height": 800,
+        "image_fit": "contain",
+        "image_radius": 12,
+        "width_style": "contained",
+        "mobile_max_width": 420,
+        "desktop_max_width": 1280,
+        "desktop_layout": "image_left",
+        "desktop_image_width": "50",
+        "desktop_gap": 40,
+        "mobile_content_gap": 16,
+        "mobile_content_layout": "overlay",
+        "mobile_overlay_x": 50,
+        "mobile_overlay_y": 80,
+        "mobile_overlay_safe_padding": 16,
+        "content_alignment": "center",
+        "content_text_align": "center",
+        "content_gap": 12,
+        "mobile_content_max_width": 420,
+        "desktop_content_max_width": 800,
+        "icon_text_gap": 10,
+        "button_height": 42,
+        "button_padding_x": 20,
+        "button_radius": 0,
+        "button_text_size": 14,
+        "primary_button_background": "#2b2b2b",
+        "primary_button_color": "#ffffff",
+        "outline_button_color": "#2b2b2b",
+        "text_link_color": "#2b2b2b",
+        "section_background": "#ffffff",
+        "side_padding_mobile": 14,
+        "side_padding_desktop": 20,
+        "padding_top_mobile": 12,
+        "padding_bottom_mobile": 12,
+        "padding_top_desktop": 20,
+        "padding_bottom_desktop": 20
       }
     },
     "multicolumn_XpYCQR": {
@@ -803,42 +991,6 @@
         "margin-bottom-mobile": 20
       }
     },
-    "rich_text_JLmDma": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_9H3YHy": {
-          "type": "heading",
-          "settings": {
-            "advanced_heading": false,
-            "heading": "How Sofneu Stands Apart",
-            "heading_richtext": "<h2>Your headline here</h2>",
-            "disable_on_mobile": false,
-            "size_heading": 100,
-            "size_heading_mobile": 100,
-            "heading_richtext_color": "",
-            "heading_richtext_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_9H3YHy"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "section_width": "regular",
-        "desktop_text_horizontal_position": "center",
-        "full-width-enabled": false,
-        "color-body-text": "rgba(0,0,0,0)",
-        "background_color": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "margin-top": 0,
-        "margin-bottom": 0,
-        "show_mobile_spacing": false,
-        "margin-top-mobile": 20,
-        "margin-bottom-mobile": 20,
-        "compact_size": false
-      }
-    },
     "custom_liquid_r7qaJr": {
       "type": "custom-liquid",
       "name": "comparison",
@@ -981,11 +1133,13 @@
     "product_accordion_tabs_QeKUck",
     "features_banner_fE94qE",
     "multicolumn_njFRzi",
-    "image_with_text_Jzp8ia",
+    "multicolumn_CLkCT4",
+    "rich_text_ip9xE7",
+    "rich_text_JLmDma",
+    "text_overlay_gkwb9J",
     "multicolumn_XpYCQR",
     "multicolumn_P8rNPH",
     "collage_zqQLnk",
-    "rich_text_JLmDma",
     "custom_liquid_r7qaJr",
     "features_banner_ahktVM",
     "xt_product_pickup_4RTCTV",
