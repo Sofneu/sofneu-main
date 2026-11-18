@@ -755,6 +755,7 @@
       ],
       "name": "Text Overlay",
       "settings": {
+        "desktop_image": "shopify://shop_images/pc-waist-nude.jpg",
         "mobile_image": "shopify://shop_images/m-waist-nude.jpg",
         "image_size_mode": "auto",
         "mobile_image_height": 420,
@@ -764,7 +765,7 @@
         "width_style": "contained",
         "mobile_max_width": 420,
         "desktop_max_width": 1280,
-        "desktop_layout": "image_left",
+        "desktop_layout": "content_left",
         "desktop_image_width": "50",
         "desktop_gap": 40,
         "mobile_content_gap": 16,
@@ -911,8 +912,8 @@
         "show_button": false,
         "button_text": "Read All Reviews",
         "button_link": "",
-        "section_background": "#FFFFFF",
-        "card_background": "#F7F2ED",
+        "section_background": "#ffffff",
+        "card_background": "#f7f2ed",
         "text_color": "#2b2b2b",
         "heading_color": "#2b2b2b",
         "accent_color": "#b3877b",
@@ -935,9 +936,45 @@
         "padding_left_mobile": 16,
         "padding_right_mobile": 16,
         "padding_top_desktop": 40,
-        "padding_bottom_desktop": 40,
+        "padding_bottom_desktop": 0,
         "padding_left_desktop": 32,
         "padding_right_desktop": 32
+      }
+    },
+    "rich_text_b93rnB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fKkrVX": {
+          "type": "heading",
+          "settings": {
+            "advanced_heading": false,
+            "heading": "05 ｜How Sofneu Stands Apart",
+            "heading_richtext": "<h2>Your headline here</h2>",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100,
+            "heading_richtext_color": "",
+            "heading_richtext_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_fKkrVX"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "desktop_text_horizontal_position": "center",
+        "full-width-enabled": false,
+        "color-body-text": "",
+        "background_color": "",
+        "background_gradient": "",
+        "margin-top": 0,
+        "margin-bottom": 0,
+        "show_mobile_spacing": false,
+        "margin-top-mobile": 20,
+        "margin-bottom-mobile": 20,
+        "compact_size": false
       }
     },
     "custom_liquid_r7qaJr": {
@@ -1092,6 +1129,7 @@
     "text_overlay_gkwb9J",
     "text_overlay_aE9kik",
     "sofneu_carousel_dheBqe",
+    "rich_text_b93rnB",
     "custom_liquid_r7qaJr",
     "features_banner_ahktVM",
     "xt_product_pickup_4RTCTV",
