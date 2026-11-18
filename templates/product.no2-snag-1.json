@@ -835,7 +835,7 @@
             "show_item": true,
             "title": "Amazing product and customer service!",
             "text": "<p>Thank you for great communication</p>",
-            "product_name": "No.1 Sheer tights",
+            "product_name": "",
             "image": "shopify://shop_images/elena-with-tights.webp",
             "second_image": "shopify://shop_images/elena-with-tights-1.webp",
             "avatar": "shopify://shop_images/elena-with-tights_icon_3c808e50-907d-488e-a2b5-9f8d8f2a44cd.webp",
@@ -850,7 +850,7 @@
             "show_item": true,
             "title": "Love these tights A+ Resilient",
             "text": "<p>They feel incredibly light on the body, almost like a second skin, while still holding everything nicely.&nbsp;</p>",
-            "product_name": "No.2 Sheer tights",
+            "product_name": "",
             "image": "shopify://shop_images/sandi-with-tights-1.webp",
             "second_image": "shopify://shop_images/sandi-with-tights.webp",
             "avatar": "shopify://shop_images/sandi-with-tights_icon_1a5c0278-51f6-4ecd-8d67-04833d3f3f07.webp",
@@ -888,6 +888,18 @@
             "show_rating": true,
             "rating": 5
           }
+        },
+        "item_LLrXYp": {
+          "type": "item",
+          "settings": {
+            "show_item": true,
+            "title": "The first choice wasn't particularly",
+            "text": "<p>The first choice wasn't particularly impressive, but after using it, I found it to be truly amazing. It's fantastic, and I will recommend it to my friends</p>",
+            "product_name": "",
+            "author": "Lisa",
+            "show_rating": true,
+            "rating": 5
+          }
         }
       },
       "block_order": [
@@ -896,7 +908,8 @@
         "item_8HVHF9",
         "item_p6wtWr",
         "item_3c9P48",
-        "item_fVBmBA"
+        "item_fVBmBA",
+        "item_LLrXYp"
       ],
       "name": "Sofneu Carousel",
       "settings": {
