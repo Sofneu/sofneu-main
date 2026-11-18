@@ -880,23 +880,11 @@
             "show_item": true,
             "title": "They’re great!! They’re super light",
             "text": "<p>yet don’t break! I love that it comes with gloves to put the tights on, and the sheer is incredible!! I’m so happy with them!</p>",
-            "product_name": "No.1 Sheer tights",
+            "product_name": "",
             "image": "shopify://shop_images/andrea-with-tights.webp",
             "second_image": "shopify://shop_images/andrea-with-tights-1.webp",
             "avatar": "shopify://shop_images/andrea-with-tights_icon_2d95a75a-ec63-4d3c-95ba-0ec03b25efcd.webp",
             "author": "Andrea",
-            "show_rating": true,
-            "rating": 5
-          }
-        },
-        "item_LLrXYp": {
-          "type": "item",
-          "settings": {
-            "show_item": true,
-            "title": "The first choice wasn't particularly",
-            "text": "<p>The first choice wasn't particularly impressive, but after using it, I found it to be truly amazing. It's fantastic, and I will recommend it to my friends</p>",
-            "product_name": "",
-            "author": "Lisa",
             "show_rating": true,
             "rating": 5
           }
@@ -908,8 +896,7 @@
         "item_8HVHF9",
         "item_p6wtWr",
         "item_3c9P48",
-        "item_fVBmBA",
-        "item_LLrXYp"
+        "item_fVBmBA"
       ],
       "name": "Sofneu Carousel",
       "settings": {
