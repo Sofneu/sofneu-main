@@ -600,7 +600,7 @@
         "section_width": "regular",
         "desktop_text_horizontal_position": "center",
         "full-width-enabled": false,
-        "color-body-text": "#2B2B2B",
+        "color-body-text": "#2b2b2b",
         "background_color": "",
         "background_gradient": "",
         "margin-top": 12,
@@ -721,274 +721,78 @@
         "padding_bottom_desktop": 20
       }
     },
-    "multicolumn_XpYCQR": {
-      "type": "multicolumn",
+    "text_overlay_aE9kik": {
+      "type": "text-overlay",
       "blocks": {
-        "column_NKJKdY": {
-          "type": "column",
+        "heading_9H9Rfb": {
+          "type": "heading",
           "settings": {
-            "heading": "Crafted with Italian Tech",
-            "heading_disable_on_mobile": false,
-            "text": "<p>Precision knitting perfected in Italy’s finest mills.</p>",
-            "text_disable_on_mobile": false,
-            "text_style": "body",
-            "button_select": "primary",
-            "button_label": "",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "button_link_in_new_window": false,
-            "out-background-color": "",
-            "out-text-color": ""
+            "show_block": true,
+            "heading": "<p><strong>High-Waist Control Top</strong></p>",
+            "color": "#2b2b2b",
+            "desktop_color": "#2b2b2b",
+            "mobile_size": 16,
+            "desktop_size": 36,
+            "animation": "none"
           }
         },
-        "column_6e7JaA": {
-          "type": "column",
+        "text_XHzpt6": {
+          "type": "text",
           "settings": {
-            "heading": "Run-Resistant Weave",
-            "heading_disable_on_mobile": false,
-            "text": "<p>Delicate micro-knit structure designed to resist snags and ladders.</p>",
-            "text_disable_on_mobile": false,
-            "text_style": "body",
-            "button_select": "primary",
-            "button_label": "",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "button_link_in_new_window": false,
-            "out-background-color": "",
-            "out-text-color": ""
-          }
-        },
-        "column_MGpbNY": {
-          "type": "column",
-          "settings": {
-            "heading": "Four-Way Reinforced Weaving",
-            "heading_disable_on_mobile": false,
-            "text": "<p>Advanced interlock knit for strength, stretch, and shape retention.</p><p></p>",
-            "text_disable_on_mobile": false,
-            "text_style": "body",
-            "button_select": "primary",
-            "button_label": "",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "button_link_in_new_window": false,
-            "out-background-color": "",
-            "out-text-color": ""
+            "show_block": true,
+            "text": "<p>Smooth support around your waist and tummy</p>",
+            "color": "#2b2b2b",
+            "desktop_color": "#2b2b2b",
+            "mobile_size": 14,
+            "desktop_size": 16,
+            "animation": "none"
           }
         }
       },
       "block_order": [
-        "column_NKJKdY",
-        "column_6e7JaA",
-        "column_MGpbNY"
+        "heading_9H9Rfb",
+        "text_XHzpt6"
       ],
-      "name": "t:sections.multicolumn.presets.name",
+      "name": "Text Overlay",
       "settings": {
-        "advanced_heading": false,
-        "heading": "03 ｜ Crafted the Right Way",
-        "heading_richtext": "<h2>Multicolumn</h2>",
-        "enable_stack_products": false,
-        "full-width-enabled": false,
-        "video_controls": false,
-        "video_custom_play_controls": false,
-        "video_custom_mute_controls": false,
-        "number_of_column_desktop": 3,
-        "spacing_desktop": "16",
-        "number_of_column_mobile": "1",
-        "spacing_mobile": "16",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "size_heading": 80,
-        "size_heading_mobile": 80,
-        "color-body-text": "rgba(0,0,0,0)",
-        "background_color": "rgba(0,0,0,0)",
-        "margin-top": 20,
-        "margin-bottom": 20,
-        "show_mobile_spacing": false,
-        "margin-top-mobile": 20,
-        "margin-bottom-mobile": 20
-      }
-    },
-    "multicolumn_P8rNPH": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_WcWJ9n": {
-          "type": "column",
-          "settings": {
-            "heading": "High-Stretch Core Blend",
-            "heading_disable_on_mobile": false,
-            "text": "<p>42% Spandex for ultimate flexibility and shape retention.</p>",
-            "text_disable_on_mobile": false,
-            "text_style": "body",
-            "button_select": "primary",
-            "button_label": "",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "button_link_in_new_window": false,
-            "out-background-color": "",
-            "out-text-color": ""
-          }
-        },
-        "column_T7mxbP": {
-          "type": "column",
-          "settings": {
-            "heading": "Air-Flow Micro Weave",
-            "heading_disable_on_mobile": false,
-            "text": "<p>Microscopic knit allows air to circulate for lasting comfort.</p>",
-            "text_disable_on_mobile": false,
-            "text_style": "body",
-            "button_select": "primary",
-            "button_label": "",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "button_link_in_new_window": false,
-            "out-background-color": "",
-            "out-text-color": ""
-          }
-        },
-        "column_8zNCzb": {
-          "type": "column",
-          "settings": {
-            "heading": "Tighter weave, smoother touch",
-            "heading_disable_on_mobile": false,
-            "text": "<p>Ultra-fine yarns knitted with 900-needle accuracy for a smoother, denser finish.</p>",
-            "text_disable_on_mobile": false,
-            "text_style": "body",
-            "button_select": "primary",
-            "button_label": "",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "button_link_in_new_window": false,
-            "out-background-color": "",
-            "out-text-color": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_WcWJ9n",
-        "column_T7mxbP",
-        "column_8zNCzb"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "advanced_heading": false,
-        "heading": "04 ｜ It All Begins with Better Yarn",
-        "heading_richtext": "<h2>Multicolumn</h2>",
-        "enable_stack_products": false,
-        "full-width-enabled": false,
-        "video_controls": false,
-        "video_custom_play_controls": false,
-        "video_custom_mute_controls": false,
-        "number_of_column_desktop": 3,
-        "spacing_desktop": "16",
-        "number_of_column_mobile": "1",
-        "spacing_mobile": "16",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "size_heading": 80,
-        "size_heading_mobile": 80,
-        "color-body-text": "rgba(0,0,0,0)",
-        "background_color": "rgba(0,0,0,0)",
-        "margin-top": 20,
-        "margin-bottom": 20,
-        "show_mobile_spacing": false,
-        "margin-top-mobile": 20,
-        "margin-bottom-mobile": 20
-      }
-    },
-    "collage_zqQLnk": {
-      "type": "collage",
-      "blocks": {
-        "image_WhzUBy": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "heading_disable_on_mobile": false,
-            "size_heading": 100,
-            "size_heading_mobile": 100,
-            "text": "",
-            "text_disable_on_mobile": false,
-            "text_style": "body",
-            "button_select": "primary",
-            "button_label": "",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "desktop_text_vertical_position": "center",
-            "desktop_text_horizontal_position": "center",
-            "mobile_text_vertical_position": "center",
-            "mobile_text_horizontal_position": "center",
-            "color-body-text": "rgba(0,0,0,0)",
-            "color-overlay": "rgba(0,0,0,0)",
-            "color-overlay-opacity": 100
-          }
-        },
-        "image_NL4CJn": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "heading_disable_on_mobile": false,
-            "size_heading": 100,
-            "size_heading_mobile": 100,
-            "text": "",
-            "text_disable_on_mobile": false,
-            "text_style": "body",
-            "button_select": "primary",
-            "button_label": "",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "desktop_text_vertical_position": "center",
-            "desktop_text_horizontal_position": "center",
-            "mobile_text_vertical_position": "center",
-            "mobile_text_horizontal_position": "center",
-            "color-body-text": "rgba(0,0,0,0)",
-            "color-overlay": "rgba(0,0,0,0)",
-            "color-overlay-opacity": 100
-          }
-        },
-        "image_w8EbbF": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "heading_disable_on_mobile": false,
-            "size_heading": 100,
-            "size_heading_mobile": 100,
-            "text": "",
-            "text_disable_on_mobile": false,
-            "text_style": "body",
-            "button_select": "primary",
-            "button_label": "",
-            "button_disable_on_mobile": false,
-            "button_link": "",
-            "desktop_text_vertical_position": "center",
-            "desktop_text_horizontal_position": "center",
-            "mobile_text_vertical_position": "center",
-            "mobile_text_horizontal_position": "center",
-            "color-body-text": "rgba(0,0,0,0)",
-            "color-overlay": "rgba(0,0,0,0)",
-            "color-overlay-opacity": 100
-          }
-        }
-      },
-      "block_order": [
-        "image_WhzUBy",
-        "image_NL4CJn",
-        "image_w8EbbF"
-      ],
-      "name": "t:sections.collage.settings.presets.name",
-      "settings": {
-        "advanced_heading": false,
-        "heading": "05 ｜ Effortless on the Body",
-        "heading_richtext": "<h2>Collage</h2>",
-        "full-width-enabled": false,
-        "desktop_layout": "row",
-        "spacing_desktop": "16",
-        "spacing_mobile": "16",
-        "color-body-text": "rgba(0,0,0,0)",
-        "background_color": "rgba(0,0,0,0)",
-        "margin-top": 20,
-        "margin-bottom": 20,
-        "show_mobile_spacing": false,
-        "margin-top-mobile": 20,
-        "margin-bottom-mobile": 20
+        "mobile_image": "shopify://shop_images/m-waist-nude.jpg",
+        "image_size_mode": "auto",
+        "mobile_image_height": 420,
+        "desktop_image_height": 800,
+        "image_fit": "contain",
+        "image_radius": 12,
+        "width_style": "contained",
+        "mobile_max_width": 420,
+        "desktop_max_width": 1280,
+        "desktop_layout": "image_left",
+        "desktop_image_width": "50",
+        "desktop_gap": 40,
+        "mobile_content_gap": 16,
+        "mobile_content_layout": "overlay",
+        "mobile_overlay_x": 50,
+        "mobile_overlay_y": 80,
+        "mobile_overlay_safe_padding": 16,
+        "content_alignment": "center",
+        "content_text_align": "center",
+        "content_gap": 12,
+        "mobile_content_max_width": 420,
+        "desktop_content_max_width": 800,
+        "icon_text_gap": 10,
+        "button_height": 42,
+        "button_padding_x": 20,
+        "button_radius": 0,
+        "button_text_size": 14,
+        "primary_button_background": "#2b2b2b",
+        "primary_button_color": "#ffffff",
+        "outline_button_color": "#2b2b2b",
+        "text_link_color": "#2b2b2b",
+        "section_background": "#ffffff",
+        "side_padding_mobile": 14,
+        "side_padding_desktop": 20,
+        "padding_top_mobile": 12,
+        "padding_bottom_mobile": 12,
+        "padding_top_desktop": 20,
+        "padding_bottom_desktop": 20
       }
     },
     "custom_liquid_r7qaJr": {
@@ -996,65 +800,6 @@
       "name": "comparison",
       "settings": {
         "custom_liquid": "<section class=\"eros-compare\">\n  <style>\n    .eros-compare {\n      --table-max: 1000px;\n      --fs: 16px;\n      --fs-sm: 12px;\n      --pad-y: 12px;\n      --pad-x: 14px;\n      --pad-y-sm: 8px;\n      --pad-x-sm: 8px;\n      --row-alt: #F5F2EB;\n      --chip-bg: #E9E6E4;\n      --good: #10b981;\n      --bad: #ef4444;\n      --warn: #f59e0b;\n      --text: #111827;\n\n      font-family: system-ui, -apple-system, \"Segoe UI\", Roboto, Arial, sans-serif;\n      color: var(--text);\n    }\n\n    .eros-compare .table-wrap {\n      max-width: var(--table-max);\n      margin: 0 auto;\n      overflow-x: auto;\n    }\n\n    .eros-compare table {\n      width: 100%;\n      border-collapse: collapse;\n    }\n\n    .eros-compare th,\n    .eros-compare td {\n      padding: var(--pad-y) var(--pad-x);\n      font-size: var(--fs);\n      text-align: left;\n      line-height: 1.5;\n      border: 0;\n      white-space: nowrap;\n      vertical-align: middle;\n    }\n\n    .eros-compare thead th {\n      font-weight: 700;\n    }\n\n    .eros-compare .feat {\n      font-weight: 600;\n    }\n\n    .eros-compare tbody tr:nth-child(odd) {\n      background: var(--row-alt);\n    }\n\n    .eros-compare .chip {\n      display: inline-flex;\n      align-items: center;\n      gap: 6px;\n      padding: 5px 9px;\n      border-radius: 999px;\n      background: var(--chip-bg);\n      font-size: 0.85em;\n    }\n\n    .eros-compare .chip i {\n      font-style: normal;\n    }\n\n    .eros-compare .ok i {\n      color: var(--good);\n    }\n\n    .eros-compare .bad i {\n      color: var(--bad);\n    }\n\n    .eros-compare .warn i {\n      color: var(--warn);\n    }\n\n    .eros-compare .value {\n      font-weight: 600;\n    }\n\n    .eros-compare .sofneu-price {\n      display: block;\n      font-weight: 700;\n    }\n\n    .eros-compare .sofneu-price-note {\n      display: block;\n      margin-top: 4px;\n      font-size: 12px;\n      font-weight: 400;\n      color: #59534e;\n      line-height: 1.4;\n    }\n\n    .eros-compare .price-footnote {\n      box-sizing: border-box;\n      max-width: var(--table-max);\n      margin: 10px auto 0;\n      padding: 0 var(--pad-x);\n      font-size: 12px;\n      color: #59534e;\n      line-height: 1.5;\n    }\n\n    @media (max-width: 750px) {\n      .eros-compare th,\n      .eros-compare td {\n        font-size: var(--fs-sm);\n        padding: var(--pad-y-sm) var(--pad-x-sm);\n        white-space: normal;\n      }\n\n      .eros-compare .sofneu-price-note,\n      .eros-compare .price-footnote {\n        font-size: 11px;\n      }\n    }\n  </style>\n\n  <div class=\"table-wrap\">\n    <table aria-label=\"Tights feature and price comparison\">\n      <thead>\n        <tr>\n          <th scope=\"col\">Feature</th>\n          <th scope=\"col\">Low-End</th>\n          <th scope=\"col\">Sofneu</th>\n          <th scope=\"col\">High-End</th>\n        </tr>\n      </thead>\n\n      <tbody>\n        <tr>\n          <td class=\"feat\">Waist Stay</td>\n          <td><span class=\"chip bad\"><i>❌</i> Slips</span></td>\n          <td><span class=\"chip ok\"><i>✅</i> Perfect</span></td>\n          <td><span class=\"chip ok\"><i>✅</i> Good</span></td>\n        </tr>\n\n        <tr>\n          <td class=\"feat\">Control Top</td>\n          <td><span class=\"chip bad\"><i>❌</i> None</span></td>\n          <td><span class=\"chip ok\"><i>✅</i> Smooth</span></td>\n          <td><span class=\"chip warn\"><i>⚠️</i> Firm</span></td>\n        </tr>\n\n        <tr>\n          <td class=\"feat\">Comfort</td>\n          <td><span class=\"chip bad\"><i>❌</i> Rough</span></td>\n          <td><span class=\"chip ok\"><i>✅</i> Silky</span></td>\n          <td><span class=\"chip warn\"><i>⚠️</i> Heavy</span></td>\n        </tr>\n\n        <tr>\n          <td class=\"feat\">Elasticity</td>\n          <td><span class=\"chip bad\"><i>❌</i> Weak</span></td>\n          <td><span class=\"chip ok\"><i>✅</i> Superior</span></td>\n          <td><span class=\"chip ok\"><i>✅</i> Good</span></td>\n        </tr>\n\n        <tr>\n          <td class=\"feat\">Durability</td>\n          <td><span class=\"chip bad\"><i>❌</i> Fragile</span></td>\n          <td><span class=\"chip ok\"><i>✅</i> Resistant</span></td>\n          <td><span class=\"chip warn\"><i>⚠️</i> Thick</span></td>\n        </tr>\n\n        <tr>\n          <td class=\"feat\">Finish</td>\n          <td><span class=\"chip bad\"><i>❌</i> Dull</span></td>\n          <td><span class=\"chip ok\"><i>✅</i> Versatile</span></td>\n          <td><span class=\"chip ok\"><i>✅</i> Glossy</span></td>\n        </tr>\n\n        <tr>\n          <td class=\"feat value\">Price per pair</td>\n          <td class=\"value\">A$15</td>\n          <td class=\"value\">\n            <span class=\"sofneu-price\">From A$20*</span>\n          </td>\n          <td class=\"value\">A$60</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n\n  <p class=\"price-footnote\">\n    *A$20.49 per pair when you buy 4 pairs priced at A$27.99 each and receive A$30 off. Total: A$81.96. All prices in AUD.\n  </p>\n</section>"
-      }
-    },
-    "features_banner_ahktVM": {
-      "type": "features-banner",
-      "blocks": {
-        "image_QwDQV6": {
-          "type": "image",
-          "settings": {
-            "select_icon": "user",
-            "heading": "Heat",
-            "text": "<p>Sterilized for Hygiene</p>",
-            "link": "#"
-          }
-        },
-        "image_hP4JBe": {
-          "type": "image",
-          "settings": {
-            "select_icon": "bag",
-            "heading": "Skin",
-            "text": "<p>Dermatologically Tested</p>",
-            "link": "#"
-          }
-        },
-        "image_B8WBgc": {
-          "type": "image",
-          "settings": {
-            "select_icon": "bag",
-            "heading": "Thread",
-            "text": "<p>Free Precision</p>",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_QwDQV6",
-        "image_hP4JBe",
-        "image_B8WBgc"
-      ],
-      "name": "Icon with links",
-      "settings": {
-        "advanced_heading": false,
-        "heading": "Our Promise to You",
-        "heading_richtext": "<h2>Features banner</h2>",
-        "size_heading_mobile": 100,
-        "size_heading": 80,
-        "icon_width_mobile": 36,
-        "icon_width_desktop": 48,
-        "icon_layout": "center",
-        "columns_desktop": "3",
-        "icon_layout_mobile": "grid",
-        "color_body_icon": "rgba(0,0,0,0)",
-        "color_background_icon": "rgba(0,0,0,0)",
-        "color_body_text": "rgba(0,0,0,0)",
-        "background_color": "rgba(0,0,0,0)",
-        "margin-top": 20,
-        "margin-bottom": 20,
-        "show_mobile_spacing": false,
-        "margin-top-mobile": 20,
-        "margin-bottom-mobile": 20
       }
     },
     "xt_product_pickup_4RTCTV": {
@@ -1137,11 +882,8 @@
     "rich_text_ip9xE7",
     "rich_text_JLmDma",
     "text_overlay_gkwb9J",
-    "multicolumn_XpYCQR",
-    "multicolumn_P8rNPH",
-    "collage_zqQLnk",
+    "text_overlay_aE9kik",
     "custom_liquid_r7qaJr",
-    "features_banner_ahktVM",
     "xt_product_pickup_4RTCTV",
     "17553557861ba2a1f6"
   ]
