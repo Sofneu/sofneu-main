@@ -87,7 +87,7 @@
     "cart_show_additional_service": false,
     "cart_additional_service_product": "20d-line-tights",
     "enable_cross_sells": true,
-    "cross_sells_collapsed": true,
+    "cross_sells_collapsed": false,
     "show_vendor": false,
     "heading_cross_sells": "Complete your look",
     "product_limit_cross_sells": 6,
@@ -96,8 +96,8 @@
     "product_list_cross_sells": [
       "grip-nipple-covers",
       "tencel-modal-short-sleeve-pajama-set",
-      "tencel-modal-long-sleeve-pajama-set",
-      "cleavage-silicone-sticky-bra"
+      "cleavage-silicone-sticky-bra",
+      "no1-10d-control-top-sheer-tights"
     ],
     "enable_free_shipping_bar": true,
     "free_shipping_bar_amount": "59|AUD",
